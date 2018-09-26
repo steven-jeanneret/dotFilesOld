@@ -1,0 +1,7 @@
+<application>
+  <component name="GwtSdkManager">
+    <gwt-sdk-list>
+      <gwt-sdk url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gwt/gwt-dev/2.8.0" />
+    </gwt-sdk-list>
+  </component>
+</application>

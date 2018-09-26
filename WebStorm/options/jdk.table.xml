@@ -1,0 +1,34 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 2.7" />
+      <type value="Python SDK" />
+      <version value="Python 2.7.14" />
+      <homePath value="/usr/bin/python2.7" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python2.7" type="simple" />
+            <root url="file:///usr/lib/python2.7/plat-x86_64-linux-gnu" type="simple" />
+            <root url="file:///usr/lib/python2.7/lib-tk" type="simple" />
+            <root url="file:///usr/lib/python2.7/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.local/lib/python2.7/site-packages" type="simple" />
+            <root url="file:///usr/local/lib/python2.7/dist-packages" type="simple" />
+            <root url="file:///usr/lib/python2.7/dist-packages" type="simple" />
+            <root url="file:///usr/lib/python2.7/dist-packages/gtk-2.0" type="simple" />
+            <root url="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1247972723" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>

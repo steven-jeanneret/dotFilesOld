@@ -1,0 +1,208 @@
+{
+	"window.zoomLevel": -2,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.errorSquiggles": "Enabled",
+	"C_Cpp.autocomplete": "Disabled",
+    "editor.fontFamily": "Dank Mono,Operator Mono Book,PragmataPro, Courier Prime, Inconsolata-dz,Inconsolata,Droid Sans Mono",
+	"editor.fontWeight": "400",
+    "editor.mouseWheelScrollSensitivity": 0.5,
+	"editor.formatOnType": false,
+	"editor.formatOnPaste": false,
+    "editor.snippetSuggestions": "top",
+    "editor.renderLineHighlight": "gutter",
+
+    "window.menuBarVisibility": "toggle",
+    "editor.acceptSuggestionOnEnter": "off",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+
+// "cpp": "cd $dir && c++ *.c* -o $fileNameWithoutExt -w -g -lm -Wall -std=c++11 && $dir$fileNameWithoutExt",
+
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir ; javac $fileName ; java $fileNameWithoutExt",
+        "c": "cd $dir ; gcc $fileName -o $fileNameWithoutExt ; $dir$fileNameWithoutExt",
+        "c-thread": "cd $dir ; gcc -pthread -std=gnu99 $fileName -o $fileNameWithoutExt ; $dir$fileNameWithoutExt",
+        "cpp": "cd $dir ; c++ *.c* -o $fileNameWithoutExt -w -g -lm -Wall -std=c++17 ; $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir ; gcc -framework Cocoa $fileName -o $fileNameWithoutExt ; $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python3",
+        "perl": "perl",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir ; rustc $fileName ; $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "ahk": "autohotkey",
+        "autoit": "autoit3"
+    },
+
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+
+
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.tabCompletion": true,
+    "editor.wordBasedSuggestions": true,
+    "workbench.sideBar.location": "left",
+	"editor.selectionHighlight": true,
+    "editor.lineNumbers": "on",
+    "typescript.referencesCodeLens.enabled": false,
+    "typescript.implementationsCodeLens.enabled": false,
+    "debug.inlineValues": true,
+	"sync.gist": "8eae5eaa7c3ce8832aff919aaf1aa6fa",
+	"sync.lastUpload": "2018-07-15T14:42:19.704Z",
+	"sync.autoDownload": false,
+	"sync.autoUpload": false,
+	"sync.lastDownload": "2018-04-02T19:46:58.122Z",
+	"sync.forceDownload": false,
+	"sync.host": "",
+	"sync.pathPrefix": "",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.fontFamily": "Operator Mono Book,PragmataPro, Courier Prime, Inconsolata-dz,Inconsolata,Droid Sans Mono",
+    "editor.codeLens": true,
+    "editor.tabSize": 4,
+    "files.associations": {
+        "*.tpp": "cpp"
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+
+    "jsDocCompletion.enabled": false,
+    "terminal.integrated.shell.windows": "C:\\cmder\\vendor\\conemu-maximus5\\ConEmu\\ConEmuC64.exe", 
+    "terminal.integrated.shellArgs.windows" : ["/K","C:\\cmder\\vendor\\init.bat"],
+	"workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "git.confirmSync": false,
+    "git.autofetch": false,
+
+    "editor.suggestLineHeight": 20,
+    "editor.lineHeight": 0,
+    "markdown.previewFrontMatter": "hide",
+    "markdown.preview.fontSize": 18,
+    "markdown.preview.scrollEditorWithPreview": false,
+	"sync.quietSync": false,
+    "editor.renderIndentGuides": true,
+    "python.autoComplete.preloadModules": [
+        "Matplotlib",
+        "Numpy",
+        "Re",
+        "Pysnmp"
+    ],
+    "git.path": "C:\\cmder\\vendor\\git-for-windows",
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.openFilesInNewWindow": "off",
+    "window.openFoldersInNewWindow": "off",
+	"extensions.autoUpdate": true,
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": true
+    },
+    "explorer.autoReveal": true,
+	"terminal.integrated.fontSize": 17,
+    "editor.renderWhitespace": "none",
+	"sync.askGistName": false,
+    "sublimeTextKeymap.promptV3Features": true,
+    "[c]": {
+        
+    },
+    "window.restoreWindows": "all",
+    "explorer.confirmDelete": false,
+    "editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.matchBrackets": true,
+	"editor.find.autoFindInSelection": true,
+	"editor.occurrencesHighlight": true,
+	"editor.autoClosingBrackets": true,
+	"workbench.colorTheme": "Material Theme Ocean",
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#d33d01",
+		"activityBarBadge.background": "#2979FF",
+		"list.activeSelectionForeground": "#2979FF",
+		"list.inactiveSelectionForeground": "#2979FF",
+		"list.highlightForeground": "#2979FF",
+		"scrollbarSlider.activeBackground": "#2979FF50",
+		"editorSuggestWidget.highlightForeground": "#2979FF",
+		"textLink.foreground": "#2979FF",
+		"progressBar.background": "#2979FF",
+		"pickerGroup.foreground": "#2979FF",
+		"tab.activeBorder": "#2979FF",
+		"notificationLink.foreground": "#2979FF"
+	},
+	"explorer.confirmDragAndDrop": false,
+	"workbench.editor.showTabs": true,
+	"materialTheme.cache.workbench.settings": {
+		"themeColours": "Palenight High Contrast",
+		"accentPrevious": "Breaking Bad",
+		"accent": "Blue"
+	},
+	"editor.autoIndent": false,
+	"extensions.ignoreRecommendations": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.glyphMargin": false,
+	"editor.overviewRulerBorder": false,
+	"alt-editor.name": "sublime",
+	"editor.fontSize": 19,
+	"emmet.excludeLanguages": [
+		
+	],
+	"emmet.includeLanguages": {
+		"markdown": "html"
+	},
+	"vscode-imgur.client_id": "aec2169173255fa",
+	"vscode-imgur.preferUserUpload": false,
+	"sync.removeExtensions": true,
+	"sync.syncExtensions": true,
+	"markdown-preview-enhanced.liveUpdate": true,
+	"markdown-preview-enhanced.mathRenderingOption": "MathJax",
+	"markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+	"editor.cursorWidth": 4,
+	"python.pythonPath": "python3",
+	"[python]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4  
+	},
+	"[css]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4
+	},
+	"[scss]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4
+	},
+	"[html]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2  
+	},
+	"[javascript]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"materialTheme.fixIconsRunning": false,
+	"gitlens.advanced.messages": {
+		"suppressShowKeyBindingsNotice": true
+	},
+	"editor.formatOnSave": false,
+}

@@ -1,0 +1,11 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
+    <option name="PARAMETER_INFO_DELAY" value="100" />
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <option name="JAVADOC_INFO_DELAY" value="100" />
+    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
+    <option name="REFORMAT_ON_PASTE" value="4" />
+    <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
+  </component>
+</application>

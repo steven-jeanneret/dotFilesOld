@@ -1,0 +1,32 @@
+{
+  "raw": {
+    "prefix": "raw",
+    "body": [
+      "`{% raw %}$1{% endraw %}` $0"
+    ],
+    "description": "quote liquid"
+  },
+  "rightArrow": {
+    "prefix": "Rightarrow",
+    "body": [
+      "$$ \\Rightarrow $$ "
+    ],
+    "description": "Latex \\Rightarrow"
+  },
+  "color": {
+    "prefix": "color",
+    "body": [
+      "<span style=\"color:${1:}\"> $2 </span> $0"
+    ],
+    "description": "span color"
+  },
+  "pre": {
+    "prefix": "pre",
+    "body": [
+      "```${1:langage}",
+      "${2:code}",
+      "```"
+    ],
+    "description": "multi-line code"
+  }
+}

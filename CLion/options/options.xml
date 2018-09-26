@@ -1,0 +1,28 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="Darcula.savedEditorTheme" value="_@user_Material Palenight" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="KEYMAP" value="run" />
+    <property name="MTBoldTabs" value="false" />
+    <property name="MTBorderPopup" value="true" />
+    <property name="MTTabsHeight" value="23" />
+    <property name="PLUGIN_FILTER" value="auto&#10;material theme" />
+    <property name="SearchEveryWhereHistory" value="&lt;&lt;&#10;std::string&#10;buildPD&#10;settings" />
+    <property name="SettingsSearchHistory" value="font&#10;compi&#10;auto&#10;build project automati&#10;c++" />
+    <property name="ShowDocumentationInToolWindow" value="false" />
+    <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="PALENIGHT" />
+    <property name="evlsprt3.181" value="19" />
+    <property name="evlsprt3.182" value="14" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Downloads/settings.jar&#10;/home/steven/Documents/2/Algorithme/clion&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/clion.jar&#10;/home/steven/Documents/2/Algorithme/test_clion" />
+    <property name="file.gist.reindex.count" value="1233" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="lastTip" value="12" />
+    <property name="mt.isShownWizard" value="true" />
+    <property name="run.configuration.delete.ad" value="true" />
+    <property name="settings.code.style.selected.tab.ObjectiveC" value="New File Extensions" />
+    <property name="ts.lib.d.ts.version" value="3.0.1" />
+  </component>
+</application>

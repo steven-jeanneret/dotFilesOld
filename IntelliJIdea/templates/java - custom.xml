@@ -1,0 +1,19 @@
+<templateSet group="java - custom">
+  <template name="sysout" value="System.out.println($var$);$end$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cma" value="/*------------------------------------------------------------------*\&#10;|*                         Methodes Abstract                        *|&#10;\*------------------------------------------------------------------*/&#10;$end$" description="Canevas methodes abstraites" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cmain" value="&#10;/*------------------------------------------------------------------*\&#10;  |*                         Methodes Public                          *|&#10;  \*------------------------------------------------------------------*/&#10; &#10;  public static void main(String[] args) {&#10;   main();&#10;  }&#10; &#10;  public static void main() {&#10;   $end$&#10;  }&#10; &#10;  /*------------------------------------------------------------------*\&#10;  |*                         Methodes Private                         *|&#10;  \*------------------------------------------------------------------*/&#10;" description="Canevas main" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

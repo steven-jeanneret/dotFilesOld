@@ -1,0 +1,29 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6114911" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="Darcula.savedEditorTheme" value="_@user_Material Palenight" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="LAST_INJECTED_LANGUAGE" value="CSS" />
+    <property name="MTBoldTabs" value="false" />
+    <property name="MTBorderPopup" value="true" />
+    <property name="MTTabsHeight" value="23" />
+    <property name="PLUGIN_FILTER" value="material theme" />
+    <property name="SearchEveryWhereHistory" value="*&#10;impo&#10;settings" />
+    <property name="SettingsSearchHistory" value="font&#10;keymap" />
+    <property name="WebStorm.enableDefaultTooltipFixes" value="true" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="PALENIGHT" />
+    <property name="com.intellij.history.integration.ui.views.SelectionHistoryDialog.0" value="300" />
+    <property name="com.intellij.history.integration.ui.views.SelectionHistoryDialog.1" value="800" />
+    <property name="evlsprt3.181" value="14" />
+    <property name="evlsprt3.182" value="10" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Downloads/settings.jar&#10;/home/steven/Documents/2/Algorithme_Numerique/projet_perso&#10;/home/steven/code/js/test_graphics&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/webstorm.jar&#10;/home/steven/Documents/2/Algorithme_Numerique/algo_num_labos" />
+    <property name="file.gist.reindex.count" value="27" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="js.rename.search.in.comments" value="true" />
+    <property name="lastTip" value="5" />
+    <property name="mt.isShownWizard" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.0.1" />
+  </component>
+</application>

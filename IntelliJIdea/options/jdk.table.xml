@@ -1,0 +1,149 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 2.7" />
+      <type value="Python SDK" />
+      <version value="Python 2.7.14" />
+      <homePath value="/usr/bin/python2.7" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python2.7" type="simple" />
+            <root url="file:///usr/lib/python2.7/plat-x86_64-linux-gnu" type="simple" />
+            <root url="file:///usr/lib/python2.7/lib-tk" type="simple" />
+            <root url="file:///usr/lib/python2.7/lib-dynload" type="simple" />
+            <root url="file:///usr/local/lib/python2.7/dist-packages" type="simple" />
+            <root url="file:///usr/lib/python2.7/dist-packages" type="simple" />
+            <root url="file:///usr/lib/python2.7/dist-packages/gtk-2.0" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.6" />
+      <type value="Python SDK" />
+      <version value="Python 3.6.3" />
+      <homePath value="/usr/bin/python3.6" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python3.6" type="simple" />
+            <root url="file:///usr/lib/python3.6/lib-dynload" type="simple" />
+            <root url="file:///usr/local/lib/python3.6/dist-packages" type="simple" />
+            <root url="file:///usr/lib/python3/dist-packages" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.6 (generic_website)" />
+      <type value="Python SDK" />
+      <version value="Python 3.6.3" />
+      <homePath value="$USER_HOME$/.virtualenvs/generic_website/bin/python" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python3.6" type="simple" />
+            <root url="file:///usr/lib/python3.6/lib-dynload" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.6 (projet_pych)" />
+      <type value="Python SDK" />
+      <version value="Python 3.6.3" />
+      <homePath value="$USER_HOME$/.virtualenvs/projet_pych/bin/python" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python3.6" type="simple" />
+            <root url="file:///usr/lib/python3.6/lib-dynload" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="1.8" />
+      <type value="JavaSDK" />
+      <version value="java version &quot;1.8.0_162&quot;" />
+      <homePath value="/usr/lib/jvm/java-8-openjdk-amd64" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/management-agent.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar!/" type="simple" />
+            <root url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="https://docs.oracle.com/javase/8/docs/api/" type="simple" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>

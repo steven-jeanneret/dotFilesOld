@@ -1,0 +1,138 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/code/python/projet_hes_ete" />
+        <option value="$USER_HOME$/code/python/exemple_presentation" />
+        <option value="$USER_HOME$/code/python/tuto_sibtc" />
+        <option value="$USER_HOME$/code/python/script_monitoring" />
+        <option value="$USER_HOME$/Downloads/django-form-fun-master/part1/pre-ajax" />
+        <option value="$USER_HOME$/code/python/tuto_rest/chap1" />
+        <option value="$USER_HOME$/Documents/2/Python3/exercices" />
+        <option value="$USER_HOME$/Documents/2/Python3/exercices/projet_pych" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/code/python/projet_hes_ete" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/code/python/projet_hes_ete" />
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Documents/2/Python3/exercices">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.3684.100" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1532986401886" />
+              <option name="buildTimestamp" value="1532438194978" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/2/Python3/exercices/projet_pych">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-181.4445.76" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528838748171" />
+              <option name="buildTimestamp" value="1523292144205" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/django-form-fun-master/part1/pre-ajax">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.3911.33" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534773672976" />
+              <option name="buildTimestamp" value="1533479978378" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/python/cours">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-181.4445.76" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1529962528001" />
+              <option name="buildTimestamp" value="1523292164704" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/python/exemple_presentation">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4129.34" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536233299410" />
+              <option name="buildTimestamp" value="1534842035680" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/python/projet_hes_ete">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4129.34" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536233348901" />
+              <option name="buildTimestamp" value="1534842035680" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/python/script_monitoring">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.3911.33" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534861344373" />
+              <option name="buildTimestamp" value="1533479971182" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/python/test_ajax">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.3911.33" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534770741802" />
+              <option name="buildTimestamp" value="1533479947324" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/python/tuto_rest/chap1">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.3911.33" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534770559447" />
+              <option name="buildTimestamp" value="1533479947324" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/python/tuto_sibtc">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4129.34" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535541344811" />
+              <option name="buildTimestamp" value="1534842021467" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/code/python" />
+  </component>
+</application>

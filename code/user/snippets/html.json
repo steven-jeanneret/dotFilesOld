@@ -1,0 +1,90 @@
+{
+	"block": {
+		"prefix": "block",
+		"body": [
+			"{% block ${1:content} %}\r",
+			"\t$0\r",
+			"{% endblock %}\r"
+		],
+		"description": "block django"
+	},
+
+	"dd": {
+		"prefix": "Django data balise",
+		"body": [
+			"{% ${1:} %}\r",
+			"$0"
+		],
+		"description": "Django data balise"
+	},
+
+	"df": {
+		"prefix": "Django function balise",
+		"body": [
+			"{{ ${1:} }}\r",
+			"$0"
+		],
+		"description": "Django function balise"
+	},
+
+	"if": {
+		"prefix": "if",
+		"body": [
+			"{% if ${1:} %}\r",
+			"\t$2\r",
+			"{% endif %}\r",
+			"$0"
+		],
+		"description": "if django"
+	},
+
+	"if else": {
+		"prefix": "if",
+		"body": [
+			"{% if ${1:} %}\r",
+			"\t$2\r",
+			"{% else %}\r",
+			"\t$3\r",
+			"{% endif %}\r",
+			"$0"
+		],
+		"description": "if django"
+	},
+
+	"for": {
+		"prefix": "for",
+		"body": [
+			"{% for $1 %}\r",
+			"\t$2\r",
+			"{% endfor %}\r",
+			"$0"
+		],
+		"description": "for django"
+	},
+
+	"csrf": {
+		"prefix": "csrf",
+		"body": [
+			"{% csrf_token %}\r",
+			"$0"
+		],
+		"description": "csrf token django"
+	},
+
+	"include": {
+		"prefix": "include",
+		"body": [
+			"{% include 'includes/${1:}' %}\r",
+			"$0"
+		],
+		"description": "include django"
+	},
+
+	"url": {
+		"prefix": "url",
+		"body": [
+			"{% url '${1:}' ${2:} %}$0"
+		],
+		"description": "url for django"
+	}
+}

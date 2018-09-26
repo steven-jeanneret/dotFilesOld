@@ -1,0 +1,238 @@
+# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+
+set $mod Mod4
+set $alt Mod1
+set $terminal terminator
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+font pango:monospace 8
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# start a terminal
+bindsym $mod+Return exec $terminal
+
+# kill focused window
+bindsym $mod+Shift+q kill
+bindsym $alt+f4 kill
+
+# start dmenu (a program launcher)
+#bindsym $mod+d exec rofi -show drun
+#bindsym $mod+d exec albert toggle
+
+# change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+eacute focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+eacute move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+h split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+# name of workspace
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# Set workspace to specific display
+workspace $ws1 output eDP-1
+workspace $ws2 output DP-1
+workspace $ws3 output DP-2
+workspace $ws4 output eDP-1
+workspace $ws5 output DP-1
+workspace $ws6 output DP-2
+workspace $ws7 output DP-1
+workspace $ws8 output DP-1
+workspace $ws9 output DP-1
+workspace $ws10 output eDP-1
+
+#Assign app to specific workspace
+for_window [class="jetbrains-*" tiling] move to workspace $ws2
+for_window [class="Spotify"] move to workspace $ws10 #Bug with assign
+assign [class="Slack"] $ws10
+
+for_window [class="Peek"] floating enable
+for_window [class="albert"] floating enable
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+mode "Exit (S)ignout, (R)eboot, (P)oweroff (L)ock" {
+       bindsym r exec reboot
+       bindsym s exit i3-msg exit
+       bindsym p exec poweroff
+       #bindsym l exec "~/.script/lock.sh" mode "default"
+       bindsym l exec i3lock -i ~/.background/lock.png
+
+       # back to normal: Enter or Escape
+       bindsym Return mode "default"
+       bindsym Escape mode "default"
+}
+
+bindsym $mod+shift+e mode "Exit (S)ignout, (R)eboot, (P)oweroff (L)ock"
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym eacute resize grow width 10 px or 10 ppt
+
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# shortcut personnel
+bindsym $mod+shift+x exec i3lock -i ~/.background/lock.png #Lock screen
+#bindsym $mod+shift+x exec ~/.script/lock.sh #Lock screen
+
+bindsym $alt+Tab exec rofi -show #Alt tab like
+bindsym $mod+Tab workspace next
+bindsym $mod+shift+Tab workspace prev
+
+
+
+## shortcut app
+bindsym $mod+shift+d exec dolphin
+bindsym $mod+shift+f exec firefox
+bindsym $mod+shift+c exec code
+bindsym $mod+shift+s exec subl
+bindsym $mod+shift+t exec $terminal
+bindsym $mod+shift+v exec $terminal -e ranger
+
+## Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% #decrease sound volume
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+## Sreen brightness controls
+bindsym XF86MonBrightnessUp exec light -A 5
+bindsym XF86MonBrightnessDown exec light -U 5
+
+## Media player controls
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+bindsym Print exec maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i # Print screen
+
+bindsym Control+Escape exec $terminal -e s-tui ; exec $terminal -e htop
+
+for_window [class=".*"] border pixel 1; Border around the window
+for_window [class="Firefox"] border pixel 2; Border around the window
+for_window [class="albert"] border pixel 0; No border on albert
+gaps inner 2
+smart_gaps on
+smart_borders on
+focus_follows_mouse no
+
+exec_always --no-startup-id numlockx on
+exec_always --no-startup-id setxkbmap ch -variant fr # Set keyboard to fr_CH
+exec --no-startup-id albert
+exec_always --no-startup-id xrdb .Xressources #Color for rofi
+exec_always --no-startup-id "sh -c 'sleep 1; exec xmodmap ~/.Xmodmap'"
+#exec_always --no-startup-id ~/.script/start_polybar.sh
+
+exec --no-startup-id compton --config ~/.config/compton.conf 
+exec --no-startup-id nm-applet #Shortuct wifi in tray
+exec --no-startup-id "sh -c 'sleep 5; exec pcloud'" # Delay, else it "crash"
+exec --no-startup-id pasystray
+exec --no-startup-id lxqt-policykit-agent # Ask password if required to mount some drive
+#exec --no-startup-id xautolock -time 10 -locker "~/.script/lock.sh"
+exec_always --no-startup-id ~/.script/start_app.sh
+#exec_always --no-startup-id "synclient TapButton1=1 TapButton2=3 TapButton3=2 HorizTwoFingerScroll=1 HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelta=-111" #Enable touchpad natural scrolling
+exec --no-startup-id "/usr/lib/xfce4/notifyd/xfce4-notifyd"
+
+# For my other computer with multiple display
+exec_always --no-startup-id xrandr --output DP-1 --primary --mode 2560x1440 --pos 1920x0 --rotate normal --output eDP-1 --mode 1920x1080 --pos 0x360 --rotate normal --output DP-2 --mode 1920x1080 --pos 4480x360 --rotate normal
+
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #ff7d03
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
+client.unfocused        #444444 #444444 #888888 #444444   #444444
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #ffffff #ffffff #ffffff #ffffff   #ffffff
+client.background       #ffffff

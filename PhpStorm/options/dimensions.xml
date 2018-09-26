@@ -1,0 +1,44 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="748" y="193" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="957" y="382" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="618" y="343" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="698" y="388" />
+    <location key="SettingsEditor.0.0.1920.1080" x="431" y="145" />
+    <location key="#Browse_Repositories.0.0.1920.1080" x="544" y="175" />
+    <location key="#Plugins.0.0.1920.1080" x="556" y="178" />
+    <location key="FileChooserDialogImpl.0.0.2560.1440" x="1066" y="315" />
+    <location key="WELCOME_SCREEN.0.0.2560.1440" x="1275" y="504" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.2560.1440" x="928" y="524" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.2560.1440" x="1030" y="507" />
+    <location key="NewPhpFileDialog.0.0.2560.1440" x="1102" y="635" />
+    <location key="NewPhpClassDialog.0.0.2560.1440" x="923" y="511" />
+    <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.2560.1440" x="951" y="153" />
+    <location key="SettingsEditor.0.0.2560.1440" x="760" y="361" />
+    <location key="NewPhpFileDialog.0.0.1920.1080" x="429" y="528" />
+    <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.1920.1080" x="717" y="72" />
+    <location key="ComposerInitDialogKey.0.0.1920.1080" x="740" y="382" />
+    <location key="NewPhpClassDialog.0.0.4480.1632" x="922" y="487" />
+    <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.4480.1632" x="1040" y="235" />
+    <location key="#UserTest.0.0.2560.1440" x="1011" y="338" />
+    <location key="SettingsEditor.0.632.1920.1080" x="440" y="788" />
+    <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" x="1280" y="237" />
+    <location key="FileChooserDialogImpl.1920.0.2560.1440" x="2981" y="427" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.2560.1440" x="2944" y="555" />
+    <location key="SettingsEditor.1920.0.2560.1440" x="3240" y="242" />
+    <location key="SettingsEditor.4480.360.1920.1080" x="4950" y="671" />
+    <size key="FileChooserDialogImpl.0.0.2560.1440" width="432" height="498" />
+    <size key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.2560.1440" width="648" height="1073" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1033" height="719" />
+    <size key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.1920.1080" width="480" height="876" />
+    <size key="ComposerInitDialogKey.0.0.1920.1080" width="439" height="254" />
+    <size key="NewPhpFileDialog.0.0.2560.1440" width="351" height="169" />
+    <size key="NewPhpClassDialog.0.0.4480.1632" width="710" height="412" />
+    <size key="SettingsEditor.0.632.1920.1080" width="1029" height="706" />
+    <size key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" width="628" height="519" />
+    <size key="FileChooserDialogImpl.1920.0.2560.1440" width="428" height="499" />
+    <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.2560.1440" width="502" height="243" />
+    <size key="SettingsEditor.1920.0.2560.1440" width="1002" height="681" />
+    <size key="SettingsEditor.4480.360.1920.1080" width="1008" height="692" />
+  </component>
+</application>

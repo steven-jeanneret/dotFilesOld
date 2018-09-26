@@ -1,0 +1,15 @@
+<filetype binary="false" description="classDef" name="classDef">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="" />
+      <option name="COMMENT_START" value="" />
+      <option name="COMMENT_END" value="" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+    </options>
+    <keywords keywords="class;def" ignore_case="false" />
+  </highlighting>
+  <extensionMap>
+    <mapping pattern=".py" />
+  </extensionMap>
+</filetype>
