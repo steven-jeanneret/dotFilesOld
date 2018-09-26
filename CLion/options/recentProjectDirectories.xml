@@ -1,0 +1,68 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Documents/2/Algorithme/clion" />
+        <option value="$USER_HOME$/Documents/2/Algorithme/miniproject" />
+        <option value="$USER_HOME$/Documents/2/Algorithme/mini_projet" />
+        <option value="$USER_HOME$/Documents/2/Algorithme/test_clion" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Documents/2/Algorithme/clion" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Documents/2/Algorithme/clion" />
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Documents/2/Algorithme/clion">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-182.4129.51" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535317955916" />
+              <option name="buildTimestamp" value="1534941008284" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/2/Algorithme/mini_projet">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-181.4445.84" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1525121998324" />
+              <option name="buildTimestamp" value="1523366639298" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/2/Algorithme/miniproject">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-181.4445.84" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528102173368" />
+              <option name="buildTimestamp" value="1523366600959" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/2/Algorithme/test_clion">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-181.4445.84" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1523804209497" />
+              <option name="buildTimestamp" value="1523366621124" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/Documents/2/Algorithme" />
+  </component>
+</application>

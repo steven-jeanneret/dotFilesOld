@@ -1,0 +1,13 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="2.8.2" />
+    <option name="selectedTheme" value="PALENIGHT" />
+    <option name="highlightColor" value="80cbc4" />
+    <option name="isContrastMode" value="true" />
+    <option name="accentColor" value="80cbc4" />
+    <option name="tabsHeight" value="23" />
+    <option name="userId" value="2bdc5f0:164ed1d1d2d:-7fff" />
+    <option name="allowDataCollection" value="true" />
+    <option name="isWizardShown" value="true" />
+  </component>
+</application>

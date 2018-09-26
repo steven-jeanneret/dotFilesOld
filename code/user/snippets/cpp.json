@@ -1,0 +1,190 @@
+{
+  "for": {
+    "prefix": "for",
+    "body": [
+      "for (int ${2:i} = 0; $2 ${4:<} ${1:count}; ${3:++$2})\r",
+      "{\r",
+      "    $0\r",
+      "}"
+    ],
+    "description": "for loop"
+  },
+  "if": {
+    "prefix": "if",
+    "body": [
+      "if (${1:})\r",
+      "{\r",
+      "    $0\r",
+      "}"
+    ],
+    "description": "if condition"
+  },
+  "else": {
+    "prefix": "else",
+    "body": [
+      "else\r",
+      "{\r",
+      "    $0\r",
+      "}"
+    ],
+    "description": "else condition"
+  },
+  "while": {
+    "prefix": "while",
+    "body": [
+      "while(${1:})\r",
+      "{\r",
+      "    $0\r",
+      "}"
+    ],
+    "description": "while loop"
+  },
+  "func": {
+    "prefix": "func",
+    "body": [
+      "${1:}(${2:})\r",
+      "{\r",
+      "    $0",
+      "}"
+    ],
+    "description": "function declaration"
+  },
+  "cout": {
+    "prefix": "cout",
+    "body": [
+      "${1:cout} << ${3:\"$2\"} ${4:<< \"\\n\";}"
+    ],
+    "description": "cout"
+  },
+  "include": {
+    "prefix": "include",
+    "body": [
+      "#include<iostream>\r",
+      "#include$1>\r",
+      "#include\"${2:fichier}.hpp\"\r",
+      "${3:using namespace std;}\r",
+      "\r",
+      "$0\r",
+      "\r",
+      "\r",
+      "int main()\r",
+      "{\r",
+      "\r",
+      "    return 0;\r",
+      "}\r",
+      ""
+    ],
+    "description": "include + main"
+  },
+  "main": {
+    "prefix": "main",
+    "body": [
+      "main()",
+      "{",
+      "    $0",
+      "    return 0;",
+      "}"
+    ],
+    "description": "main"
+  },
+  "include hpp": {
+    "prefix": "include",
+    "body": [
+      "#include\"${1:file}.hpp\"\r",
+      ""
+    ],
+    "description": "include hpp"
+  },
+  "include<>": {
+    "prefix": "include",
+    "body": [
+      "#include$1>",
+      ""
+    ],
+    "description": "include<>"
+  },
+  "comment block": {
+    "prefix": "comment",
+    "body": [
+      "// =================================================\r",
+      "// ========== $1 ==========         \r",
+      "// =================================================\r",
+      "\r",
+      "$0\r",
+      "\r",
+      "// ========= End of $1 =========="
+    ],
+    "description": "comment block"
+  },
+  "comment dash": {
+    "prefix": "comment",
+    "body": [
+      "// ---------- $1 ----------\r"
+    ],
+    "description": "comment dash"
+  },
+  "class": {
+    "prefix": "class",
+    "body": [
+      "class ${1:NomClass}${2::public ${3:heritage}}\r",
+      "{\r",
+      "protected:\r",
+      "    ${4:attributs}\r",
+      "    $0",
+      "public:\r",
+      "    ${1:NomClass}(){}\r",
+      "   ~${1:NomClass}(){}\r",
+      "};\r"
+    ],
+    "description": "class"
+  },
+  "template": {
+    "prefix": "template",
+    "body": [
+      "template<typename T${1:, ${2: }}>\r",
+      ""
+    ],
+    "description": "template"
+  },
+  "try": {
+    "prefix": "try",
+    "body": [
+      "try\r",
+      "{\r",
+      "    $1\r",
+      "}",
+      ""
+    ],
+    "description": "try"
+  },
+  "catch": {
+    "prefix": "catch",
+    "body": [
+      "catch (${1:})\r",
+      "{\r",
+      "    $2\r",
+      "}\r",
+      ""
+    ],
+    "description": "catch"
+  },
+  "cppbase": {
+    "prefix": "cppbase",
+    "body": [
+      "#include<iostream>",
+      "",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "    return 0;",
+      "}"
+    ],
+    "description": "cppbase"
+  },
+  "": {
+    "prefix": "",
+    "body": [
+      "}"
+    ]
+  }
+}

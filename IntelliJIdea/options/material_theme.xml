@@ -1,0 +1,14 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="2.7.0" />
+    <option name="selectedTheme" value="PALENIGHT" />
+    <option name="highlightColor" value="80cbc4" />
+    <option name="highlightColorEnabled" value="true" />
+    <option name="isContrastMode" value="true" />
+    <option name="accentColor" value="80cbc4" />
+    <option name="tabsHeight" value="24" />
+    <option name="customSidebarHeight" value="22" />
+    <option name="userId" value="272eb056:164ed32225a:-7fff" />
+    <option name="allowDataCollection" value="true" />
+  </component>
+</application>

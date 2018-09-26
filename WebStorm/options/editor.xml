@@ -1,0 +1,11 @@
+<application>
+  <component name="DefaultFont">
+    <option name="FONT_FAMILY" value="PragmataPro" />
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="" />
+  </component>
+  <component name="LiveEditOptions" chromeUpdateApp="true" chromeUpdateOnChanges="true" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true">
+    <option name="elementHighlighting" value="true" />
+  </component>
+</application>

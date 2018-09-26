@@ -1,0 +1,7 @@
+<templateSet group="Zen HTML">
+  <template name="form" value="&lt;form method=&quot;post&quot; novalidate&gt;$END$&lt;/form&gt;" description="&lt;form action=&quot;...&quot;&gt;...&lt;/form&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>

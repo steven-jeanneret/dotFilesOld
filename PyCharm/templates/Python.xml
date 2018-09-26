@@ -1,0 +1,8 @@
+<templateSet group="Python">
+  <template name="decorator" value="def $decorator_name$(f):&#10;    def inner(*args,kwargs):&#10;        $END$&#10;    inner.__doc__ = f.__doc__&#10;    inner.__name__ = f.__name__&#10;    inner.__dict__update(f.__dict__)&#10;    return inner" description="Decorateur maison" toReformat="false" toShortenFQNames="true">
+    <variable name="decorator_name" expression="" defaultValue="decorateur" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

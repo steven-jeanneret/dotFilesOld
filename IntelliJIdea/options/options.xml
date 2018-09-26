@@ -1,0 +1,48 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="Darcula.savedEditorTheme" value="_@user_Material Palenight" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="GradleModuleWizard.inheritGroupId" value="true" />
+    <property name="GradleModuleWizard.inheritVersion" value="true" />
+    <property name="KEYMAP" value="open rece&#10;open file&#10;kot&#10;format" />
+    <property name="MTBoldTabs" value="false" />
+    <property name="MTBorderPopup" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="PLUGIN_FILTER" value="libg&#10;material theme&#10;material" />
+    <property name="SearchEveryWhereHistory" value="waterb&#10;waterbombco&#10;waterbom&#10;play&#10;unlockNextLevel" />
+    <property name="SettingsSearchHistory" value="theme&#10;project set&#10;font&#10;new win&#10;auto" />
+    <property name="android-component-compatibility-check" value="1532033101326" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.run.selection.state" value="consoleView" />
+    <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="PALENIGHT" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
+    <property name="com.intellij.history.integration.ui.views.SelectionHistoryDialog.0" value="300" />
+    <property name="com.intellij.history.integration.ui.views.SelectionHistoryDialog.1" value="800" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Dependencies" />
+    <property name="create.project.preferred.importer" value="Existing Sources" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="es6.show.auto.import" value="true" />
+    <property name="evlsprt3.181" value="13" />
+    <property name="evlsprt3.182" value="15" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Downloads/test_fluidator/Fluidator/core/assets&#10;/home/steven/Downloads/test_fluidator/Fluidator/build.gradle&#10;/home/steven/Documents/2/ProjetP2_Java/Fluidator/core/assets&#10;/home/steven/Documents/2/ProjetP2_Java/Fluidator/build.gradle&#10;/home/steven/Documents/2/ProjetP2_Java/temp/Fluidator&#10;/home/steven/Documents/2/ProjetP2_Java/temp/Fluidator/desktop&#10;/home/steven/Documents/2/ProjetP2_Java/temp/Fluidator/core/assets&#10;/home/steven/Documents/2/ProjetP2_Java/temp/Fluidator/build.gradle&#10;/home/steven/Documents/2/ProjetP2_Java/Fluidator&#10;/home/steven/Documents/2/Programmation Concurrente/Laboratoires/progconc_labo4/CodeSource&#10;/home/steven/Documents/2/Programmation Concurrente/Laboratoires/progconc_labo4/CodeSource/dev_Perso&#10;/home/steven/Documents/2/Programmation Concurrente/Laboratoires/labo4/CodeSource&#10;/home/steven/Documents/2/Programmation Concurrente/Laboratoires/labo4/CodeSource/dev_Perso&#10;/home/steven/Documents/2/Programmation Concurrente/Laboratoires/labo4&#10;/home/steven/Documents/2/ProjetP2_Java/Fluidator/core&#10;/home/steven/Documents/2/Programmation Concurrente/serie11_&#10;/home/steven/Documents/2/Programmation Concurrente/Exercices&#10;/home/steven/code/java/libgdx&#10;/home/steven/code/java/libgdx/core/assets&#10;/home/steven/code/java/libgdx/build.gradle&#10;/usr/lib/jvm/java-8-openjdk-amd64&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/pycharm.jar&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/clion.jar" />
+    <property name="file.gist.reindex.count" value="216" />
+    <property name="fileTypeChangedCounter" value="8" />
+    <property name="installed.kotlin.plugin.version" value="1.2.51-release-IJ2018.2-1" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last.imported.location" value="$USER_HOME$/Downloads/test_fluidator/Fluidator/build.gradle" />
+    <property name="lastTip" value="16" />
+    <property name="mt.isShownWizard" value="true" />
+    <property name="mt.showStatisticsAgreement" value="true" />
+    <property name="project.wizard.group" value="JAVA_MODULE" />
+    <property name="project.wizard.template" value="Java" />
+    <property name="ts.lib.d.ts.version" value="3.0.1" />
+    <property name="typescript.show.auto.import" value="true" />
+  </component>
+</application>

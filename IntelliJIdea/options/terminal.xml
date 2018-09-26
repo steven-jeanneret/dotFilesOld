@@ -1,0 +1,5 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myOverrideIdeShortcuts" value="false" />
+  </component>
+</application>
