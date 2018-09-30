@@ -5,26 +5,31 @@
     <property name="Darcula.savedEditorTheme" value="_@user_Material Palenight" />
     <property name="Default.savedEditorTheme" value="_@user_Default" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
-    <property name="KEYMAP" value="extend" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="KEYMAP" value="import&#10;extend" />
     <property name="MTBoldTabs" value="false" />
     <property name="MTBorderPopup" value="true" />
     <property name="MTTabsHeight" value="23" />
+    <property name="OpenOrAttachDialog.OpenMode" value="replace" />
     <property name="PLUGIN_FILTER" value="material theme" />
     <property name="PhpStorm.InitialConfiguration" value="true" />
     <property name="SearchEveryWhereHistory" value="event_ad&#10;readme&#10;not&#10;route&#10;full" />
-    <property name="SettingsSearchHistory" value="scale&#10;font&#10;auto&#10;theme" />
+    <property name="SettingsSearchHistory" value="import&#10;template&#10;language&#10;scale&#10;font" />
     <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="PALENIGHT" />
     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
+    <property name="es6.show.auto.import" value="true" />
     <property name="evlsprt3.181" value="14" />
     <property name="evlsprt3.182" value="17" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Downloads/settings.jar&#10;/home/steven/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM/public/img&#10;/home/steven/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/phpstorm.jar&#10;/home/steven/Documents/2/Applications Web/AWb-g4-GestionDisponibiliteCM" />
-    <property name="file.gist.reindex.count" value="422928" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/code/app_web/laravelworkshop&#10;/home/steven/code/app_web/presentation&#10;/home/steven/code/app_web/PandaMD&#10;/home/steven/code/laravel/test_realtime/real-time-app&#10;/home/steven/code/laravel/test_realtime&#10;/home/steven/code/php/phpstorm&#10;/home/steven/code/php&#10;/home/steven/Downloads/settings.jar&#10;/home/steven/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM/public/img&#10;/home/steven/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/phpstorm.jar&#10;/home/steven/Documents/2/Applications Web/AWb-g4-GestionDisponibiliteCM" />
+    <property name="file.gist.reindex.count" value="444314" />
     <property name="fileTypeChangedCounter" value="4" />
     <property name="lastTip" value="11" />
     <property name="mt.isShownWizard" value="true" />
     <property name="mt.showStatisticsAgreement" value="true" />
     <property name="selected.color.option.type" value="PHP_INSTANCE_METHOD" />
     <property name="ts.lib.d.ts.version" value="3.0.1" />
+    <property name="typescript.show.auto.import" value="true" />
   </component>
 </application>

@@ -2,6 +2,7 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/code/infographie/exercices" />
         <option value="$USER_HOME$/Documents/2/Algorithme_Numerique/projet_perso" />
         <option value="$USER_HOME$/Documents/2/Algorithme_Numerique/algo_num_labos" />
         <option value="$USER_HOME$/code/js/test_graphics" />
@@ -9,10 +10,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/Documents/2/Algorithme_Numerique/projet_perso" />
+        <option value="$USER_HOME$/code/infographie/exercices" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Documents/2/Algorithme_Numerique/projet_perso" />
+    <option name="lastPath" value="$USER_HOME$/code/infographie/exercices" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -30,11 +31,22 @@
         <entry key="$USER_HOME$/Documents/2/Algorithme_Numerique/projet_perso">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="WS-182.4129.32" />
+              <option name="build" value="WS-182.4323.44" />
               <option name="productionCode" value="WS" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1535317860863" />
-              <option name="buildTimestamp" value="1534833098563" />
+              <option name="projectOpenTimestamp" value="1537799227274" />
+              <option name="buildTimestamp" value="1535987204742" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/infographie/exercices">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-182.4323.44" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538250520586" />
+              <option name="buildTimestamp" value="1535987170061" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

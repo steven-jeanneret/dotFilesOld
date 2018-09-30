@@ -12,9 +12,11 @@
     <location key="SettingsEditor.0.0.2560.1440" x="762" y="325" />
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.2560.1440" x="1016" y="435" />
     <location key="SettingsEditor.0.632.1920.1080" x="440" y="788" />
-    <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" x="1120" y="242" />
+    <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" x="1118" y="224" />
     <location key="FileChooserDialogImpl.1920.0.2560.1440" x="2559" y="356" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.2560.1440" x="1410" y="555" />
+    <location key="FileChooserDialogImpl.0.360.1920.1080" x="3620" y="440" />
+    <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.1920.0.2560.1440" x="3264" y="422" />
     <size key="FileChooserDialogImpl.0.0.1920.1080" width="428" height="524" />
     <size key="GridCell.Tab.0.left.0.0.1920.1080" width="959" height="146" />
     <size key="GridCell.Tab.0.center.0.0.1920.1080" width="959" height="146" />
@@ -30,8 +32,11 @@
     <size key="GridCell.Tab.2.bottom.0.0.1920.1080" width="959" height="146" />
     <size key="SettingsEditor.0.0.2560.1440" width="1029" height="717" />
     <size key="SettingsEditor.0.632.1920.1080" width="1029" height="706" />
-    <size key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" width="628" height="509" />
+    <size key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" width="628" height="510" />
     <size key="FileChooserDialogImpl.1920.0.2560.1440" width="428" height="499" />
     <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.2560.1440" width="502" height="243" />
+    <size key="FileChooserDialogImpl.0.360.1920.1080" width="428" height="473" />
+    <size key="javadoc.popup.new.1920.0.2560.1440" width="300" height="310" />
+    <size key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.1920.0.2560.1440" width="628" height="509" />
   </component>
 </application>

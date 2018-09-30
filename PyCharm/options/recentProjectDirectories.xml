@@ -2,6 +2,11 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/floobits/share/solca/i3_window_quake_mode" />
+        <option value="$USER_HOME$/code/i3QAW" />
+        <option value="$USER_HOME$/code/traitement_image/traitement_image_exercices" />
+        <option value="$USER_HOME$/code/ia/exercices" />
+        <option value="/tmp/01_Serie_Introduction_Q.py" />
         <option value="$USER_HOME$/code/python/projet_hes_ete" />
         <option value="$USER_HOME$/code/python/exemple_presentation" />
         <option value="$USER_HOME$/code/python/tuto_sibtc" />
@@ -14,10 +19,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/code/python/projet_hes_ete" />
+        <option value="$USER_HOME$/floobits/share/solca/i3_window_quake_mode" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/code/python/projet_hes_ete" />
+    <option name="lastPath" value="$USER_HOME$/floobits/share/solca/i3_window_quake_mode" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -54,6 +59,28 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/code/i3QAW">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4505.26" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538171236585" />
+              <option name="buildTimestamp" value="1537358481272" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/ia/exercices">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4505.26" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537872288630" />
+              <option name="buildTimestamp" value="1537358500687" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/code/python/cours">
           <value>
             <RecentProjectMetaInfo>
@@ -79,11 +106,11 @@
         <entry key="$USER_HOME$/code/python/projet_hes_ete">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="PY-182.4129.34" />
+              <option name="build" value="PY-182.4323.49" />
               <option name="productionCode" value="PY" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1536233348901" />
-              <option name="buildTimestamp" value="1534842035680" />
+              <option name="projectOpenTimestamp" value="1537514383560" />
+              <option name="buildTimestamp" value="1536049442927" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -128,6 +155,39 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1535541344811" />
               <option name="buildTimestamp" value="1534842021467" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/traitement_image/traitement_image_exercices">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4505.26" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538130878152" />
+              <option name="buildTimestamp" value="1537358512759" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/floobits/share/solca/i3_window_quake_mode">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4505.26" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538295521805" />
+              <option name="buildTimestamp" value="1537358485935" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/tmp/01_Serie_Introduction_Q.py">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4323.49" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537646631839" />
+              <option name="buildTimestamp" value="1536049485023" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

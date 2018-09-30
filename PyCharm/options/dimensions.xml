@@ -1,9 +1,9 @@
 <application>
   <component name="DimensionService">
-    <location key="FileChooserDialogImpl.0.0.1920.1080" x="418" y="226" />
-    <location key="WELCOME_SCREEN.0.0.1920.1080" x="957" y="401" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="412" y="173" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="957" y="400" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="142" y="363" />
-    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="222" y="404" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="220" y="387" />
     <location key="#Browse_Repositories.0.0.1920.1080" x="66" y="174" />
     <location key="#Plugins.0.0.1920.1080" x="76" y="160" />
     <location key="SettingsEditor.0.0.1920.1080" x="775" y="35" />
@@ -14,20 +14,25 @@
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.2560.1440" x="1257" y="245" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.2560.1440" x="513" y="300" />
     <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.0.0.1920.1080" x="236" y="291" />
-    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="830" y="121" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="828" y="103" />
     <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" x="634" y="72" />
     <location key="FileChooserDialogImpl.0.360.1920.1080" x="2979" y="423" />
     <location key="SettingsEditor.0.360.1920.1080" x="2662" y="209" />
     <location key="IDE.errors.dialog.0.360.1920.1080" x="2772" y="416" />
     <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.360.1920.1080" x="2881" y="418" />
-    <location key="SettingsEditor.1920.0.2560.1440" x="2482" y="130" />
+    <location key="SettingsEditor.1920.0.2560.1440" x="2478" y="94" />
     <location key="#Inspections.0.0.1920.1080" x="1072" y="181" />
     <location key="#Web_Browsers.0.0.1920.1080" x="432" y="308" />
-    <location key="FileChooserDialogImpl.1920.0.2560.1440" x="2294" y="352" />
+    <location key="FileChooserDialogImpl.1920.0.2560.1440" x="2290" y="316" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.2560.1440" x="2270" y="516" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1920.0.2560.1440" x="2288" y="343" />
     <location key="#com.intellij.ide.util.MemberChooser.1920.0.2560.1440" x="2622" y="401" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" x="726" y="279" />
+    <location key="ProcessPopupWindow.0.0.1920.1080" x="1518" y="873" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" x="766" y="219" />
+    <location key="#Browse_JetBrains_Plugins_.1920.0.2560.1440" x="2606" y="100" />
+    <location key="#Browse_Repositories.1920.0.2560.1440" x="2606" y="100" />
+    <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.1920.0.2560.1440" x="2881" y="422" />
     <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1878" height="292" />
     <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1878" height="292" />
     <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1878" height="292" />
@@ -62,10 +67,16 @@
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" width="1084" height="794" />
     <size key="#Inspections.0.0.1920.1080" width="724" height="630" />
     <size key="#Web_Browsers.0.0.1920.1080" width="466" height="343" />
-    <size key="FileChooserDialogImpl.1920.0.2560.1440" width="442" height="503" />
+    <size key="FileChooserDialogImpl.1920.0.2560.1440" width="777" height="503" />
     <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.2560.1440" width="512" height="321" />
     <size key="#com.intellij.ide.util.MemberChooser.1920.0.2560.1440" width="378" height="551" />
     <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" width="449" height="390" />
     <size key="HiddenNamespacesPopup.0.0.1920.1080" width="209" height="619" />
+    <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" width="517" height="309" />
+    <size key="ProcessPopupWindow.0.0.1920.1080" width="400" height="190" />
+    <size key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" width="378" height="552" />
+    <size key="#Browse_JetBrains_Plugins_.1920.0.2560.1440" width="828" height="674" />
+    <size key="#Browse_Repositories.1920.0.2560.1440" width="828" height="674" />
+    <size key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.1920.0.2560.1440" width="628" height="509" />
   </component>
 </application>

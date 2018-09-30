@@ -40,7 +40,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="OpenOrAttachDialog.OpenMode" value="replace" />
-    <property name="PLUGIN_FILTER" value="bintray&#10;binary&#10;markdown&#10;material th" />
+    <property name="PLUGIN_FILTER" value="floobi&#10;teamwork&#10;bintray&#10;binary&#10;markdown" />
     <property name="PyCharm.InitialConfiguration" value="true" />
     <property name="PyCharm.InitialConfiguration.V2" value="true" />
     <property name="PyCharm.InitialConfiguration.V3" value="true" />
@@ -49,14 +49,14 @@
     <property name="PyCharm.InitialConfiguration.V6" value="true" />
     <property name="PyCharm.InitialConfiguration.V7" value="true" />
     <property name="PyCharm.initialConfigurationShown" value="true" />
-    <property name="SearchEveryWhereHistory" value="models&#10;view&#10;models.py&#10;home&#10;url" />
-    <property name="SettingsSearchHistory" value="template&#10;editor&#10;editor theme&#10;font size&#10;material" />
+    <property name="SearchEveryWhereHistory" value="--&#10;models&#10;view&#10;models.py&#10;home" />
+    <property name="SettingsSearchHistory" value="floobits co&#10;template&#10;editor&#10;editor theme&#10;font size" />
     <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="PALENIGHT" />
     <property name="evlsprt3.181" value="14" />
     <property name="evlsprt3.182" value="19" />
     <property name="export.settings.path" value="$USER_HOME$/Downloads/settings.jar" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/code/python/exemple_presentation&#10;/home/steven/code/python/projet_hes_ete/RSAM/RSAM/settings.py&#10;/home/steven/code/python/projet_hes_ete/RSAM&#10;/home/steven/code/python/tuto_sibtc/sibtc_project/sibtc_project/settings.py&#10;/home/steven/code/python/tuto_sibtc/sibtc_project&#10;/home/steven/Downloads&#10;/home/steven/code/python/projet_hes_ete&#10;/home/steven/code/python/tuto_sibtc&#10;/home/steven/code/python/script_monitoring/get_data.py&#10;/usr/bin/python&#10;/home/steven/code/python/script_monitoring&#10;/home/steven/code/python&#10;/home/steven/Downloads/django-form-fun-master/part1/pre-ajax&#10;/home/steven/code/python/test_ajax&#10;/home/steven/code/python/tuto_rest/chap1&#10;/home/steven/code/MngDotF/MngDotF.py&#10;/home/steven/code/python/cours&#10;/home/steven/Documents/2/Python3/exercices/projet_pych&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/pycharm.jar&#10;/home/steven/Documents/2/Python3/exercices" />
-    <property name="file.gist.reindex.count" value="40249" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/floobits/share/solca/i3_window_quake_mode&#10;/home/steven/code/i3QAW&#10;/home/steven/code/traitement_image/traitement_image_exercices&#10;/home/steven/code/ia/exercices&#10;/home/steven/code/python/exemple_presentation&#10;/home/steven/code/python/projet_hes_ete/RSAM/RSAM/settings.py&#10;/home/steven/code/python/projet_hes_ete/RSAM&#10;/home/steven/code/python/tuto_sibtc/sibtc_project/sibtc_project/settings.py&#10;/home/steven/code/python/tuto_sibtc/sibtc_project&#10;/home/steven/Downloads&#10;/home/steven/code/python/projet_hes_ete&#10;/home/steven/code/python/tuto_sibtc&#10;/home/steven/code/python/script_monitoring/get_data.py&#10;/usr/bin/python&#10;/home/steven/code/python/script_monitoring&#10;/home/steven/code/python&#10;/home/steven/Downloads/django-form-fun-master/part1/pre-ajax&#10;/home/steven/code/python/test_ajax&#10;/home/steven/code/python/tuto_rest/chap1&#10;/home/steven/code/MngDotF/MngDotF.py&#10;/home/steven/code/python/cours&#10;/home/steven/Documents/2/Python3/exercices/projet_pych&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/pycharm.jar&#10;/home/steven/Documents/2/Python3/exercices" />
+    <property name="file.gist.reindex.count" value="41149" />
     <property name="fileTypeChangedCounter" value="6" />
     <property name="lastTip" value="10" />
     <property name="mt.isShownWizard" value="true" />

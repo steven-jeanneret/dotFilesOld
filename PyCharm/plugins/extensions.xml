@@ -1206,11 +1206,6 @@
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
-            <plugin>
-              <option name="myPluginId" value="org.elmlang.intellijplugin" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
           </set>
         </option>
       </plugins>
@@ -4917,6 +4912,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.jetbrains.twig" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tz">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="tezos" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
