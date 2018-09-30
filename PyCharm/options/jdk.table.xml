@@ -94,6 +94,7 @@
           <root type="composite">
             <root url="file:///usr/lib/python3.7" type="simple" />
             <root url="file:///usr/lib/python3.7/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.local/lib/python3.7/site-packages" type="simple" />
             <root url="file:///usr/lib/python3.7/site-packages" type="simple" />
             <root url="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/348993582" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />

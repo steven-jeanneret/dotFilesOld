@@ -2,6 +2,12 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/code/app_web/laravelworkshop" />
+        <option value="$USER_HOME$/code/app_web/presentation" />
+        <option value="$USER_HOME$/code/app_web/PandaMD" />
+        <option value="$USER_HOME$/code/laravel/test_realtime/real-time-app" />
+        <option value="$USER_HOME$/code/laravel/test_realtime" />
+        <option value="$USER_HOME$/code/php/phpstorm" />
         <option value="$USER_HOME$/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM" />
         <option value="/tmp/jetbrains-pycharm.desktop" />
         <option value="$USER_HOME$/Documents/2/Applications Web/AWb-g4-GestionDisponibiliteCM" />
@@ -9,21 +15,21 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM" />
+        <option value="$USER_HOME$/code/app_web/laravelworkshop" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM" />
+    <option name="lastPath" value="$USER_HOME$/code/app_web/laravelworkshop" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
         <entry key="$USER_HOME$/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="PS-182.4129.45" />
+              <option name="build" value="PS-182.4323.68" />
               <option name="productionCode" value="PS" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1535318566676" />
-              <option name="buildTimestamp" value="1534932523345" />
+              <option name="projectOpenTimestamp" value="1537113116001" />
+              <option name="buildTimestamp" value="1536831369616" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -35,6 +41,72 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1523602351588" />
               <option name="buildTimestamp" value="1523277296386" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/app_web/PandaMD">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-182.4323.68" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538052001460" />
+              <option name="buildTimestamp" value="1536831364764" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/app_web/laravelworkshop">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-182.4323.68" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538061405228" />
+              <option name="buildTimestamp" value="1536831413235" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/app_web/presentation">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-182.4323.68" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538055974163" />
+              <option name="buildTimestamp" value="1536831413235" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/laravel/test_realtime">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-182.4323.68" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537471126207" />
+              <option name="buildTimestamp" value="1536831391185" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/laravel/test_realtime/real-time-app">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-182.4323.68" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538032850829" />
+              <option name="buildTimestamp" value="1536831370310" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/php/phpstorm">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-182.4323.68" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537114839414" />
+              <option name="buildTimestamp" value="1536831369616" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -51,5 +123,6 @@
         </entry>
       </map>
     </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/code/php" />
   </component>
 </application>

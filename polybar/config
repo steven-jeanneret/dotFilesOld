@@ -54,7 +54,7 @@ font-5 = "Font Awesome 5 Pro Light:pixelsize=10;2"
 
 modules-left = i3
 modules-center = xwindow
-modules-right = volume battery date
+modules-right = backlight volume battery date
 
 tray-position = right
 tray-padding = 02
@@ -149,10 +149,13 @@ label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 
-ws-icon-0=1;
+ws-icon-0=1;
 ws-icon-1=2;
 ws-icon-2=3;
-ws-icon-3=10;
+ws-icon-3=4;
+ws-icon-4=8;
+ws-icon-5=9;
+ws-icon-6=10; 
 [module/mpd]
 type = internal/mpd
 
@@ -175,27 +178,12 @@ icon-repeat = 
 toggle-on-foreground = ${colors.primary}
 toggle-off-foreground = #66
 
-[module/xbacklight]
-type = internal/xbacklight
-
-format = <label> <bar>
-label = BL
-
-bar-width = 10
-bar-indicator = │
-bar-indicator-foreground = #ff
-bar-indicator-font = 2
-bar-fill = ─
-bar-fill-font = 2
-bar-fill-foreground = #9f78e1
-bar-empty = ─
-bar-empty-font = 2
-bar-empty-foreground = ${colors.foreground-alt}
-
-[module/backlight-acpi]
-inherit = module/xbacklight
+[module/backlight]
 type = internal/backlight
-card = intel_backlightç
+format-backlight = <label>
+card = intel_backlight
+label =  %percentage%%
+
 
 [module/cpu]
 type = internal/cpu
@@ -211,26 +199,6 @@ format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 label = " %percentage_used%%"
 
-[module/wlan]
-type = internal/network
-interface = wlp2s0
-interval = 3.0
-
-format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
-format-disconnected-underline = ${self.format-connected-underline}
-
-label-connected = %essid%
-#label-disconnected = %ifname% disconnected
-label-disconnected = %{A:nm-connection-editor&:}disconnected%{A}
-label-disconnected-foreground = ${colors.foreground-alt}
-
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/date]
 type = internal/date

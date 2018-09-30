@@ -2,7 +2,8 @@
 
 set $mod Mod4
 set $alt Mod1
-set $terminal terminator
+set $terminal tilix
+set $lock_screen i3lock -t -i ~/.background/lock.png
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -122,6 +123,8 @@ workspace $ws10 output eDP-1
 
 #Assign app to specific workspace
 for_window [class="jetbrains-*" tiling] move to workspace $ws2
+for_window [class="jetbrains-*" title=" "] move to workspace $ws2
+for_window [class="jetbrains-*" title="Confirm*"] floating enable
 for_window [class="Spotify"] move to workspace $ws10 #Bug with assign
 assign [class="Slack"] $ws10
 
@@ -136,7 +139,7 @@ mode "Exit (S)ignout, (R)eboot, (P)oweroff (L)ock" {
        bindsym s exit i3-msg exit
        bindsym p exec poweroff
        #bindsym l exec "~/.script/lock.sh" mode "default"
-       bindsym l exec i3lock -i ~/.background/lock.png
+       bindsym l exec $lock_screen
 
        # back to normal: Enter or Escape
        bindsym Return mode "default"
@@ -164,7 +167,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # shortcut personnel
-bindsym $mod+shift+x exec i3lock -i ~/.background/lock.png #Lock screen
+bindsym $mod+shift+x exec $lock_screen
 #bindsym $mod+shift+x exec ~/.script/lock.sh #Lock screen
 
 bindsym $alt+Tab exec rofi -show #Alt tab like
@@ -175,7 +178,7 @@ bindsym $mod+shift+Tab workspace prev
 
 ## shortcut app
 bindsym $mod+shift+d exec dolphin
-bindsym $mod+shift+f exec firefox
+bindsym $mod+shift+f exec chromium
 bindsym $mod+shift+c exec code
 bindsym $mod+shift+s exec subl
 bindsym $mod+shift+t exec $terminal
@@ -201,7 +204,7 @@ bindsym Print exec maim -s --format=png /dev/stdout | xclip -selection clipboard
 bindsym Control+Escape exec $terminal -e s-tui ; exec $terminal -e htop
 
 for_window [class=".*"] border pixel 1; Border around the window
-for_window [class="Firefox"] border pixel 2; Border around the window
+for_window [class="Chromium"] border pixel 2; Border around the window
 for_window [class="albert"] border pixel 0; No border on albert
 gaps inner 2
 smart_gaps on
