@@ -2,6 +2,7 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/code/compilateur/exercice" />
         <option value="$USER_HOME$/floobits/share/solca/i3_window_quake_mode" />
         <option value="$USER_HOME$/code/i3QAW" />
         <option value="$USER_HOME$/code/traitement_image/traitement_image_exercices" />
@@ -19,10 +20,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/floobits/share/solca/i3_window_quake_mode" />
+        <option value="$USER_HOME$/code/compilateur/exercice" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/floobits/share/solca/i3_window_quake_mode" />
+    <option name="lastPath" value="$USER_HOME$/code/compilateur/exercice" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -56,6 +57,17 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1534773672976" />
               <option name="buildTimestamp" value="1533479978378" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/compilateur/exercice">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4505.26" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538308213958" />
+              <option name="buildTimestamp" value="1537358485219" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -175,8 +187,8 @@
               <option name="build" value="PY-182.4505.26" />
               <option name="productionCode" value="PY" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1538295521805" />
-              <option name="buildTimestamp" value="1537358485935" />
+              <option name="projectOpenTimestamp" value="1538306933911" />
+              <option name="buildTimestamp" value="1537358485219" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
