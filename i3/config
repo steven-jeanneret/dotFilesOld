@@ -123,11 +123,11 @@ workspace $ws10 output eDP-1
 
 #Assign app to specific workspace
 for_window [class="jetbrains-*" tiling] move to workspace $ws2
-for_window [class="jetbrains-*" title=" "] move to workspace $ws2
-for_window [class="jetbrains-*" title="Confirm*"] floating enable
-for_window [class="Spotify"] move to workspace $ws10 #Bug with assign
-assign [class="Slack"] $ws10
+for_window [class="jetbrains-*" title=" "] move to workspace $ws2 # Charging window (before ide running)
+for_window [class="jetbrains-*" title="Confirm*"] floating enable # Popup floating
+for_window [class="Spotify"] move to workspace $ws10
 
+for_window [class="Thunderbird"] move to workspace $ws9
 for_window [class="Peek"] floating enable
 for_window [class="albert"] floating enable
 
@@ -138,7 +138,6 @@ mode "Exit (S)ignout, (R)eboot, (P)oweroff (L)ock" {
        bindsym r exec reboot
        bindsym s exit i3-msg exit
        bindsym p exec poweroff
-       #bindsym l exec "~/.script/lock.sh" mode "default"
        bindsym l exec $lock_screen
 
        # back to normal: Enter or Escape
@@ -159,7 +158,6 @@ mode "resize" {
         bindsym Down resize grow height 10 px or 10 ppt
         bindsym Up resize shrink height 10 px or 10 ppt
         bindsym Right resize grow width 10 px or 10 ppt
-
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
@@ -177,11 +175,12 @@ bindsym $mod+shift+Tab workspace prev
 
 
 ## shortcut app
-bindsym $mod+shift+d exec dolphin
+bindsym $mod+shift+d exec nemo
 bindsym $mod+shift+f exec chromium
 bindsym $mod+shift+c exec code
 bindsym $mod+shift+s exec subl
 bindsym $mod+shift+t exec $terminal
+bindsym $mod+t exec $terminal --quake
 bindsym $mod+shift+v exec $terminal -e ranger
 
 ## Pulse Audio controls
@@ -210,6 +209,7 @@ gaps inner 2
 smart_gaps on
 smart_borders on
 focus_follows_mouse no
+focus_on_window_activation urgent
 
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id setxkbmap ch -variant fr # Set keyboard to fr_CH
@@ -217,6 +217,8 @@ exec --no-startup-id albert
 exec_always --no-startup-id xrdb .Xressources #Color for rofi
 exec_always --no-startup-id "sh -c 'sleep 1; exec xmodmap ~/.Xmodmap'"
 #exec_always --no-startup-id ~/.script/start_polybar.sh
+
+exec thunderbird
 
 exec --no-startup-id compton --config ~/.config/compton.conf 
 exec --no-startup-id nm-applet #Shortuct wifi in tray
