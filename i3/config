@@ -4,6 +4,7 @@ set $mod Mod4
 set $alt Mod1
 set $terminal tilix
 set $lock_screen i3lock -t -i ~/.background/lock.png
+set $quakeApp $HOME/.config/i3/i3-QAW/src/main.py
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -21,7 +22,7 @@ bindsym $alt+f4 kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec rofi -show drun
-#bindsym $mod+d exec albert toggle
+#bindsym $mod+d exec albert toggle #already configure in albert
 
 # change focus
 bindsym $mod+j focus left
@@ -124,12 +125,13 @@ workspace $ws10 output eDP-1
 #Assign app to specific workspace
 for_window [class="jetbrains-*" tiling] move to workspace $ws2
 for_window [class="jetbrains-*" title=" "] move to workspace $ws2 # Charging window (before ide running)
-for_window [class="jetbrains-*" title="Confirm*"] floating enable # Popup floating
 for_window [class="Spotify"] move to workspace $ws10
-
 for_window [class="Thunderbird"] move to workspace $ws9
+
+for_window [class="jetbrains-*" title="Confirm*"] floating enable # Popup floating
 for_window [class="Peek"] floating enable
 for_window [class="albert"] floating enable
+for_window [class="Xfce4-appfinder"] floating enable
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
@@ -180,8 +182,18 @@ bindsym $mod+shift+f exec chromium
 bindsym $mod+shift+c exec code
 bindsym $mod+shift+s exec subl
 bindsym $mod+shift+t exec $terminal
-bindsym $mod+t exec $terminal --quake
 bindsym $mod+shift+v exec $terminal -e ranger
+bindsym $mod+t exec $terminal --quake
+
+bindsym $mod+m exec xfce4-appfinder
+
+# Quake app
+bindsym $mod+Control+c exec $quakeApp Code
+bindsym $mod+Control+s exec $quakeApp Slack
+bindsym $mod+ctrl+f exec $quakeApp Chromium "chromium --app=http://devdocs.io/"
+bindsym $mod+ctrl+g exec $quakeApp Chromium
+
+
 
 ## Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
