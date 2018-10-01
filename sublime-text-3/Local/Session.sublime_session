@@ -296,8 +296,27 @@
 					"file": "/home/steven/code/traitement_image/traitement_image_exercices/serie2/exercices1-5.md",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 380,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "executable different de classe name?\ndevdocs ?",
+					"settings":
+					{
+						"buffer_size": 46,
+						"line_ending": "Unix",
+						"name": "executable different de classe name?"
+					}
+				},
+				{
+					"file": "/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
+					"settings":
+					{
+						"buffer_size": 3159,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -413,6 +432,7 @@
 			},
 			"file_history":
 			[
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_head_2m.csv",
 				"/home/steven/.config/i3/tempnote",
 				"/home/steven/Downloads/test.php",
 				"/home/steven/Documents/note.md",
@@ -503,7 +523,7 @@
 			],
 			"find":
 			{
-				"height": 28.2167042889
+				"height": 30.9072781655
 			},
 			"find_in_files":
 			{
@@ -599,7 +619,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -608,7 +628,7 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 380,
 								"regions":
 								{
 								},
@@ -627,6 +647,62 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 46,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										46,
+										46
+									]
+								],
+								"settings":
+								{
+									"auto_name": "executable different de classe name?",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3159,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1123,
+										1123
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
 							"stack_index": 0,
 							"type": "text"
 						}
@@ -635,7 +711,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 28.2167042889
+				"height": 30.9072781655
 			},
 			"input":
 			{
@@ -669,11 +745,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,3201,708,4476,1409,6400,1440",
+			"position": "0,0,0,0,0,4480,360,6400,1440,6400,1440",
 			"project": "",
 			"replace":
 			{
-				"height": 51.9187358916
+				"height": 57.8265204387
 			},
 			"save_all_on_build": true,
 			"select_file":
