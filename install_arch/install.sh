@@ -115,18 +115,20 @@ sed -i '/#en_US.UTF-8 UTF-8/c\en_US.UTF-8 UTF-8' /etc/locale.gen
 sed -i '/#fr_CH.UTF-8 UTF-8/c\fr_CH.UTF-8 UTF-8' /etc/locale.gen
 locale-gen # Generate the locales
 
-echo LANG=en_US.UTF-8 > /etc/locale.conf
-echo KEYMAP=fr_CH > /etc/vconsole.conf
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
+echo "LC_TIME=fr_CH.UTF-8" >> /etc/locale.conf
+echo "KEYMAP=fr_CH" > /etc/vconsole.conf
 echo $computername > /etc/hostname
-echo 127.0.0.1 	localhost >> /etc/hosts
-echo ::1			localhost >> /etc/hosts
-echo 127.0.1.1	 $computername.localdomain  $computername >> /etc/hosts
+echo "127.0.0.1 	localhost" >> /etc/hosts
+echo "::1			localhost" >> /etc/hosts
+echo "127.0.1.1	 $computername.localdomain  $computername" >> /etc/hosts
 echo "*	hard	nofile	10000" >> /etc/security/limits.conf
-echo DefaultLimitNOFILE=10000 >> /etc/systemd/system.conf
+echo "DefaultLimitNOFILE=10000" >> /etc/systemd/system.conf
 echo "fs.inotify.max_user_watches=524288" > /etc/sysctl.d/inotify.conf
 echo "QT_QPA_PLATFORMTHEME=qt5ct" >> /etc/environment
 echo "QT_AUTO_SCREEN_SCALE_FACTOR=0" >> /etc/environment
-echo blacklist pcspkr > /etc/modprobe.d/nobeep.conf
+echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
+echo "Server = http://mirror.puzzle.ch/archlinux/$repo/os/$arch" > /etc/pacman.d/mirrorlist
 
 cp puleseaudio/default.conf /usr/share/puleseaudio/alsa-mixer/profile-sets/
 cp libinput/40-libinput.conf /etc/X11/xorg.conf.d/
