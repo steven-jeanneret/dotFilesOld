@@ -6,6 +6,12 @@ if [[ $1 == 'import' || $1 == 'i' ]]
 then
 	iSrc=1
 	iDest=0
+	sh code/install_extension.sh
+	dconf load /com/gexperts/Tilix/ < tilix/tilix.dconf 
+else
+	echo "#!/bin/sh" > code/install_extension.sh
+	code --list-extensions | xargs -L 1 echo code --install-extension >> code/install_extension.sh
+	dconf dump /com/gexperts/Tilix/ > tilix/tilix.dconf 
 fi
 while IFS='' read -r line || [[ -n "$line" ]]; do
 	IFS=';' read -r -a arg <<< $line

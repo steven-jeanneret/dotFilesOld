@@ -3,7 +3,6 @@
 set $mod Mod4
 set $alt Mod1
 set $terminal tilix
-set $lock_screen i3lock -t -i ~/.background/lock.png
 set $quakeApp $HOME/.config/i3/i3-QAW/src/main.py
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -111,16 +110,16 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # Set workspace to specific display
-workspace $ws1 output eDP-1
-workspace $ws2 output DP-1
-workspace $ws3 output DP-2
-workspace $ws4 output eDP-1
-workspace $ws5 output DP-1
-workspace $ws6 output DP-2
-workspace $ws7 output DP-1
-workspace $ws8 output DP-1
-workspace $ws9 output DP-1
-workspace $ws10 output eDP-1
+workspace $ws1 output eDP1
+workspace $ws2 output DP1
+workspace $ws3 output DP2
+workspace $ws4 output eDP1
+workspace $ws5 output DP1
+workspace $ws6 output DP2
+workspace $ws7 output DP1
+workspace $ws8 output DP1
+workspace $ws9 output DP1
+workspace $ws10 output eDP1
 
 #Assign app to specific workspace
 for_window [class="jetbrains-*" tiling] move to workspace $ws2
@@ -140,7 +139,7 @@ mode "Exit (S)ignout, (R)eboot, (P)oweroff (L)ock" {
        bindsym r exec reboot
        bindsym s exit i3-msg exit
        bindsym p exec poweroff
-       bindsym l exec $lock_screen
+       bindsym l exec i3lockc
 
        # back to normal: Enter or Escape
        bindsym Return mode "default"
@@ -167,14 +166,12 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # shortcut personnel
-bindsym $mod+shift+x exec $lock_screen
+bindsym $mod+shift+x exec i3lockc
 #bindsym $mod+shift+x exec ~/.script/lock.sh #Lock screen
 
 bindsym $alt+Tab exec rofi -show #Alt tab like
 bindsym $mod+Tab workspace next
 bindsym $mod+shift+Tab workspace prev
-
-
 
 ## shortcut app
 bindsym $mod+shift+d exec nemo
@@ -194,6 +191,8 @@ bindsym $mod+ctrl+f exec $quakeApp Chromium "chromium --app=http://devdocs.io/"
 bindsym $mod+ctrl+g exec $quakeApp Chromium
 
 
+bindsym $mod+o exec xinput set-prop 12 "Device Enabled" 0
+bindsym $mod+Shift+o exec xinput set-prop 12 "Device Enabled" 1
 
 ## Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
@@ -210,7 +209,7 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
-bindsym Print exec maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i # Print screen
+bindsym Print exec  maim -s --format=png /dev/stdout | tee ~/Downloads/last_screen.png | xclip -selection clipboard -t image/png -i # Print screen
 
 bindsym Control+Escape exec $terminal -e s-tui ; exec $terminal -e htop
 
@@ -225,25 +224,20 @@ focus_on_window_activation urgent
 
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id setxkbmap ch -variant fr # Set keyboard to fr_CH
-exec --no-startup-id albert
 exec_always --no-startup-id xrdb .Xressources #Color for rofi
 exec_always --no-startup-id "sh -c 'sleep 1; exec xmodmap ~/.Xmodmap'"
-#exec_always --no-startup-id ~/.script/start_polybar.sh
+exec_always --no-startup-id ~/.script/start_app.sh
 
-exec thunderbird
 
+exec --no-startup-id "sh -c 'sleep 5; exec syndaemon -i .5 -K -t -R -d'"
+exec --no-startup-id albert
 exec --no-startup-id compton --config ~/.config/compton.conf 
 exec --no-startup-id nm-applet #Shortuct wifi in tray
 exec --no-startup-id "sh -c 'sleep 5; exec pcloud'" # Delay, else it "crash"
+exec "sh -c 'sleep 5; exec thunderbird'"
 exec --no-startup-id pasystray
 exec --no-startup-id lxqt-policykit-agent # Ask password if required to mount some drive
-#exec --no-startup-id xautolock -time 10 -locker "~/.script/lock.sh"
-exec_always --no-startup-id ~/.script/start_app.sh
-#exec_always --no-startup-id "synclient TapButton1=1 TapButton2=3 TapButton3=2 HorizTwoFingerScroll=1 HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelta=-111" #Enable touchpad natural scrolling
 exec --no-startup-id "/usr/lib/xfce4/notifyd/xfce4-notifyd"
-
-# For my other computer with multiple display
-exec_always --no-startup-id xrandr --output DP-1 --primary --mode 2560x1440 --pos 1920x0 --rotate normal --output eDP-1 --mode 1920x1080 --pos 0x360 --rotate normal --output DP-2 --mode 1920x1080 --pos 4480x360 --rotate normal
 
 
 # class                 border  backgr. text    indicator child_border

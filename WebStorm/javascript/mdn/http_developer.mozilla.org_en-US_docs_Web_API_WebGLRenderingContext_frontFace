@@ -1,0 +1,1 @@
+The <strong><code>WebGLRenderingContext.frontFace()</code></strong> method of the <a href="/en-US/docs/Web/API/WebGL_API">WebGL API</a> specifies whether polygons are front- or back-facing by setting a winding orientation.

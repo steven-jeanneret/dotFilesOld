@@ -3,7 +3,7 @@
     <property name="created">2018-04-03T21:38:32</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-04-03T22:53:45</property>
+    <property name="modified">2018-10-03T13:24:05</property>
     <property name="originalScheme">Default</property>
   </metaInfo>
   <colors>
@@ -18,10 +18,11 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="91b859" />
     <option name="FILESTATUS_MERGED" value="7c4dff" />
-    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+    <option name="FILESTATUS_MODIFIED" value="39adb5" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="39adb5" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="39adb5" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_RENAMED" value="3a8484" />
     <option name="FILESTATUS_SUPPRESSED" value="b0bec5" />
     <option name="FILESTATUS_SWITCHED" value="7c4dff" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />

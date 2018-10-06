@@ -124,7 +124,8 @@ alias drs="python manage.py runserver"
 alias dsp="python manage.py shell_plus"
 alias dmm="python manage.py makemigrations"
 alias dmi="python manage.py migrate"
-alias dsu="python manage.py createsuperuser"u
+alias dsu="python manage.py createsuperuser"
+
 xpwd() {
     pwd | xclip -selection clipboard
 }
@@ -150,3 +151,5 @@ cpr() {
 }
 
 #fpath=($fpath "$HOME/.zfunctions")
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/steven/.config/composer/vendor/bin:/home/steven/.scc/scc.py"
+alias scc='/home/steven/.scc/scc.py'

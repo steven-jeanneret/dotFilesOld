@@ -1,0 +1,30 @@
+[/]
+quake-height-percent=40
+quake-specific-monitor=0
+copy-on-select=true
+terminal-title-style='none'
+prompt-on-close-process=false
+theme-variant='dark'
+session-name='${title}'
+app-title='${title}'
+warn-vte-config-issue=false
+window-style='borderless'
+
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+foreground-color='#DCDCDFDFE4E4'
+visible-name='Default'
+palette=['#000000000000', '#E0E06B6B7474', '#0707ABAB2929', '#6161AFAFEFEF', '#6161AFAFEFEF', '#AE81FF', '#5656B6B6C2C2', '#DCDCDFDFE4E4', '#75715E', '#E0E06B6B7474', '#0707ABAB2929', '#6161AFAFEFEF', '#6161AFAFEFEF', '#AE81FF', '#5656B6B6C2C2', '#DCDCDFDFE4E4']
+bold-is-bright=false
+badge-color-set=false
+use-system-font=false
+cursor-colors-set=false
+highlight-colors-set=false
+use-theme-colors=false
+bold-color-set=false
+font='PragmataPro 12'
+terminal-title='${title}'
+background-color='#43434D4D6262'
+background-transparency-percent=24
+
+[keybindings]
+session-synchronize-input='<Primary>g'

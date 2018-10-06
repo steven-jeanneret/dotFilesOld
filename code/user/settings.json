@@ -204,7 +204,7 @@
 	"gitlens.advanced.messages": {
 		"suppressShowKeyBindingsNotice": true
 	},
-	"editor.formatOnSave": true,
+	"editor.formatOnSave": false,
 	"markdown.extension.toc.unorderedList.marker": "*",
 	"markdown.extension.toc.updateOnSave": false,
 	"[markdown]": {
@@ -213,4 +213,8 @@
 	},
 	"python.formatting.provider": "black",
 	"python.linting.pylintEnabled": false,
+	"markdown.extension.syntax.decorations": false,
+	"markdown.preview.linkify": false,
+	"markdown.extension.tableFormatter.enabled": false,
+	"markdown.extension.tableFormatter.normalizeIndentation": false,
 }

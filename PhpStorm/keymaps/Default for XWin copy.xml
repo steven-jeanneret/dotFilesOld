@@ -19,6 +19,16 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CodeInspection.OnEditor" />
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl divide" />
@@ -55,6 +65,9 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
   <action id="EditorDeleteLine" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -65,6 +78,9 @@
     <keyboard-shortcut first-keystroke="shift alt k" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl 1" />
+  </action>
   <action id="EditorJoinLines" />
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
@@ -160,6 +176,9 @@
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift control button1" />
   </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="Images.ShowThumbnails" />
   <action id="IncrementWindowHeight" />
   <action id="Jdbc.OpenEditor.DDL">
@@ -230,12 +249,16 @@
   <action id="SurroundWithLiveTemplate" />
   <action id="Switcher" />
   <action id="TableResult.UnselectPreviousOccurrence" />
+  <action id="ToggleBookmark1" />
   <action id="ToggleBookmark7" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="ToggleMainMenuAction">
     <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="UML.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="Uml.ShowDiff" />
   <action id="UnselectPreviousOccurrence" />

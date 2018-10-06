@@ -2101,6 +2101,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.impl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.centurylink.mdw.studio" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.inc">
       <plugins>
         <option name="myPlugins">
@@ -3079,6 +3092,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.p4">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.p4.p4plugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.page">
       <plugins>
         <option name="myPlugins">
@@ -3497,6 +3523,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.ky-proj.spjplugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.proc">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.centurylink.mdw.studio" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -4376,6 +4415,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.spring">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.centurylink.mdw.studio" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.sq">
       <plugins>
         <option name="myPlugins">
@@ -4618,6 +4670,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="net.sjrx.intellij.plugins.systemdunitfiles" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.task">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.centurylink.mdw.studio" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -5287,6 +5352,19 @@
               <option name="myPluginId" value="WebServicesPlugin" />
               <option name="myPluginName" value="WebServicesPlugin" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xlsx">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.centurylink.mdw.studio" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
             </plugin>
           </set>
         </option>

@@ -2,9 +2,9 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/code/app_web/PandaMD" />
         <option value="$USER_HOME$/code/app_web/laravelworkshop" />
         <option value="$USER_HOME$/code/app_web/presentation" />
-        <option value="$USER_HOME$/code/app_web/PandaMD" />
         <option value="$USER_HOME$/code/laravel/test_realtime/real-time-app" />
         <option value="$USER_HOME$/code/laravel/test_realtime" />
         <option value="$USER_HOME$/code/php/phpstorm" />
@@ -15,10 +15,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/code/app_web/laravelworkshop" />
+        <option value="$USER_HOME$/code/app_web/PandaMD" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/code/app_web/laravelworkshop" />
+    <option name="lastPath" value="$USER_HOME$/code/app_web/PandaMD" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -47,22 +47,22 @@
         <entry key="$USER_HOME$/code/app_web/PandaMD">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="PS-182.4323.68" />
+              <option name="build" value="PS-182.4505.42" />
               <option name="productionCode" value="PS" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1538052001460" />
-              <option name="buildTimestamp" value="1536831364764" />
+              <option name="projectOpenTimestamp" value="1538773675761" />
+              <option name="buildTimestamp" value="1538037451915" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
         <entry key="$USER_HOME$/code/app_web/laravelworkshop">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="PS-182.4323.68" />
+              <option name="build" value="PS-182.4505.42" />
               <option name="productionCode" value="PS" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1538061405228" />
-              <option name="buildTimestamp" value="1536831413235" />
+              <option name="projectOpenTimestamp" value="1538479716270" />
+              <option name="buildTimestamp" value="1538037461783" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
