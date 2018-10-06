@@ -132,6 +132,8 @@ cp puleseaudio/default.conf /usr/share/puleseaudio/alsa-mixer/profile-sets/
 cp libinput/40-libinput.conf /etc/X11/xorg.conf.d/
 cp install_arch/login_wallpaper.jpg /usr/share/pixmaps/
 cp install_arch/lightdm-gtk-greeter.conf /etc/lightdm/
+cp script/i3lockc /usr/bin/
+chmod a+x /usr/bin/i3lockc
 systemctl enable lightdm
 systemctl enable NetworkManager.service
 systemctl enable avahi-daemon.service
