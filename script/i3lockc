@@ -1,0 +1,2 @@
+#!/bin/sh
+$HOME/.script/lockscreen/lock -i $HOME/.background/lockscreen.png
