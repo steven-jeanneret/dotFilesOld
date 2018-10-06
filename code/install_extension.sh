@@ -3,8 +3,10 @@ code --install-extension MaxfieldWalker.vscode-imgur
 code --install-extension Rubymaniac.vscode-paste-and-indent
 code --install-extension Zignd.html-css-class-completion
 code --install-extension abusaidm.html-snippets
+code --install-extension boyswan.glsl-literal
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
+code --install-extension circledev.glsl-canvas
 code --install-extension dariofuzinato.vue-peek
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension doublefint.pgsql
@@ -14,6 +16,7 @@ code --install-extension eg2.vscode-npm-script
 code --install-extension emmanuelbeziat.vscode-great-icons
 code --install-extension Equinusocio.vsc-material-theme
 code --install-extension esbenp.prettier-vscode
+code --install-extension evanw.glslx-vscode
 code --install-extension felixfbecker.php-intellisense
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
@@ -35,6 +38,7 @@ code --install-extension reloadedextensions.reloaded-cpp
 code --install-extension reloadedextensions.reloaded-themes
 code --install-extension sashaweiss.block-travel
 code --install-extension shd101wyy.markdown-preview-enhanced
+code --install-extension slevesque.shader
 code --install-extension stkb.rewrap
 code --install-extension thekalinga.bootstrap4-vscode
 code --install-extension tombonnike.vscode-status-bar-format-toggle

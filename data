@@ -4,10 +4,9 @@
 ~/.zshrc;zsh/zshrc
 ~/.Xressources;Xressources/Xressources
 ~/.background/background.jpg;images/background.jpg
-~/.background/lock.png;images/lock.png
+~/.background/lockscreen.png;images/lockscreen.png
 ~/.script/start_app.sh;script/start_app.sh
 ~/.script/start_polybar.sh;script/start_polybar.sh
-~/.script/before_sleep.sh;script/before_sleep.sh
 ~/.config/compton.conf;compton/compton.conf
 ~/.CLion2018.2/config;CLion/
 ~/.IntelliJIdea2018.2/config;IntelliJIdea/

@@ -1,5 +1,31 @@
 <application>
   <component name="PropertiesComponent">
+    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="0" />
+    <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="1" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="true" />
     <property name="ColorChooser.RecentColors" value="31-82-56-255,,,55-139-61-255,,,64-89-139-255,,,88-130-202-255,,,159-166-165-255,,,21-163-255-255" />
     <property name="Copy.OpenInEditor" value="true" />
     <property name="Darcula.savedEditorTheme" value="_@user_Material Palenight" />
@@ -7,23 +33,23 @@
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="FileTemplates.SelectedTemplate" value="HTML File" />
-    <property name="KEYMAP" value="import&#10;extend" />
+    <property name="KEYMAP" value="decrease&#10;increase&#10;toggle in&#10;import&#10;extend" />
     <property name="MTBoldTabs" value="false" />
     <property name="MTBorderPopup" value="true" />
     <property name="MTTabsHeight" value="23" />
     <property name="OpenOrAttachDialog.OpenMode" value="replace" />
-    <property name="PLUGIN_FILTER" value="material theme" />
+    <property name="PLUGIN_FILTER" value="lara&#10;material theme" />
     <property name="PhpStorm.InitialConfiguration" value="true" />
-    <property name="SearchEveryWhereHistory" value="event_ad&#10;readme&#10;not&#10;route&#10;full" />
-    <property name="SettingsSearchHistory" value="import&#10;template&#10;language&#10;scale&#10;font" />
+    <property name="SearchEveryWhereHistory" value="show&#10;home&#10;$&#10;event_ad&#10;readme" />
+    <property name="SettingsSearchHistory" value="size&#10;font&#10;template&#10;project&#10;laravel" />
     <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="PALENIGHT" />
     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
     <property name="es6.show.auto.import" value="true" />
     <property name="evlsprt3.181" value="14" />
     <property name="evlsprt3.182" value="17" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/code/app_web/laravelworkshop&#10;/home/steven/code/app_web/presentation&#10;/home/steven/code/app_web/PandaMD&#10;/home/steven/code/laravel/test_realtime/real-time-app&#10;/home/steven/code/laravel/test_realtime&#10;/home/steven/code/php/phpstorm&#10;/home/steven/code/php&#10;/home/steven/Downloads/settings.jar&#10;/home/steven/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM/public/img&#10;/home/steven/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/phpstorm.jar&#10;/home/steven/Documents/2/Applications Web/AWb-g4-GestionDisponibiliteCM" />
-    <property name="file.gist.reindex.count" value="444314" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/code/app_web/PandaMD/composer.json&#10;/home/steven/code/app_web/PandaMD&#10;/home/steven/code/app_web/laravelworkshop&#10;/home/steven/code/app_web/presentation&#10;/home/steven/code/laravel/test_realtime/real-time-app&#10;/home/steven/code/laravel/test_realtime&#10;/home/steven/code/php/phpstorm&#10;/home/steven/code/php&#10;/home/steven/Downloads/settings.jar&#10;/home/steven/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM/public/img&#10;/home/steven/Documents/2/App_Web/AWb-g4-GestionDisponibiliteCM&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/phpstorm.jar&#10;/home/steven/Documents/2/Applications Web/AWb-g4-GestionDisponibiliteCM" />
+    <property name="file.gist.reindex.count" value="447059" />
     <property name="fileTypeChangedCounter" value="4" />
     <property name="lastTip" value="11" />
     <property name="mt.isShownWizard" value="true" />

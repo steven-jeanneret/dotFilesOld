@@ -1,13 +1,14 @@
 {
 	"folder_history":
 	[
+		"/home/steven/.config/autorandr"
 	],
 	"last_version": 3176,
-	"last_window_id": 11,
+	"last_window_id": 12,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 1053.0,
+		"new_window_height": 0.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -30,6 +31,26 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"open",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"material",
+						"Material Theme: Configuration"
+					],
+					[
+						"ressource",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
 					[
 						"settings",
 						"Preferences: Settings"
@@ -67,10 +88,6 @@
 						"Material Theme: Configuration"
 					],
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"langu",
 						"Material Theme: Advanced configuration"
 					],
@@ -81,10 +98,6 @@
 					[
 						"toggle ",
 						"View: Toggle Menu"
-					],
-					[
-						"material",
-						"Material Theme: Activate theme"
 					],
 					[
 						"package isnta",
@@ -119,28 +132,100 @@
 			},
 			"file_history":
 			[
-				"/home/steven/.config/polybar/config",
+				"/home/steven/Downloads/logs_temp.txt",
+				"/home/steven/.i3/lock",
+				"/home/steven/.WebStorm2018.2/config/idea.properties",
+				"/tmp/ark-LbhiPA/idea.log.1",
+				"/tmp/ark-ErnXVO/idea.log",
+				"/tmp/ark-IkCjZB/settings.txt",
+				"/home/steven/code/app_web/laravelworkshop/resources/js/app.js",
+				"/home/steven/Downloads/logs-20181002-145847/settings.txt",
+				"/home/steven/Downloads/logs-20181002-145847/idea.log",
+				"/home/steven/Downloads/logs-20181002-145847/idea.log.1",
+				"/home/steven/code/traitement_image/traitement_image_exercices/serie2/exercices1-5.md",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_1lignes.json",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_head_2m_3lignes.csv",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_SAV/simplified_datas_SAV.csv",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_head_2m.csv",
+				"/home/steven/.config/i3/tempnote",
+				"/home/steven/Downloads/test.php",
+				"/home/steven/Documents/note.md",
+				"/home/steven/log.txt",
+				"/home/steven/nohup.out",
+				"/home/steven/Documents/shortcut_to_learn.md",
+				"/home/steven/Documents/grande_canarie.txt",
+				"/home/steven/Documents/documentation_arch_i3.md",
+				"/home/steven/Documents/cmd_arch.txt",
+				"/home/steven/.config/i3/config",
+				"/home/steven/Downloads/temp_history.txt",
+				"/home/steven/code/python/projet_hes_ete/RSAM/.git/MERGE_MSG",
+				"/home/steven/Documents/3/jee/install.md",
+				"/home/steven/Documents/3/traitement_parallele/notes.md",
+				"/home/steven/.config/sublime-text-3/Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+				"/home/steven/.zshrc",
+				"/home/steven/HE-ARC/ING/010-Bachelor/030-Niveau-3/020-ProfsAEtudiants/3255_Technologies_Interaction/DevMobile/ProjetGC/.zshrc",
+				"/home/steven/code/p3/notes.md",
+				"/home/steven/code/app_web/PandaMD/.git/MERGE_MSG",
+				"/home/steven/code/python/note_sibtc.md",
+				"/home/steven/code/python/projet_hes_ete/RSAM/.git/COMMIT_EDITMSG",
+				"/home/steven/Documents/2/hes_ete/note.md",
+				"/home/steven/code/awesome_student_dev/Linux/README.md",
+				"/home/steven/Documents/Utilitaires/license/cle_visual_studio_2017",
+				"/home/steven/.zshenv",
+				"/home/steven/Downloads/tilix.dconf",
+				"/home/steven/Downloads/app_web_generated_from_dbdesigner.sql",
+				"/tmp/ark-CeplBu/project.ninja",
+				"/tmp/ark-oYJfZF/toji-gl-matrix-6866ae9/dist/gl-matrix-min.js",
+				"/home/steven/HE-ARC/ING/010-Bachelor/030-Niveau-3/020-ProfsAEtudiants/3256_Analyse_Donnees/TPD/git/commande.txt",
+				"/home/steven/.Xressources",
+				"/home/steven/connect-he-arc.sh",
+				"/home/steven/code/python/projet_hes_ete/RSAM/RSAM/settings.py",
+				"/home/steven/dotFiles/.zshrc",
+				"/home/steven/vpnconnect-he-arc.sh",
+				"/home/steven/code/python/projet_hes_ete/RSAM/.gitignore",
 				"/home/steven/code/python/script_monitoring/get_data.py",
+				"/home/steven/dotFiles/data",
+				"/home/steven/code/python/tuto_sibtc/sibtc_project/boards/views.py",
+				"/home/steven/Documents/Utilitaires/tools/fontawesome-pro-5.0.9/web-fonts-with-css/css/fontawesome-all.min.css",
+				"/home/steven/.script/before_sleep.sh",
+				"/opt/cisco/anyconnect/profile/profile_hearc1.xml",
+				"/home/steven/Documents/Utilitaires/script/vpn_HEARC/vpnconnect-he-arc.sh",
+				"/home/steven/.z",
+				"/usr/local/share/zsh/site-functions/prompt_purevenv_setup",
+				"/home/steven/.zshrc_old",
+				"/tmp/mozilla_steven0/zshrc.txt",
+				"/tmp/mozilla_steven0/hearc_mount.sh",
+				"/home/steven/.script/config_keyboard.sh",
+				"/home/steven/Documents/shortcut_to_learn",
+				"/home/steven/.config/polybar/config",
+				"/etc/default/grub",
+				"/etc/systemd/system/i3lock.service",
+				"/home/steven/.script/start_app.sh",
+				"/home/steven/Documents/jrosk/backup_config_serveur/nginx",
+				"/home/steven/Documents/jrosk/backup_config_serveur/tree",
+				"/home/steven/Documents/jrosk/backup_config_serveur/gunicorn_start.sh",
+				"/home/steven/Downloads/log_success.txt.sorted",
+				"/home/steven/Downloads/log.txt",
+				"/home/steven/.script/start_polybar.sh",
+				"/home/steven/Downloads/log_success.txt",
+				"/home/steven/Downloads/log.txt.sorted",
+				"/home/steven/dotFiles/code/export_vscode_extension.sh",
+				"/home/steven/dotFiles/code/install_extension.sh",
+				"/home/steven/export_vscode_extension",
 				"/home/steven/.config/baloofilerc",
 				"/home/steven/Documents/2/hes_ete/cahier_charges.md",
 				"/home/steven/Documents/2/hes_ete/specification.md",
 				"/home/steven/code/python/tuto_sibtc/sibtc_project/sibtc_project/settings.py",
 				"/home/steven/Downloads/test.md",
-				"/home/steven/.config/i3/config",
-				"/home/steven/.script/start_app.sh",
-				"/home/steven/.script/start_polybar.sh",
 				"/home/steven/.config/compton.conf",
-				"/home/steven/dotFiles/data",
 				"/home/steven/Documents/Documentation/enable_lock.md",
-				"/home/steven/.zshrc",
 				"/home/steven/dotFiles/install_arch/.install.sh",
 				"/home/steven/dotFiles/install_arch/install.sh",
-				"/home/steven/Downloads/temp_history.txt",
 				"/home/steven/.config/autorandr/docked_home2/config",
 				"/home/steven/.pandoc/templates/eisvogel.tex",
 				"/home/steven/code/python/tuto_rest/.gitignore",
 				"/home/steven/dotFiles/mngDotF.sh",
-				"/home/steven/Documents/grande_canarie.txt",
 				"/etc/X11/xorg.conf.d/70-synaptics.conf",
 				"/etc/systemd/logind.conf",
 				"/home/steven/.script/lock.sh",
@@ -152,7 +237,7 @@
 			],
 			"find":
 			{
-				"height": 71.7846460618
+				"height": 30.9072781655
 			},
 			"find_in_files":
 			{
@@ -166,6 +251,36 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"lid",
+					"cursor",
+					"mouse",
+					"cursor",
+					"discord",
+					"opacity",
+					"mat4",
+					"neofetch",
+					"start",
+					"tun",
+					"vpnc",
+					"char",
+					"3",
+					"virtual",
+					"autosu",
+					"pyth",
+					"patch",
+					"powerl",
+					"awesome",
+					"spaceship",
+					"font",
+					"MODE",
+					"modmap",
+					"feh",
+					";\"\n",
+					"10;\"",
+					";",
+					"powermenu",
+					"volume",
+					"lid",
 					"deinit",
 					"cpuCoresTemp",
 					"tempCoresRaw",
@@ -221,7 +336,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 31.9042871386
+				"height": 30.9072781655
 			},
 			"input":
 			{
@@ -235,7 +350,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 59.8205383848
+				"height": 57.8265204387
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -275,7 +390,7 @@
 			{
 			}
 		},
-		"new_window_width": 1920.0
+		"new_window_width": 0.0
 	},
 	"windows":
 	[
@@ -293,15 +408,6 @@
 			"buffers":
 			[
 				{
-					"file": "/home/steven/code/traitement_image/traitement_image_exercices/serie2/exercices1-5.md",
-					"settings":
-					{
-						"buffer_size": 380,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
 					"contents": "executable different de classe name?\ndevdocs ?",
 					"settings":
 					{
@@ -311,11 +417,11 @@
 					}
 				},
 				{
-					"file": "/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
+					"file": "/home/steven/Documents/3/dev_mobile/ProjetGC/README.txt",
 					"settings":
 					{
-						"buffer_size": 3159,
-						"encoding": "UTF-8",
+						"buffer_size": 2991,
+						"encoding": "Western (Windows 1252)",
 						"line_ending": "Windows"
 					}
 				}
@@ -432,6 +538,21 @@
 			},
 			"file_history":
 			[
+				"/home/steven/Downloads/logs_temp.txt",
+				"/home/steven/.i3/lock",
+				"/home/steven/.WebStorm2018.2/config/idea.properties",
+				"/tmp/ark-LbhiPA/idea.log.1",
+				"/tmp/ark-ErnXVO/idea.log",
+				"/tmp/ark-IkCjZB/settings.txt",
+				"/home/steven/code/app_web/laravelworkshop/resources/js/app.js",
+				"/home/steven/Downloads/logs-20181002-145847/settings.txt",
+				"/home/steven/Downloads/logs-20181002-145847/idea.log",
+				"/home/steven/Downloads/logs-20181002-145847/idea.log.1",
+				"/home/steven/code/traitement_image/traitement_image_exercices/serie2/exercices1-5.md",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_1lignes.json",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_head_2m_3lignes.csv",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_SAV/simplified_datas_SAV.csv",
 				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_head_2m.csv",
 				"/home/steven/.config/i3/tempnote",
 				"/home/steven/Downloads/test.php",
@@ -450,7 +571,6 @@
 				"/home/steven/.config/sublime-text-3/Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 				"/home/steven/.zshrc",
 				"/home/steven/HE-ARC/ING/010-Bachelor/030-Niveau-3/020-ProfsAEtudiants/3255_Technologies_Interaction/DevMobile/ProjetGC/.zshrc",
-				"/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
 				"/home/steven/code/p3/notes.md",
 				"/home/steven/code/app_web/PandaMD/.git/MERGE_MSG",
 				"/home/steven/code/python/note_sibtc.md",
@@ -537,6 +657,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"lid",
+					"cursor",
+					"mouse",
+					"cursor",
 					"discord",
 					"opacity",
 					"mat4",
@@ -619,39 +743,11 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/steven/code/traitement_image/traitement_image_exercices/serie2/exercices1-5.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 380,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
 							"semi_transient": false,
 							"settings":
 							{
@@ -679,20 +775,20 @@
 							"type": "text"
 						},
 						{
-							"buffer": 2,
-							"file": "/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
+							"buffer": 1,
+							"file": "/home/steven/Documents/3/dev_mobile/ProjetGC/README.txt",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3159,
+								"buffer_size": 2991,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1123,
-										1123
+										1134,
+										1134
 									]
 								],
 								"settings":
@@ -700,7 +796,7 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 209.371884347,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -745,7 +841,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,4480,360,6400,1440,6400,1440",
+			"position": "0,0,0,0,0,3201,2,4476,1409,6400,1440",
 			"project": "",
 			"replace":
 			{
