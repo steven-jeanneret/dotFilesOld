@@ -234,6 +234,7 @@ exec --no-startup-id albert
 exec --no-startup-id compton --config ~/.config/compton.conf 
 exec --no-startup-id nm-applet #Shortuct wifi in tray
 exec --no-startup-id "sh -c 'sleep 5; exec pcloud'" # Delay, else it "crash"
+exec --no-startup-id "sh -c 'sleep 5; xrandr --dpi 75'" # Delay, else it "crash"
 exec "sh -c 'sleep 5; exec thunderbird'"
 exec --no-startup-id pasystray
 exec --no-startup-id lxqt-policykit-agent # Ask password if required to mount some drive
