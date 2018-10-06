@@ -18,7 +18,9 @@ aurman --needed --noconfirm --noedit -S sublime-text-dev
 aurman --needed --noconfirm --noedit -S pasystrayasy
 aurman --needed --noconfirm --noedit -S slack-desktop
 aurman --needed --noconfirm --noedit -S spotify
+aurman --needed --noconfirm --noedit -S pick-colour-picker
 sudo ln -s /usr/bin/subl3 /usr/bin/subl
+gsettings set org.cinnamon.desktop.default-applications.terminal exec 'terminix' # Change default terminal for nemo
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh::g' | sed 's:chsh -s .*$::g')"
 ZSH_CUSTOM=~/.oh-my-zsh/custom
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"

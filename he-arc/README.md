@@ -2,11 +2,11 @@
 ## Installation d'openconnect
 ### Archlinux
 ```sh
-sudo pacman -S openconnect openvpn inotify-tools
+sudo pacman -S openconnect openvpn inotify-tools cifs-utils
 ```
 ### Debian
 ```sh
-sudo apt install openconnect openvpn inotify-tools
+sudo apt install openconnect openvpn inotify-tools cifs-utils
 ```
 
 ## Création du tunnel

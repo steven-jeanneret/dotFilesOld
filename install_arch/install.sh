@@ -21,7 +21,7 @@ pacman --needed --noconfirm -S pulseaudio
 pacman --needed --noconfirm -S pavucontrol
 pacman --needed --noconfirm -S fuse
 pacman --needed --noconfirm -S git
-pacman --needed --noconfirm -S xf86-input-synaptics
+pacman --needed --noconfirm -S xf86-input-libinput
 pacman --needed --noconfirm -S playerctl
 pacman --needed --noconfirm -S xclip
 pacman --needed --noconfirm -S maim
@@ -35,8 +35,13 @@ pacman --needed --noconfirm -S base-devel
 pacman --needed --noconfirm -S curl
 pacman --needed --noconfirm -S wget
 pacman --needed --noconfirm -S zsh
-pacman --needed --noconfirm -S terminator
-pacman --needed --noconfirm -S dolphin
+pacman --needed --noconfirm -S tilix
+pacman --needed --noconfirm -S nemo
+pacman --needed --noconfirm -S nemo-fileroller
+pacman --needed --noconfirm -S nemo-preview
+pacman --needed --noconfirm -S nemo-seahorse
+pacman --needed --noconfirm -S nemo-share
+pacman --needed --noconfirm -S nemo-terminal
 pacman --needed --noconfirm -S firefox
 pacman --needed --noconfirm -S libreoffice
 pacman --needed --noconfirm -S gimp
@@ -85,8 +90,20 @@ pacman --needed --noconfirm -S avahi
 pacman --needed --noconfirm -S konsole
 pacman --needed --noconfirm -S exfat-utils
 pacman --needed --noconfirm -S chromium
+pacman --needed --noconfirm -S ttf-croscore
+pacman --needed --noconfirm -S openssh
+pacman --needed --noconfirm -S openconnect
+pacman --needed --noconfirm -S openvpn
+pacman --needed --noconfirm -S inotify-tools
+pacman --needed --noconfirm -S cifs-utils
+pacman --needed --noconfirm -S gnome-themes-standard
+pacman --needed --noconfirm -S wireshark-qt
+pacman --needed --noconfirm -S pinta
 pacman --needed --noconfirm -S numlockx
 pacman --needed --noconfirm -S autorandr
+pacman --needed --noconfirm -S blueman
+pacman --needed --noconfirm -S bluez
+pacman --needed --noconfirm -S bluez-utils
 pip install virtualenv
 
 ln -sf /usr/share/zoneinfo/Europe/Zurich /etc/localtime
@@ -111,12 +128,15 @@ echo "QT_QPA_PLATFORMTHEME=qt5ct" >> /etc/environment
 echo "QT_AUTO_SCREEN_SCALE_FACTOR=0" >> /etc/environment
 echo blacklist pcspkr > /etc/modprobe.d/nobeep.conf
 
+cp puleseaudio/default.conf /usr/share/puleseaudio/alsa-mixer/profile-sets/
+cp libinput/40-libinput.conf /etc/X11/xorg.conf.d/
 cp install_arch/login_wallpaper.jpg /usr/share/pixmaps/
 cp install_arch/lightdm-gtk-greeter.conf /etc/lightdm/
 systemctl enable lightdm
 systemctl enable NetworkManager.service
 systemctl enable avahi-daemon.service
 systemctl enable org.cups.cupsd.service
+systemctl enable bluetooth.service
 grub-install --target=x86_64-efi --bootloader-id=grub_uefi
 grub-mkconfig -o /boot/grub/grub.cfg
 
