@@ -169,7 +169,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+shift+x exec i3lockc
 #bindsym $mod+shift+x exec ~/.script/lock.sh #Lock screen
 
-bindsym $alt+Tab exec rofi -show #Alt tab like
+bindsym $alt+Tab workspace back_and_forth
 bindsym $mod+Tab workspace next
 bindsym $mod+shift+Tab workspace prev
 

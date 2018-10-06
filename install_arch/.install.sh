@@ -29,6 +29,7 @@ cd /tmp/dotFiles
 sh mngDotF.sh import
 cd /tmp/
 git clone https://github.com/steven-jeanneret/fonts.git && cd fonts && sh install_font.sh
+git clone https://github.com/shikherverma/i3lock-multimonitor.git $HOME/.script/lockscreen
 echo "it's done, maybe you have to adjust the graphics driver, timezone or keyboard"
 echo "Enter password to confirm changing default shell to zsh"
 chsh -s /bin/zsh $username
