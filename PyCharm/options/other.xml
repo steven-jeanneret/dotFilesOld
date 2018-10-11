@@ -3,6 +3,8 @@
     <option name="SDK_TO_PYTEST">
       <map>
         <entry key="$USER_HOME$/.virtualenvs/generic_website/bin/python" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/p3_autonme/bin/python3.7" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/projet_p3/bin/python" value="false" />
         <entry key="$USER_HOME$/.virtualenvs/test_plotly/bin/python" value="false" />
         <entry key="$USER_HOME$/Downloads/django-form-fun-master/part1/pre-ajax/env/bin/python" value="false" />
         <entry key="$USER_HOME$/code/python/tuto_rest/chap1/env/bin/python" value="false" />
@@ -14,6 +16,8 @@
     <option name="SDK_TO_NOSETEST">
       <map>
         <entry key="$USER_HOME$/.virtualenvs/generic_website/bin/python" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/p3_autonme/bin/python3.7" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/projet_p3/bin/python" value="false" />
         <entry key="$USER_HOME$/Downloads/django-form-fun-master/part1/pre-ajax/env/bin/python" value="false" />
         <entry key="$USER_HOME$/code/python/tuto_rest/chap1/env/bin/python" value="false" />
         <entry key="$USER_HOME$/code/python/tuto_sibtc/venv/bin/python" value="false" />
@@ -24,6 +28,8 @@
     <option name="SDK_TO_TRIALTEST">
       <map>
         <entry key="$USER_HOME$/.virtualenvs/generic_website/bin/python" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/p3_autonme/bin/python3.7" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/projet_p3/bin/python" value="false" />
         <entry key="$USER_HOME$/Downloads/django-form-fun-master/part1/pre-ajax/env/bin/python" value="false" />
         <entry key="$USER_HOME$/code/python/tuto_rest/chap1/env/bin/python" value="false" />
         <entry key="$USER_HOME$/code/python/tuto_sibtc/venv/bin/python" value="false" />

@@ -8,7 +8,7 @@
       <entry action="$Paste" count="1" />
       <entry action="$Redo" count="84" />
       <entry action="$SelectAll" count="18" />
-      <entry action="$Undo" count="1829" />
+      <entry action="$Undo" count="1831" />
       <entry action="ActivateAntBuildToolWindow" count="3" />
       <entry action="ActivateEventLogToolWindow" count="4" />
       <entry action="ActivateGradleToolWindow" count="13" />
@@ -22,6 +22,7 @@
       <entry action="Back" count="1" />
       <entry action="BuildArtifact" count="6" />
       <entry action="ChangeFileEncodingAction" count="11" />
+      <entry action="ChooseRunConfiguration" count="2" />
       <entry action="CloseContent" count="27" />
       <entry action="CloseProject" count="2" />
       <entry action="CodeCompletion" count="83" />
@@ -40,11 +41,12 @@
       <entry action="Debug" count="1" />
       <entry action="Debugger.EditFrameSource" count="1" />
       <entry action="DialogCancelAction Echap" count="31" />
-      <entry action="DialogCancelAction Escape" count="1" />
+      <entry action="DialogCancelAction Escape" count="3" />
       <entry action="DialogOkAction Enter" count="10" />
       <entry action="DialogOkAction Entrée" count="46" />
+      <entry action="DialogOkAction Space" count="1" />
       <entry action="EditSource" count="2" />
-      <entry action="EditorBackSpace" count="7754" />
+      <entry action="EditorBackSpace" count="7758" />
       <entry action="EditorChooseLookupItem" count="2404" />
       <entry action="EditorChooseLookupItemReplace" count="88" />
       <entry action="EditorCloneCaretAbove" count="5" />
@@ -56,7 +58,7 @@
       <entry action="EditorDown" count="2884" />
       <entry action="EditorDownWithSelection" count="405" />
       <entry action="EditorEnter" count="1636" />
-      <entry action="EditorEscape" count="153" />
+      <entry action="EditorEscape" count="154" />
       <entry action="EditorIndentSelection" count="1" />
       <entry action="EditorLeft" count="1108" />
       <entry action="EditorLeftWithSelection" count="312" />
@@ -92,10 +94,12 @@
       <entry action="ExternalSystem.ToggleAutoImport" count="2" />
       <entry action="Find" count="373" />
       <entry action="FindModal" count="1" />
+      <entry action="FindNext" count="1" />
       <entry action="FindUsages" count="3" />
-      <entry action="GotoAction" count="102" />
+      <entry action="GotoAction" count="106" />
       <entry action="GotoBookmark0" count="1" />
       <entry action="GotoBookmark1" count="2" />
+      <entry action="GotoBookmark6" count="1" />
       <entry action="GotoBookmark7" count="4" />
       <entry action="GotoBookmark8" count="1" />
       <entry action="GotoClass" count="1" />
@@ -132,7 +136,7 @@
       <entry action="NewProject" count="3" />
       <entry action="NextSplitter" count="14" />
       <entry action="NextTemplateVariable" count="10" />
-      <entry action="OpenFile" count="19" />
+      <entry action="OpenFile" count="21" />
       <entry action="OpenModuleSettings" count="1" />
       <entry action="OptimizeImports" count="18" />
       <entry action="OverrideMethods" count="2" />
@@ -148,7 +152,7 @@
       <entry action="Run" count="1482" />
       <entry action="RunClass" count="18" />
       <entry action="Runner.RestoreLayout" count="2" />
-      <entry action="SaveAll" count="3982" />
+      <entry action="SaveAll" count="3983" />
       <entry action="SearchEverywhere" count="36" />
       <entry action="SelectNextOccurrence" count="387" />
       <entry action="ShowErrorDescription" count="1" />
@@ -156,14 +160,15 @@
       <entry action="ShowIntentionActions" count="153" />
       <entry action="ShowPopupMenu" count="4" />
       <entry action="ShowProjectStructureSettings" count="9" />
-      <entry action="ShowSettings" count="47" />
+      <entry action="ShowSettings" count="50" />
       <entry action="SmartTypeCompletion" count="12" />
       <entry action="Stop" count="17" />
       <entry action="SwitchBootJdk" count="1" />
       <entry action="ToggleBookmark1" count="3" />
       <entry action="ToggleBookmark6" count="2" />
-      <entry action="ToggleBookmarkWithMnemonic" count="6" />
+      <entry action="ToggleBookmarkWithMnemonic" count="7" />
       <entry action="ToggleLineBreakpoint" count="7" />
+      <entry action="TogglePresentationMode" count="2" />
       <entry action="UnmarkRoot" count="1" />
       <entry action="Unsplit" count="2" />
       <entry action="Vcs.Push" count="2" />
@@ -171,15 +176,17 @@
       <entry action="WelcomeScreen.OpenProject" count="2" />
       <entry action="WelcomeScreen.Plugins" count="1" />
       <entry action="context.save" count="1" />
+      <entry action="editRunConfigurations" count="2" />
     </counts>
   </component>
   <component name="FUSApplicationUsageTrigger">
     <session id="655482535">
       <usages-collector id="statistics.lifecycle.app">
         <counts>
-          <entry key="ide.close" value="2" />
+          <entry key="ide.close" value="4" />
           <entry key="ide.error" value="6" />
-          <entry key="ide.start" value="2" />
+          <entry key="ide.freeze.7" value="1" />
+          <entry key="ide.start" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -190,12 +197,12 @@
     <feature id="editing.completion.second.smarttype.aslist" count="0" last-shown="1528197800549" last-used="0" shown-count="2" />
     <feature id="codeassists.surroundwith.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.rename" count="3" last-shown="0" last-used="1528706246051" shown-count="0" />
-    <feature id="navigation.popup.action" count="102" last-shown="0" last-used="1533848851053" shown-count="0" />
+    <feature id="navigation.popup.action" count="106" last-shown="0" last-used="1539205105838" shown-count="0" />
     <feature id="editing.completion.cancelByControlArrows" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.finishBySmartEnter" count="0" last-shown="1528706075330" last-used="0" shown-count="30" />
     <feature id="navigation.popup.symbol" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="find.recent.search" count="1" last-shown="0" last-used="1527106173248" shown-count="0" />
-    <feature id="editing.completion.replace" count="85" last-shown="1527681128625" last-used="1528197229941" shown-count="8251" />
+    <feature id="editing.completion.replace" count="85" last-shown="1539195540726" last-used="1528197229941" shown-count="8252" />
     <feature id="switcher" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.complete.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.goto.inspection" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -230,7 +237,7 @@
     <feature id="editing.completion.second.smarttype.chain" count="0" last-shown="1528197800549" last-used="0" shown-count="2" />
     <feature id="ant.quickfix.CreateProperty" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.second.smarttype.toar" count="0" last-shown="1528197800549" last-used="0" shown-count="2" />
-    <feature id="navigation.popup.camelprefix" count="19" last-shown="0" last-used="1527866588201" shown-count="0" />
+    <feature id="navigation.popup.camelprefix" count="20" last-shown="0" last-used="1539204876578" shown-count="0" />
     <feature id="SearchEverywhere" count="36" last-shown="0" last-used="1528548738197" shown-count="0" />
     <feature id="navigation.popup.class" count="1" last-shown="0" last-used="1528053075798" shown-count="0" />
     <feature id="editor.delete.line" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -336,10 +343,11 @@
       <entry path="File -&gt; New -&gt; Project..." count="3" />
       <entry path="File -&gt; Open Recent -&gt; Manage Projects..." count="2" />
       <entry path="File -&gt; Open Recent -&gt; Reopen Project" count="2" />
-      <entry path="File -&gt; Open..." count="10" />
+      <entry path="File -&gt; Open..." count="12" />
       <entry path="File -&gt; Project Structure..." count="8" />
       <entry path="File -&gt; Settings..." count="5" />
       <entry path="View -&gt; Error Description" count="1" />
+      <entry path="View -&gt; Toggle Presentation mode" count="2" />
       <entry path="View -&gt; Tool Windows -&gt; Ant Build" count="3" />
       <entry path="View -&gt; Tool Windows -&gt; Event Log" count="4" />
       <entry path="View -&gt; Tool Windows -&gt; Inspection Results" count="1" />
@@ -364,14 +372,16 @@
       <entry shortcut="Alt+Shift+1" count="2" />
       <entry shortcut="Alt+Shift+2" count="15" />
       <entry shortcut="Alt+Shift+Down" count="26" />
+      <entry shortcut="Alt+Shift+F10" count="1" />
       <entry shortcut="Alt+Shift+R" count="9" />
       <entry shortcut="Alt+Shift+S" count="1" />
       <entry shortcut="Alt+Shift+Up" count="5" />
       <entry shortcut="Alt+Up" count="4" />
-      <entry shortcut="Backspace" count="7513" />
+      <entry shortcut="Backspace" count="7517" />
       <entry shortcut="Context Menu" count="4" />
       <entry shortcut="Ctrl+0" count="1" />
       <entry shortcut="Ctrl+1" count="2" />
+      <entry shortcut="Ctrl+6" count="1" />
       <entry shortcut="Ctrl+7" count="4" />
       <entry shortcut="Ctrl+8" count="1" />
       <entry shortcut="Ctrl+A" count="18" />
@@ -388,10 +398,11 @@
       <entry shortcut="Ctrl+Down" count="6" />
       <entry shortcut="Ctrl+Enter" count="3" />
       <entry shortcut="Ctrl+F" count="384" />
-      <entry shortcut="Ctrl+F11" count="6" />
+      <entry shortcut="Ctrl+F11" count="7" />
       <entry shortcut="Ctrl+Home" count="1" />
       <entry shortcut="Ctrl+Insert" count="2" />
       <entry shortcut="Ctrl+J" count="6" />
+      <entry shortcut="Ctrl+L" count="1" />
       <entry shortcut="Ctrl+Left" count="271" />
       <entry shortcut="Ctrl+Minus" count="13" />
       <entry shortcut="Ctrl+N" count="2" />
@@ -400,7 +411,7 @@
       <entry shortcut="Ctrl+Q" count="46" />
       <entry shortcut="Ctrl+R" count="9" />
       <entry shortcut="Ctrl+Right" count="378" />
-      <entry shortcut="Ctrl+S" count="4023" />
+      <entry shortcut="Ctrl+S" count="4027" />
       <entry shortcut="Ctrl+Shift+1" count="3" />
       <entry shortcut="Ctrl+Shift+6" count="2" />
       <entry shortcut="Ctrl+Shift+7" count="141" />
@@ -414,7 +425,7 @@
       <entry shortcut="Ctrl+Shift+N" count="5" />
       <entry shortcut="Ctrl+Shift+NumPad -" count="3" />
       <entry shortcut="Ctrl+Shift+O" count="19" />
-      <entry shortcut="Ctrl+Shift+P" count="102" />
+      <entry shortcut="Ctrl+Shift+P" count="106" />
       <entry shortcut="Ctrl+Shift+R" count="2" />
       <entry shortcut="Ctrl+Shift+Right" count="128" />
       <entry shortcut="Ctrl+Shift+Space" count="12" />
@@ -431,12 +442,12 @@
       <entry shortcut="Ctrl+W" count="136" />
       <entry shortcut="Ctrl+X" count="111" />
       <entry shortcut="Ctrl+Y" count="84" />
-      <entry shortcut="Ctrl+Z" count="1829" />
+      <entry shortcut="Ctrl+Z" count="1831" />
       <entry shortcut="Delete" count="845" />
       <entry shortcut="Down" count="2873" />
       <entry shortcut="End" count="270" />
       <entry shortcut="Enter" count="4894" />
-      <entry shortcut="Escape" count="459" />
+      <entry shortcut="Escape" count="462" />
       <entry shortcut="F12" count="1" />
       <entry shortcut="F4" count="1" />
       <entry shortcut="Home" count="147" />
@@ -465,8 +476,8 @@
   </component>
   <component name="ToolWindowCollector">
     <counts>
-      <entry toolWindow="Problems by Activation" count="3" />
-      <entry toolWindow="Project by Activation" count="1" />
+      <entry toolWindow="Problems by Activation" count="4" />
+      <entry toolWindow="Project by Activation" count="8" />
     </counts>
   </component>
   <component name="ToolbarClicksCollector">
@@ -479,7 +490,7 @@
       <entry action="Gradle.ExecuteTask@Gradle View Toolbar" count="4" />
       <entry action="MarkNotificationsAsRead@EventLog" count="1" />
       <entry action="Run@NavBarToolbar" count="229" />
-      <entry action="RunConfiguration@NavBarToolbar" count="81" />
+      <entry action="RunConfiguration@NavBarToolbar" count="82" />
       <entry action="Runner.RestoreLayout@RunnerToolbar" count="2" />
       <entry action="Show Options@ToolWindowHeader" count="3" />
       <entry action="Stop@NavBarToolbar" count="14" />
@@ -498,7 +509,7 @@
       <entry action="com.intellij.openapi.externalSystem.util.ExternalSystemUtil$3$3$1@BuildView" count="1" />
       <entry action="com.intellij.openapi.keymap.impl.ui.KeymapPanel$8@Keymap" count="7" />
       <entry action="com.intellij.ui.AnActionButton$AnActionButtonWrapper@ToolbarDecorator" count="4" />
-      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="19" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="20" />
     </counts>
   </component>
   <component name="UsageTrigger">
@@ -513,11 +524,12 @@
       <entry feature="execute.Application.Run" count="1482" />
       <entry feature="execute.GradleRunConfiguration.Run" count="15" />
       <entry feature="execute.GroovyScriptRunConfiguration.Run" count="2" />
+      <entry feature="ide.help.reference.dialogs.rundebug.Application" count="1" />
       <entry feature="ide.settings.Auto Import" count="1" />
-      <entry feature="ide.settings.Color Scheme Font" count="2" />
+      <entry feature="ide.settings.Color Scheme Font" count="3" />
       <entry feature="ide.settings.Compiler" count="6" />
       <entry feature="ide.settings.File and Code Templates" count="2" />
-      <entry feature="ide.settings.Keymap" count="7" />
+      <entry feature="ide.settings.Keymap" count="8" />
       <entry feature="ide.settings.Live Templates" count="5" />
       <entry feature="ide.settings.Material Custom Theme" count="5" />
       <entry feature="ide.settings.Material Theme" count="5" />
@@ -525,7 +537,9 @@
       <entry feature="ide.settings.Runner" count="1" />
       <entry feature="ide.settings.System Settings" count="1" />
       <entry feature="idea.caches.invalidated" count="8" />
-      <entry feature="ideaapp.started" count="109" />
+      <entry feature="ideaapp.started" count="111" />
+      <entry feature="project.view.pane.PackagesPane" count="1" />
+      <entry feature="project.view.pane.Scope.Scope  Project Files   set Project Files  class com.intellij.psi.search.scope.ProjectFilesScope" count="1" />
       <entry feature="terminal.linux" count="13" />
       <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="6" />
       <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="6" />

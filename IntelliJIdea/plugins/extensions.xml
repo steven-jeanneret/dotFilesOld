@@ -337,6 +337,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.asproject">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.google.idea.bazel.ijwb" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.assignmentRules">
       <plugins>
         <option name="myPlugins">
@@ -387,6 +400,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.gmail.blueboxware.libgdxplugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.atomdu">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.atomdu.plugin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -508,6 +534,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.bazelproject">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.google.idea.bazel.ijwb" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.beam">
       <plugins>
         <option name="myPlugins">
@@ -566,6 +605,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="de.uniorg.ui5helper" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.blazeproject">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.google.idea.bazel.ijwb" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -649,6 +701,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.bzl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.google.idea.bazel.ijwb" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -1812,11 +1877,6 @@
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
-            <plugin>
-              <option name="myPluginId" value="org.elmlang.intellijplugin" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
           </set>
         </option>
       </plugins>
@@ -2180,6 +2240,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.jedide.apex" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.fluid">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="de.sgalinski.fluid.plugin.id" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -2838,6 +2911,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.impl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.centurylink.mdw.studio" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.impossibleext">
       <plugins>
         <option name="myPlugins">
@@ -3321,6 +3407,32 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.github.tinselspoon.intellij.kubernetes" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.kubernetes-helm-txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.kubernetes" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.kubernetes-helm-yaml">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.kubernetes" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -4983,6 +5095,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.proc">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.centurylink.mdw.studio" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.profile">
       <plugins>
         <option name="myPlugins">
@@ -6384,6 +6509,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.spring">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.centurylink.mdw.studio" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.sq">
       <plugins>
         <option name="myPlugins">
@@ -6452,6 +6590,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="org.intellij.plugins.ceylon.ide" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.srcjar">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.google.idea.bazel.ijwb" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -6763,6 +6914,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="net.sjrx.intellij.plugins.systemdunitfiles" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.task">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.centurylink.mdw.studio" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -7236,6 +7400,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.tz">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="tezos" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.ui">
       <plugins>
         <option name="myPlugins">
@@ -7540,6 +7717,19 @@
               <option name="myPluginId" value="WebServicesPlugin" />
               <option name="myPluginName" value="WebServicesPlugin" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xlsx">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.centurylink.mdw.studio" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
             </plugin>
           </set>
         </option>
@@ -8038,6 +8228,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="intellij.buck.plugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="BUILD">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.google.idea.bazel.ijwb" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>

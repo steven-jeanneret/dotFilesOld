@@ -2,13 +2,13 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/code/ia/exercices" />
-        <option value="$USER_HOME$/code/p3/test_plotly" />
+        <option value="$USER_HOME$/code/traitement_image/traitement_image_exercices" />
+        <option value="$USER_HOME$/code/p3/data/projet_p3" />
         <option value="$USER_HOME$/code/compilateur/exercice" />
+        <option value="$USER_HOME$/code/p3/test_plotly" />
         <option value="$USER_HOME$/code/i3-QAW" />
         <option value="$USER_HOME$/floobits/share/solca/i3_window_quake_mode" />
         <option value="$USER_HOME$/code/i3QAW" />
-        <option value="$USER_HOME$/code/traitement_image/traitement_image_exercices" />
         <option value="/tmp/01_Serie_Introduction_Q.py" />
         <option value="$USER_HOME$/code/python/projet_hes_ete" />
         <option value="$USER_HOME$/code/python/exemple_presentation" />
@@ -22,10 +22,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/code/ia/exercices" />
+        <option value="$USER_HOME$/code/traitement_image/traitement_image_exercices" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/code/ia/exercices" />
+    <option name="lastPath" value="$USER_HOME$/code/traitement_image/traitement_image_exercices" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -68,8 +68,8 @@
               <option name="build" value="PY-182.4505.26" />
               <option name="productionCode" value="PY" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1538390749278" />
-              <option name="buildTimestamp" value="1537358485684" />
+              <option name="projectOpenTimestamp" value="1539074769457" />
+              <option name="buildTimestamp" value="1537358514975" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -101,8 +101,19 @@
               <option name="build" value="PY-182.4505.26" />
               <option name="productionCode" value="PY" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1538773558306" />
-              <option name="buildTimestamp" value="1537358460970" />
+              <option name="projectOpenTimestamp" value="1538998858235" />
+              <option name="buildTimestamp" value="1537358465475" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/p3/data/projet_p3">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4505.26" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539075140800" />
+              <option name="buildTimestamp" value="1537358514975" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -200,8 +211,8 @@
               <option name="build" value="PY-182.4505.26" />
               <option name="productionCode" value="PY" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1538130878152" />
-              <option name="buildTimestamp" value="1537358512759" />
+              <option name="projectOpenTimestamp" value="1539286692062" />
+              <option name="buildTimestamp" value="1537358489367" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

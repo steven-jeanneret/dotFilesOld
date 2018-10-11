@@ -7,5 +7,6 @@
     <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
     <option name="REFORMAT_ON_PASTE" value="4" />
     <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
+    <option name="TAB_EXITS_BRACKETS_AND_QUOTES" value="true" />
   </component>
 </application>

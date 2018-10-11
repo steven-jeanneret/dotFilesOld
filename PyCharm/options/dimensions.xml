@@ -6,7 +6,7 @@
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="220" y="387" />
     <location key="#Browse_Repositories.0.0.1920.1080" x="66" y="174" />
     <location key="#Plugins.0.0.1920.1080" x="76" y="160" />
-    <location key="SettingsEditor.0.0.1920.1080" x="773" y="17" />
+    <location key="SettingsEditor.0.0.1920.1080" x="425" y="67" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.0.0.1920.1080" x="926" y="161" />
     <location key="#Intentions.0.0.1920.1080" x="76" y="163" />
     <location key="FileChooserDialogImpl.0.0.2560.1440" x="1631" y="429" />
@@ -17,13 +17,13 @@
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="828" y="103" />
     <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" x="634" y="72" />
     <location key="FileChooserDialogImpl.0.360.1920.1080" x="2977" y="405" />
-    <location key="SettingsEditor.0.360.1920.1080" x="2654" y="137" />
+    <location key="SettingsEditor.0.360.1920.1080" x="2652" y="119" />
     <location key="IDE.errors.dialog.0.360.1920.1080" x="2772" y="416" />
     <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.360.1920.1080" x="2881" y="418" />
-    <location key="SettingsEditor.1920.0.2560.1440" x="3351" y="60" />
+    <location key="SettingsEditor.1920.0.2560.1440" x="2106" y="101" />
     <location key="#Inspections.0.0.1920.1080" x="1072" y="181" />
     <location key="#Web_Browsers.0.0.1920.1080" x="432" y="308" />
-    <location key="FileChooserDialogImpl.1920.0.2560.1440" x="2288" y="298" />
+    <location key="FileChooserDialogImpl.1920.0.2560.1440" x="2280" y="236" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.2560.1440" x="2270" y="516" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1920.0.2560.1440" x="2288" y="343" />
     <location key="#com.intellij.ide.util.MemberChooser.1920.0.2560.1440" x="2622" y="401" />
@@ -31,15 +31,17 @@
     <location key="ProcessPopupWindow.0.0.1920.1080" x="1518" y="873" />
     <location key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" x="766" y="219" />
     <location key="#Browse_JetBrains_Plugins_.1920.0.2560.1440" x="2606" y="100" />
-    <location key="#Browse_Repositories.1920.0.2560.1440" x="2606" y="100" />
+    <location key="#Browse_Repositories.1920.0.2560.1440" x="2604" y="83" />
     <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.1920.0.2560.1440" x="2877" y="386" />
     <location key="find.popup.0.360.1920.1080" x="2964" y="116" />
     <location key="#Notifications.1920.0.2560.1440" x="3589" y="387" />
     <location key="FileChooserDialogImpl.0.1050.1920.1080" x="741" y="1308" />
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1878" height="292" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1878" height="292" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1878" height="292" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1878" height="292" />
+    <location key="#lex2.0.0.1920.1080" x="336" y="161" />
+    <location key="WELCOME_SCREEN.1920.0.2560.1440" x="3397" y="523" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1147" height="303" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1147" height="303" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1147" height="303" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1147" height="303" />
     <size key="com.intellij.ide.util.TipDialog.0.0.1920.1080" width="707" height="341" />
     <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2560" height="233" />
     <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2560" height="233" />
@@ -88,5 +90,14 @@
     <size key="find.popup.0.360.1920.1080" width="572" height="754" />
     <size key="#Notifications.1920.0.2560.1440" width="490" height="576" />
     <size key="FileChooserDialogImpl.0.1050.1920.1080" width="428" height="474" />
+    <size key="GridCell.Tab.0.left.1920.0.2560.1440" width="2560" height="466" />
+    <size key="GridCell.Tab.0.center.1920.0.2560.1440" width="2560" height="466" />
+    <size key="GridCell.Tab.0.right.1920.0.2560.1440" width="2560" height="466" />
+    <size key="GridCell.Tab.0.bottom.1920.0.2560.1440" width="2560" height="466" />
+    <size key="GridCell.Tab.0.left.4480.360.1920.1080" width="1920" height="339" />
+    <size key="GridCell.Tab.0.center.4480.360.1920.1080" width="1920" height="339" />
+    <size key="GridCell.Tab.0.right.4480.360.1920.1080" width="1920" height="339" />
+    <size key="GridCell.Tab.0.bottom.4480.360.1920.1080" width="1920" height="339" />
+    <size key="#lex2.0.0.1920.1080" width="471" height="674" />
   </component>
 </application>

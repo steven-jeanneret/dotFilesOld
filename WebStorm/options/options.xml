@@ -7,10 +7,10 @@
     <property name="LAST_INJECTED_LANGUAGE" value="CSS" />
     <property name="MTBoldTabs" value="false" />
     <property name="MTBorderPopup" value="true" />
-    <property name="MTTabsHeight" value="23" />
-    <property name="PLUGIN_FILTER" value="material&#10;material theme" />
+    <property name="MTTabsHeight" value="30" />
+    <property name="PLUGIN_FILTER" value="brac&#10;bracket&#10;rainbow&#10;main menu&#10;rain" />
     <property name="SearchEveryWhereHistory" value="*&#10;impo&#10;settings" />
-    <property name="SettingsSearchHistory" value="focus&#10;material&#10;column&#10;line&#10;vertical" />
+    <property name="SettingsSearchHistory" value="bracketp&#10;plugin&#10;material&#10;font&#10;bracket" />
     <property name="WebStorm.enableDefaultTooltipFixes" value="true" />
     <property name="WebStorm.initialConfigurationShown" value="true" />
     <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="PALENIGHT" />
@@ -19,15 +19,16 @@
     <property name="evlsprt3.181" value="14" />
     <property name="evlsprt3.182" value="10" />
     <property name="export.settings.path" value="$USER_HOME$/Downloads/settings.jar" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Downloads&#10;/home/steven/code/infographie/exercices&#10;/home/steven/Downloads/settings.jar&#10;/home/steven/Documents/2/Algorithme_Numerique/projet_perso&#10;/home/steven/code/js/test_graphics&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/webstorm.jar&#10;/home/steven/Documents/2/Algorithme_Numerique/algo_num_labos" />
+    <property name="file.chooser.recent.files" value="/opt/pycharm-professional/jre64&#10;/home/steven/Downloads&#10;/home/steven/code/infographie/exercices&#10;/home/steven/Downloads/settings.jar&#10;/home/steven/Documents/2/Algorithme_Numerique/projet_perso&#10;/home/steven/code/js/test_graphics&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/webstorm.jar&#10;/home/steven/Documents/2/Algorithme_Numerique/algo_num_labos" />
     <property name="file.gist.reindex.count" value="47" />
-    <property name="fileTypeChangedCounter" value="2" />
+    <property name="fileTypeChangedCounter" value="8" />
     <property name="js.rename.search.for.text.occurrences" value="false" />
     <property name="js.rename.search.in.comments" value="true" />
     <property name="lastTip" value="5" />
     <property name="mt.isShownWizard" value="true" />
     <property name="mt.showStatisticsAgreement" value="true" />
-    <property name="selected.color.option.type" value="TYPO" />
+    <property name="rainbow.selected.color.option.name" value="Angle Brackets" />
+    <property name="selected.color.option.type" value="DOUBLE_QUOTE_ATTR" />
     <property name="ts.lib.d.ts.version" value="3.0.1" />
   </component>
 </application>
