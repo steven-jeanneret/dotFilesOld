@@ -2,6 +2,8 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/code/traitement_parallele/WJavaFonctionelStudent" />
+        <option value="$USER_HOME$/Documents/2/ProjetP2_Java/Fluidator/core/assets" />
         <option value="$USER_HOME$/Documents/2/ProjetP2_Java/Fluidator" />
         <option value="$USER_HOME$/Downloads/test_fluidator/Fluidator" />
         <option value="$USER_HOME$/Documents/2/Programmation Concurrente/Laboratoires/progconc_labo4/CodeSource" />
@@ -16,10 +18,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/Documents/2/ProjetP2_Java/Fluidator" />
+        <option value="$USER_HOME$/code/traitement_parallele/WJavaFonctionelStudent" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Documents/2/ProjetP2_Java/Fluidator" />
+    <option name="lastPath" value="$USER_HOME$/code/traitement_parallele/WJavaFonctionelStudent" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -92,11 +94,22 @@
         <entry key="$USER_HOME$/Documents/2/ProjetP2_Java/Fluidator">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="IU-182.4129.33" />
+              <option name="build" value="IU-182.4505.22" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1536002734005" />
-              <option name="buildTimestamp" value="1534836473845" />
+              <option name="projectOpenTimestamp" value="1539195398221" />
+              <option name="buildTimestamp" value="1537270927335" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/2/ProjetP2_Java/Fluidator/core/assets">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-182.4505.22" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539195445836" />
+              <option name="buildTimestamp" value="1537270927335" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -130,6 +143,17 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1524552659183" />
               <option name="buildTimestamp" value="1523304489823" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/traitement_parallele/WJavaFonctionelStudent">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-182.4505.22" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539205154242" />
+              <option name="buildTimestamp" value="1537270951134" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

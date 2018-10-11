@@ -1,10 +1,10 @@
 <scheme name="_@user_Material Palenight" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
+  <option name="FONT_SCALE" value="0.75" />
   <metaInfo>
     <property name="created">2018-08-22T11:36:07</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.2.1.0.0</property>
-    <property name="modified">2018-10-05T14:34:38</property>
+    <property name="modified">2018-10-11T16:35:50</property>
     <property name="originalScheme">Material Palenight</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -14,10 +14,10 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Monospaced" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
+    <option name="EDITOR_FONT_SIZE" value="11" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="PragmataPro" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
+  <option name="CONSOLE_FONT_SIZE" value="9" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="c3e88d" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />

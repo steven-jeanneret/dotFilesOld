@@ -28,6 +28,7 @@ offset-x = 0
 offset-y = 0
 bottom = true
 
+
 ;background = ${xrdb:color9}
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -58,7 +59,6 @@ modules-right = backlight volume battery date
 
 tray-position = right
 tray-padding = 02
-
 
 ;tray-transparent = true
 ;tray-background = #0063ff

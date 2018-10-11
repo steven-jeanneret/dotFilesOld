@@ -4,7 +4,7 @@
     <location key="WELCOME_SCREEN.0.0.1920.1080" x="957" y="382" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="618" y="343" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="698" y="388" />
-    <location key="SettingsEditor.0.0.1920.1080" x="413" y="-16" />
+    <location key="SettingsEditor.0.0.1920.1080" x="441" y="141" />
     <location key="#Browse_Repositories.0.0.1920.1080" x="544" y="175" />
     <location key="#Plugins.0.0.1920.1080" x="556" y="178" />
     <location key="FileChooserDialogImpl.0.0.2560.1440" x="1066" y="315" />
@@ -22,7 +22,7 @@
     <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.4480.1632" x="1040" y="235" />
     <location key="#UserTest.0.0.2560.1440" x="1011" y="338" />
     <location key="SettingsEditor.0.632.1920.1080" x="440" y="788" />
-    <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" x="1276" y="201" />
+    <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" x="1274" y="183" />
     <location key="FileChooserDialogImpl.1920.0.2560.1440" x="2969" y="323" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.2560.1440" x="2944" y="555" />
     <location key="SettingsEditor.1920.0.2560.1440" x="2653" y="256" />

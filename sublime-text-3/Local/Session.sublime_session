@@ -538,6 +538,7 @@
 			},
 			"file_history":
 			[
+				"/home/steven/Downloads/last_screen.png",
 				"/home/steven/Downloads/logs_temp.txt",
 				"/home/steven/.i3/lock",
 				"/home/steven/.WebStorm2018.2/config/idea.properties",
@@ -643,7 +644,7 @@
 			],
 			"find":
 			{
-				"height": 30.9072781655
+				"height": 26.3157894737
 			},
 			"find_in_files":
 			{
@@ -787,8 +788,8 @@
 								"selection":
 								[
 									[
-										1134,
-										1134
+										1391,
+										1391
 									]
 								],
 								"settings":
@@ -796,7 +797,7 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 209.371884347,
+								"translation.y": 209.330143541,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -807,7 +808,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 30.9072781655
+				"height": 26.3157894737
 			},
 			"input":
 			{
@@ -841,11 +842,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,3201,2,4476,1409,6400,1440",
+			"position": "0,0,0,0,0,641,2,1277,1049,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 57.8265204387
+				"height": 47.8468899522
 			},
 			"save_all_on_build": true,
 			"select_file":

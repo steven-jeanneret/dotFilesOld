@@ -33,14 +33,14 @@
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="FileTemplates.SelectedTemplate" value="Python Script" />
-    <property name="KEYMAP" value="shrink selection&#10;extend selection&#10;end line&#10;line start&#10;down with selection" />
+    <property name="KEYMAP" value="completion&#10;dupli&#10;shrink selection&#10;extend selection&#10;end line" />
     <property name="MTBoldTabs" value="false" />
     <property name="MTBorderPopup" value="true" />
-    <property name="MTTabsHeight" value="23" />
+    <property name="MTTabsHeight" value="27" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="OpenOrAttachDialog.OpenMode" value="replace" />
-    <property name="PLUGIN_FILTER" value="floobi&#10;teamwork&#10;bintray&#10;binary&#10;markdown" />
+    <property name="PLUGIN_FILTER" value="toggle&#10;floobi&#10;teamwork&#10;bintray&#10;binary" />
     <property name="PyCharm.InitialConfiguration" value="true" />
     <property name="PyCharm.InitialConfiguration.V2" value="true" />
     <property name="PyCharm.InitialConfiguration.V3" value="true" />
@@ -50,18 +50,19 @@
     <property name="PyCharm.InitialConfiguration.V7" value="true" />
     <property name="PyCharm.initialConfigurationShown" value="true" />
     <property name="SearchEveryWhereHistory" value="B&#10;--&#10;models&#10;view&#10;models.py" />
-    <property name="SettingsSearchHistory" value="material&#10;typo&#10;jump outside&#10;tab&#10;floobits co" />
+    <property name="SettingsSearchHistory" value="font&#10;console&#10;terminal&#10;font size&#10;terminal font" />
     <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="PALENIGHT" />
     <property name="evlsprt3.181" value="14" />
     <property name="evlsprt3.182" value="19" />
     <property name="export.settings.path" value="$USER_HOME$/Downloads/settings.jar" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/code/p3/test_plotly&#10;/home/steven/code/i3-QAW&#10;/home/steven/code/compilateur/exercice&#10;/home/steven/floobits/share/solca/i3_window_quake_mode&#10;/home/steven/code/i3QAW&#10;/home/steven/code/traitement_image/traitement_image_exercices&#10;/home/steven/code/ia/exercices&#10;/home/steven/code/python/exemple_presentation&#10;/home/steven/code/python/projet_hes_ete/RSAM/RSAM/settings.py&#10;/home/steven/code/python/projet_hes_ete/RSAM&#10;/home/steven/code/python/tuto_sibtc/sibtc_project/sibtc_project/settings.py&#10;/home/steven/code/python/tuto_sibtc/sibtc_project&#10;/home/steven/Downloads&#10;/home/steven/code/python/projet_hes_ete&#10;/home/steven/code/python/tuto_sibtc&#10;/home/steven/code/python/script_monitoring/get_data.py&#10;/usr/bin/python&#10;/home/steven/code/python/script_monitoring&#10;/home/steven/code/python&#10;/home/steven/Downloads/django-form-fun-master/part1/pre-ajax&#10;/home/steven/code/python/test_ajax&#10;/home/steven/code/python/tuto_rest/chap1&#10;/home/steven/code/MngDotF/MngDotF.py&#10;/home/steven/code/python/cours&#10;/home/steven/Documents/2/Python3/exercices/projet_pych&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/pycharm.jar&#10;/home/steven/Documents/2/Python3/exercices" />
-    <property name="file.gist.reindex.count" value="55174" />
-    <property name="fileTypeChangedCounter" value="7" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/.virtualenvs/p3_autonme/bin/python3.7&#10;/home/steven/.virtualenvs/projet_p3/bin&#10;/home/steven/code/p3/data/projet_p3&#10;/home/steven/code/p3/test_plotly&#10;/home/steven/code/i3-QAW&#10;/home/steven/code/compilateur/exercice&#10;/home/steven/floobits/share/solca/i3_window_quake_mode&#10;/home/steven/code/i3QAW&#10;/home/steven/code/traitement_image/traitement_image_exercices&#10;/home/steven/code/ia/exercices&#10;/home/steven/code/python/exemple_presentation&#10;/home/steven/code/python/projet_hes_ete/RSAM/RSAM/settings.py&#10;/home/steven/code/python/projet_hes_ete/RSAM&#10;/home/steven/code/python/tuto_sibtc/sibtc_project/sibtc_project/settings.py&#10;/home/steven/code/python/tuto_sibtc/sibtc_project&#10;/home/steven/Downloads&#10;/home/steven/code/python/projet_hes_ete&#10;/home/steven/code/python/tuto_sibtc&#10;/home/steven/code/python/script_monitoring/get_data.py&#10;/usr/bin/python&#10;/home/steven/code/python/script_monitoring&#10;/home/steven/code/python&#10;/home/steven/Downloads/django-form-fun-master/part1/pre-ajax&#10;/home/steven/code/python/test_ajax&#10;/home/steven/code/python/tuto_rest/chap1&#10;/home/steven/code/MngDotF/MngDotF.py&#10;/home/steven/code/python/cours&#10;/home/steven/Documents/2/Python3/exercices/projet_pych&#10;/home/steven/Documents/Utilitaires/editeur_texte/intelliJ/pycharm.jar&#10;/home/steven/Documents/2/Python3/exercices" />
+    <property name="file.gist.reindex.count" value="57674" />
+    <property name="fileTypeChangedCounter" value="9" />
     <property name="lastTip" value="10" />
     <property name="mt.isShownWizard" value="true" />
     <property name="mt.showStatisticsAgreement" value="true" />
     <property name="selected.color.option.type" value="TYPO" />
+    <property name="settings.code.style.selected.tab.Python" value="Imports" />
     <property name="ts.lib.d.ts.version" value="3.0.1" />
   </component>
 </application>
