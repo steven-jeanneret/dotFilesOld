@@ -60,6 +60,7 @@ pacman --needed --noconfirm -S lxqt-policykit
 pacman --needed --noconfirm -S htop
 pacman --needed --noconfirm -S gparted
 pacman --needed --noconfirm -S xfce4-notifyd
+pacman --needed --noconfirm -S xfce4-power-manager
 pacman --needed --noconfirm -S cups
 pacman --needed --noconfirm -S cups-pdf
 pacman --needed --noconfirm -S print-manager
