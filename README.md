@@ -75,3 +75,4 @@ List of all app that I used for the interface :
  * ranger # Fast file manager with vim shortcut
  * google chrome # Web browser
  * code # Editor
+ 
