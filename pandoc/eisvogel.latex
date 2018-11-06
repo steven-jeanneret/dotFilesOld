@@ -40,14 +40,60 @@
 
 \PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
 \PassOptionsToPackage{hyphens}{url}
-\PassOptionsToPackage{svgnames*,table}{xcolor}
-%
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$else$a4paper,$endif$$if(beamer)$ignorenonframetext,$if(handout)$handout,$endif$$if(aspectratio)$aspectratio=$aspectratio$,$endif$$endif$$for(classoption)$$classoption$$sep$,$endfor$,tablecaptionabove]{scrartcl}
+\PassOptionsToPackage{dvipsnames,svgnames*,table}{xcolor}
+$if(dir)$$if(latex-dir-rtl)$
+\PassOptionsToPackage{RTLdocument}{bidi}
+$endif$$endif$%
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$else$a4paper,$endif$$if(beamer)$ignorenonframetext,$if(handout)$handout,$endif$$if(aspectratio)$aspectratio=$aspectratio$,$endif$$endif$$for(classoption)$$classoption$$sep$,$endfor$,tablecaptionabove]{$if(book)$scrbook$else$scrartcl$endif$}
 $if(beamer)$
+$if(background-image)$
+\usebackgroundtemplate{%
+\includegraphics[width=\paperwidth]{$background-image$}%
+}
+$endif$
+\usepackage{pgfpages}
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{caption label separator}{: }
 \setbeamercolor{caption name}{fg=normal text.fg}
 \beamertemplatenavigationsymbols$if(navigation)$$navigation$$else$empty$endif$
+$for(beameroption)$
+\setbeameroption{$beameroption$}
+$endfor$
+% Prevent slide breaks in the middle of a paragraph:
+\widowpenalties 1 10000
+\raggedbottom
+$if(section-titles)$
+\setbeamertemplate{part page}{
+\centering
+\begin{beamercolorbox}[sep=16pt,center]{part title}
+  \usebeamerfont{part title}\insertpart\par
+\end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+\centering
+\begin{beamercolorbox}[sep=12pt,center]{part title}
+  \usebeamerfont{section title}\insertsection\par
+\end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{part title}
+  \usebeamerfont{subsection title}\insertsubsection\par
+\end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+$endif$
 $endif$
 $if(beamerarticle)$
 \usepackage{beamerarticle} % needs to be loaded first
@@ -60,6 +106,9 @@ $endif$
 $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
+$else$
+\usepackage{setspace}
+\setstretch{1.2}
 $endif$
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -161,9 +210,10 @@ $if(verbatim-in-note)$
 $endif$
 $if(colorlinks)$
 \usepackage{xcolor}
+\definecolor{default-linkcolor}{HTML}{A50000}
+\definecolor{default-filecolor}{HTML}{A50000}
 \definecolor{default-citecolor}{HTML}{4077C0}
 \definecolor{default-urlcolor}{HTML}{4077C0}
-\definecolor{Blue}{rgb}{0,0,.6}
 $endif$
 \usepackage{hyperref}
 \hypersetup{
@@ -179,12 +229,10 @@ $endif$
 $if(keywords)$
             pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
 $endif$
-$if(tags)$
-            pdfkeywords={$for(tags)$$tags$$sep$, $endfor$},
-$endif$
 $if(colorlinks)$
             colorlinks=true,
-            linkcolor=$if(linkcolor)$$linkcolor$$else$Blue$endif$,
+            linkcolor=$if(linkcolor)$$linkcolor$$else$default-linkcolor$endif$,
+            filecolor=$if(filecolor)$$filecolor$$else$default-filecolor$endif$,
             citecolor=$if(citecolor)$$citecolor$$else$default-citecolor$endif$,
             urlcolor=$if(urlcolor)$$urlcolor$$else$default-urlcolor$endif$,
 $else$
@@ -199,6 +247,10 @@ $if(geometry)$
 \usepackage[margin=2.5cm,includehead=true,includefoot=true,centering,$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $else$
 \usepackage[margin=2.5cm,includehead=true,includefoot=true,centering]{geometry}
+$endif$
+$if(logo)$
+\usepackage[export]{adjustbox}
+\usepackage{graphicx}
 $endif$
 $if(beamer)$
 \newif\ifbibliography
@@ -236,43 +288,6 @@ $if(graphics)$
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-$endif$
-$if(beamer)$
-% Prevent slide breaks in the middle of a paragraph:
-\widowpenalties 1 10000
-\raggedbottom
-$if(section-titles)$
-\setbeamertemplate{part page}{
-\centering
-\begin{beamercolorbox}[sep=16pt,center]{part title}
-  \usebeamerfont{part title}\insertpart\par
-\end{beamercolorbox}
-}
-\setbeamertemplate{section page}{
-\centering
-\begin{beamercolorbox}[sep=12pt,center]{part title}
-  \usebeamerfont{section title}\insertsection\par
-\end{beamercolorbox}
-}
-\setbeamertemplate{subsection page}{
-\centering
-\begin{beamercolorbox}[sep=8pt,center]{part title}
-  \usebeamerfont{subsection title}\insertsubsection\par
-\end{beamercolorbox}
-}
-\AtBeginPart{
-  \frame{\partpage}
-}
-\AtBeginSection{
-  \ifbibliography
-  \else
-    \frame{\sectionpage}
-  \fi
-}
-\AtBeginSubsection{
-  \frame{\subsectionpage}
-}
-$endif$
 $endif$
 $if(links-as-notes)$
 % Make links footnotes instead of hotlinks:
@@ -340,11 +355,7 @@ $endif$
 $if(dir)$
 \ifxetex
   % load bidi as late as possible as it modifies e.g. graphicx
-  $if(latex-dir-rtl)$
-  \usepackage[RTLdocument]{bidi}
-  $else$
   \usepackage{bidi}
-  $endif$
 \fi
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \TeXXeTstate=1
@@ -378,10 +389,6 @@ $endif$
 $if(school)$
 \providecommand{\school}[1]{}
 \school{$school$}
-$endif$
-$if(class)$
-\providecommand{\class}[1]{}
-\class{$class$}
 $endif$
 $if(institute)$
 \providecommand{\institute}[1]{}
@@ -475,15 +482,6 @@ $if(numbersections)$
 $endif$
 
 %
-% line spacing
-%
-$if(linestretch)$
-$else$
-\usepackage{setspace}
-\setstretch{1.2}
-$endif$
-
-%
 % break urls
 %
 \PassOptionsToPackage{hyphens}{url}
@@ -543,9 +541,7 @@ $endif$
 $if(school)$
 \school{$school$}
 $endif$
-$if(class)$
-\class{$class$}
-$endif$
+
 %
 % tables
 %
@@ -558,14 +554,15 @@ $if(tables)$
 \arrayrulecolor{table-rule-color}     % color of \toprule, \midrule, \bottomrule
 \setlength\heavyrulewidth{0.3ex}      % thickness of \toprule, \bottomrule
 \renewcommand{\arraystretch}{1.3}     % spacing (padding)
-\rowcolors{3}{}{table-row-color!100}  % row color
 
 % Reset rownum counter so that each table
 % starts with the same row colors.
 % https://tex.stackexchange.com/questions/170637/restarting-rowcolors
 \let\oldlongtable\longtable
 \let\endoldlongtable\endlongtable
-\renewenvironment{longtable}{\oldlongtable} {
+\renewenvironment{longtable}{
+\rowcolors{3}{}{table-row-color!100}  % row color
+\oldlongtable} {
 \endoldlongtable
 \global\rownum=0\relax}
 
@@ -594,16 +591,21 @@ $endif$
 $if(listings)$
 \lstdefinestyle{eisvogel_listing_style}{
   language         = java,
+$if(listings-disable-line-numbers)$
+  xleftmargin      = 0.6em,
+  framexleftmargin = 0.4em,
+$else$
   numbers          = left,
+  xleftmargin      = 2.7em,
+  framexleftmargin = 2.5em,
+$endif$
   backgroundcolor  = \color{listing-background},
   basicstyle       = \color{listing-text-color}\small\ttfamily{}\linespread{1.15}, % print whole listing small
-  xleftmargin      = 2.7em,
   breaklines       = true,
   frame            = single,
   framesep         = 0.6mm,
   rulecolor        = \color{listing-rule},
   frameround       = ffff,
-  framexleftmargin = 2.5em,
   tabsize          = 4,
   numberstyle      = \color{listing-numbers},
   aboveskip        = 1.0em,
@@ -652,18 +654,21 @@ $endif$
 %
 % header and footer
 %
+$if(disable-header-and-footer)$
+$else$
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}
-\lhead{$title$}
-\chead{}
-\rhead{$date$}
-\lfoot{$for(author)$$author$$sep$, $endfor$}
-\cfoot{}
-\rfoot{\thepage}
+\lhead[$if(header-right)$$header-right$$else$$date$$endif$]{$if(header-left)$$header-left$$else$$title$$endif$}
+\chead[$if(header-center)$$header-center$$else$$endif$]{$if(header-center)$$header-center$$else$$endif$}
+\rhead[$if(header-left)$$header-left$$else$$title$$endif$]{$if(header-right)$$header-right$$else$$date$$endif$}
+\lfoot[$if(footer-right)$$footer-right$$else$\thepage$endif$]{$if(footer-left)$$footer-left$$else$$for(author)$$author$$sep$, $endfor$$endif$}
+\cfoot[$if(footer-center)$$footer-center$$else$$endif$]{$if(footer-center)$$footer-center$$else$$endif$}
+\rfoot[$if(footer-left)$$footer-left$$else$$for(author)$$author$$sep$, $endfor$$endif$]{$if(footer-right)$$footer-right$$else$\thepage$endif$}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
+$endif$
 
 %%
 %% end added
@@ -706,11 +711,13 @@ $if(school)$
 {\Large \textsf{$school$}}
 $endif$
 \vskip 0.1em
-$if(class)$
-{\Large \textsf{$class$}}
-$endif$
 \vfill
 }
+
+$if(logo)$
+\noindent
+\includegraphics[width=$if(logo-width)$$logo-width$$else$100$endif$pt, left]{$logo$}
+$endif$
 
 \textsf{$date$}}
 \end{flushleft}
@@ -738,8 +745,14 @@ $include-before$
 
 $endfor$
 $if(toc)$
+$if(toc-title)$
+\renewcommand*\contentsname{$toc-title$}
+$endif$
 $if(beamer)$
 \begin{frame}
+$if(toc-title)$
+\frametitle{$toc-title$}
+$endif$
 \tableofcontents[hideallsubsections]
 \end{frame}
 $if(toc-own-page)$
