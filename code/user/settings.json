@@ -1,5 +1,5 @@
 {
-	"window.zoomLevel": -1,
+	"window.zoomLevel": -2,
 	"C_Cpp.intelliSenseEngine": "Default",
 	"C_Cpp.errorSquiggles": "Enabled",
 	"C_Cpp.autocomplete": "Disabled",
@@ -7,7 +7,7 @@
 	"editor.fontWeight": "400",
 	"editor.mouseWheelScrollSensitivity": 0.5,
 	"editor.formatOnType": false,
-	"editor.formatOnPaste": true,
+	"editor.formatOnPaste": false,
 	"editor.snippetSuggestions": "top",
 	"editor.renderLineHighlight": "gutter",
 
@@ -217,4 +217,7 @@
 	"markdown.preview.linkify": false,
 	"markdown.extension.tableFormatter.enabled": false,
 	"markdown.extension.tableFormatter.normalizeIndentation": false,
+	"breadcrumbs.enabled": true,
+	"materialTheme.autoApplyIcons": false,
+	"cSpell.language": "fr,fr-FR",
 }

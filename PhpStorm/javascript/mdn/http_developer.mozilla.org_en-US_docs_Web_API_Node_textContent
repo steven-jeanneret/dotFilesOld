@@ -1,0 +1,1 @@
+The <code><strong>Node.textContent</strong></code> property represents the text content of a node and its descendants. However, it is <a href="#Differences_from_innerText">very different from the confusable <code>innerText</code> property</a>.

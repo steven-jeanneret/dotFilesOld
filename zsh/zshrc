@@ -6,6 +6,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/bin/virtualenv
 export PATH=$PATH:$HOME/.config/composer/vendor/bin
 
+
 source $ZSH/oh-my-zsh.sh
 source "$HOME/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 source "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"

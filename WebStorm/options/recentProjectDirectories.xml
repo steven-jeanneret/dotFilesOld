@@ -2,7 +2,11 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/code/infographie/infographie_labos/labo2" />
+        <option value="$USER_HOME$/code/infographie/labo/labo1_infographie_inf3dlmb_groupe3" />
+        <option value="$USER_HOME$/code/revealjs" />
         <option value="$USER_HOME$/code/infographie/exercices" />
+        <option value="$USER_HOME$/code/infographie/labo/labo1" />
         <option value="$USER_HOME$/Documents/2/Algorithme_Numerique/projet_perso" />
         <option value="$USER_HOME$/Documents/2/Algorithme_Numerique/algo_num_labos" />
         <option value="$USER_HOME$/code/js/test_graphics" />
@@ -10,10 +14,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/code/infographie/exercices" />
+        <option value="$USER_HOME$/code/infographie/infographie_labos/labo2" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/code/infographie/exercices" />
+    <option name="lastPath" value="$USER_HOME$/code/infographie/infographie_labos/labo2" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -42,11 +46,44 @@
         <entry key="$USER_HOME$/code/infographie/exercices">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="WS-182.4505.50" />
+              <option name="build" value="WS-182.4892.25" />
               <option name="productionCode" value="WS" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1539175934519" />
-              <option name="buildTimestamp" value="1538577345680" />
+              <option name="projectOpenTimestamp" value="1542041949867" />
+              <option name="buildTimestamp" value="1539867886525" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/infographie/infographie_labos/labo2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-182.5107.19" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1542805566010" />
+              <option name="buildTimestamp" value="1542008600926" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/infographie/labo/labo1">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-182.4892.25" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1540308325749" />
+              <option name="buildTimestamp" value="1539867840940" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/infographie/labo/labo1_infographie_inf3dlmb_groupe3">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-182.5107.19" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1542787295569" />
+              <option name="buildTimestamp" value="1542008600926" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -58,6 +95,17 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1526066869287" />
               <option name="buildTimestamp" value="1523264865303" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/revealjs">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-182.5107.19" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1542786986751" />
+              <option name="buildTimestamp" value="1542008600926" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

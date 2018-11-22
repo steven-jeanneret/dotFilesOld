@@ -1,0 +1,1 @@
+The value of the <strong><code>NavigatorID.appCodeName</code></strong> property is always "<code>Mozilla</code>", in any browser. This property is kept only for compatibility purposes.

@@ -1,0 +1,1 @@
+The <strong><code>transferSize</code></strong> read-only property represents the size (in octets) of the fetched resource. The size includes the response header fields plus the response payload body (as defined by <a href="http://httpwg.github.io/specs/rfc7230.html#message.body">RFC7230</a>.

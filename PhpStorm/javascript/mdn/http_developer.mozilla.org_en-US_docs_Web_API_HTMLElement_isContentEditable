@@ -1,0 +1,1 @@
+The <strong><code>HTMLElement.isContentEditable</code></strong> read-only property returns a <a href="/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean" title="The Boolean object is an object wrapper for a boolean value."><code>Boolean</code></a> that is <code>true</code> if the contents of the element are editable; otherwise it returns <code>false</code>.

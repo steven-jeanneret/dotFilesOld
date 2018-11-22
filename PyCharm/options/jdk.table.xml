@@ -87,7 +87,7 @@
     <jdk version="2">
       <name value="Python 3.7" />
       <type value="Python SDK" />
-      <version value="Python 3.7.0" />
+      <version value="Python 3.7.1" />
       <homePath value="/usr/bin/python" />
       <roots>
         <classPath>
@@ -254,7 +254,7 @@
     <jdk version="2">
       <name value="Python 3.7 (projet_p3)" />
       <type value="Python SDK" />
-      <version value="Python 3.7.0" />
+      <version value="Python 3.7.1" />
       <homePath value="$USER_HOME$/.virtualenvs/projet_p3/bin/python" />
       <roots>
         <classPath>
@@ -278,6 +278,34 @@
         </sourcePath>
       </roots>
       <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/code/p3/data/projet_p3" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.7 (ia_tp1)" />
+      <type value="Python SDK" />
+      <version value="Python 3.7.1" />
+      <homePath value="$USER_HOME$/code/ia/ia_tp1/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python3.7" type="simple" />
+            <root url="file:///usr/lib/python3.7/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/code/ia/ia_tp1/venv/lib/python3.7/site-packages" type="simple" />
+            <root url="jar://$USER_HOME$/code/ia/ia_tp1/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg!/" type="simple" />
+            <root url="file://$USER_HOME$/code/ia/ia_tp1/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg" type="simple" />
+            <root url="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1766691779" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/code/ia/ia_tp1" />
     </jdk>
   </component>
 </application>

@@ -1,8 +1,15 @@
 <application>
   <component name="DefaultFont">
+    <option name="FONT_SIZE" value="9" />
     <option name="FONT_FAMILY" value="PragmataPro" />
+    <option name="FONT_SCALE" value="0.75" />
   </component>
   <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="PHP" value="true" />
+      </map>
+    </option>
     <option name="USE_SOFT_WRAPS" value="" />
   </component>
   <component name="LiveEditOptions" chromeUpdateApp="true" chromeUpdateOnChanges="true" />

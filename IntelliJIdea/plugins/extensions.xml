@@ -1344,6 +1344,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.cr">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="net.kenro.ji.jin.intellij.crystal-2" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.cs">
       <plugins>
         <option name="myPlugins">
@@ -3838,6 +3851,11 @@
       <plugins>
         <option name="myPlugins">
           <set>
+            <plugin>
+              <option name="myPluginId" value="MatlabSupport" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
             <plugin>
               <option name="myPluginId" value="de.halirutan.mathematica" />
               <option name="myPluginName" />
@@ -8052,6 +8070,11 @@
       <plugins>
         <option name="myPlugins">
           <set>
+            <plugin>
+              <option name="myPluginId" value="net.ashald.envfile" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
             <plugin>
               <option name="myPluginId" value="ru.adelf.idea.dotenv" />
               <option name="myPluginName" />

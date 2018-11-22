@@ -1,12 +1,13 @@
 {
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"font_face": "Dank Mono",
-	"font_size": 11,
+	"font_size": 15,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"mdpopups.use_sublime_highlighter": true,
 	"show_definitions": true,
-	"theme": "Material-Theme-Darker.sublime-theme"
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"show_encoding": true
 }

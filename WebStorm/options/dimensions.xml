@@ -8,19 +8,23 @@
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="702" y="390" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="1086" y="343" />
     <location key="com.intellij.ide.util.TipDialog.0.0.2560.1440" x="948" y="511" />
-    <location key="FileChooserDialogImpl.0.0.2560.1440" x="1066" y="442" />
-    <location key="SettingsEditor.0.0.2560.1440" x="762" y="325" />
+    <location key="FileChooserDialogImpl.0.0.2560.1440" x="1064" y="424" />
+    <location key="SettingsEditor.0.0.2560.1440" x="758" y="289" />
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.2560.1440" x="1016" y="435" />
     <location key="SettingsEditor.0.632.1920.1080" x="440" y="788" />
     <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" x="1118" y="224" />
-    <location key="FileChooserDialogImpl.1920.0.2560.1440" x="2555" y="321" />
+    <location key="FileChooserDialogImpl.1920.0.2560.1440" x="2553" y="303" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.2560.1440" x="1408" y="537" />
-    <location key="FileChooserDialogImpl.0.360.1920.1080" x="3620" y="440" />
+    <location key="FileChooserDialogImpl.0.360.1920.1080" x="3616" y="405" />
     <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.1920.0.2560.1440" x="3260" y="387" />
-    <location key="#com.intellij.fileTypes.FileTypeChooser.1920.0.2560.1440" x="3592" y="457" />
-    <location key="SettingsEditor.1920.0.2560.1440" x="3256" y="86" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.1920.0.2560.1440" x="3590" y="439" />
+    <location key="SettingsEditor.1920.0.2560.1440" x="3254" y="68" />
     <location key="SettingsEditor.4480.360.1920.1080" x="2814" y="396" />
     <location key="#Browse_Repositories.1920.0.2560.1440" x="2176" y="189" />
+    <location key="#Browse_Repositories.0.360.1920.1080" x="3415" y="322" />
+    <location key="SettingsEditor.0.360.1920.1080" x="3431" y="394" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.360.1920.1080" x="2948" y="472" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.2560.1440" x="1013" y="472" />
     <size key="FileChooserDialogImpl.0.0.1920.1080" width="428" height="524" />
     <size key="GridCell.Tab.0.left.0.0.1920.1080" width="959" height="146" />
     <size key="GridCell.Tab.0.center.0.0.1920.1080" width="959" height="146" />
@@ -42,7 +46,7 @@
     <size key="FileChooserDialogImpl.0.360.1920.1080" width="428" height="473" />
     <size key="javadoc.popup.new.1920.0.2560.1440" width="300" height="259" />
     <size key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.1920.0.2560.1440" width="628" height="510" />
-    <size key="#com.intellij.fileTypes.FileTypeChooser.1920.0.2560.1440" width="475" height="391" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.1920.0.2560.1440" width="506" height="391" />
     <size key="SettingsEditor.1920.0.2560.1440" width="1008" height="755" />
     <size key="SettingsEditor.0.0.1920.1080" width="1008" height="693" />
     <size key="javadoc.popup.new.0.0.1920.1080" width="300" height="27" />
@@ -50,5 +54,10 @@
     <size key="#Browse_Repositories.1920.0.2560.1440" width="828" height="663" />
     <size key="#Browse_Repositories.0.0.1920.1080" width="828" height="663" />
     <size key="javadoc.popup.new.0.360.1920.1080" width="225" height="32" />
+    <size key="#Browse_Repositories.0.360.1920.1080" width="828" height="663" />
+    <size key="SettingsEditor.0.360.1920.1080" width="802" height="530" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.0.360.1920.1080" width="485" height="361" />
+    <size key="FileChooserDialogImpl.0.0.2560.1440" width="328" height="364" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.2560.1440" width="514" height="361" />
   </component>
 </application>

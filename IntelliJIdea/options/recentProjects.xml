@@ -2,6 +2,8 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/code/jee/test_jee_idea" />
+        <option value="$USER_HOME$/code/jee" />
         <option value="$USER_HOME$/code/traitement_parallele/WJavaFonctionelStudent" />
         <option value="$USER_HOME$/Documents/2/ProjetP2_Java/Fluidator/core/assets" />
         <option value="$USER_HOME$/Documents/2/ProjetP2_Java/Fluidator" />
@@ -18,10 +20,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/code/traitement_parallele/WJavaFonctionelStudent" />
+        <option value="$USER_HOME$/code/jee/test_jee_idea" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/code/traitement_parallele/WJavaFonctionelStudent" />
+    <option name="lastPath" value="$USER_HOME$/code/jee/test_jee_idea" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -146,19 +148,41 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/code/jee">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-182.4505.22" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539766481000" />
+              <option name="buildTimestamp" value="1537270974339" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/jee/test_jee_idea">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-182.4505.22" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539767194725" />
+              <option name="buildTimestamp" value="1537270974339" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/code/traitement_parallele/WJavaFonctionelStudent">
           <value>
             <RecentProjectMetaInfo>
               <option name="build" value="IU-182.4505.22" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1539205154242" />
-              <option name="buildTimestamp" value="1537270951134" />
+              <option name="projectOpenTimestamp" value="1539766307796" />
+              <option name="buildTimestamp" value="1537270960914" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastProjectLocation" value="$USER_HOME$/Downloads/test_fluidator" />
+    <option name="lastProjectLocation" value="$USER_HOME$/code/jee" />
   </component>
 </application>

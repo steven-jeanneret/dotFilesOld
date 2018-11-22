@@ -1,0 +1,14 @@
+[
+	{
+		"name": "crossmachinedata.wiki p3",
+		"rootPath": "$home/code/p3/data/crossmachinedata.wiki",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "config",
+		"rootPath": "$home/.config",
+		"paths": [],
+		"group": ""
+	}
+]

@@ -1,0 +1,1 @@
+The <code>insertAdjacentElement()</code> method inserts a given element node at a given position relative to the element it is invoked upon.

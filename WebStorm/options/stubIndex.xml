@@ -42,6 +42,7 @@
         <option value="Css.ampersand.selector" />
         <option value="dom.elementClass" />
         <option value="dom.namespaceKey" />
+        <option value="markdown.header" />
         <option value="vue.local.directives.index" />
         <option value="vue.global.directives.index" />
         <option value="vue.extends.binding.index" />

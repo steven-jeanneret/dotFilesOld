@@ -1,0 +1,1971 @@
+!SESSION 2018-10-17 22:16:08.022 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/steven/.config/Code/User/workspaceStorage/6c526f4bb5c6feaf5081fc04db6bae2e/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:10.743
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:10.870
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:10.901
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:10.902
+!MESSAGE Initializing Java Language Server 0.26.0.201810021912
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:10.923
+!MESSAGE Installed reference:file:/home/steven/.vscode/extensions/vscjava.vscode-java-debug-0.14.0/server/com.microsoft.java.debug.plugin-0.14.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:10.932
+!MESSAGE Installed reference:file:/home/steven/.vscode/extensions/vscjava.vscode-java-test-0.10.0/server/com.microsoft.java.test.plugin-0.10.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:11.111
+!MESSAGE Started reference:file:/home/steven/.vscode/extensions/vscjava.vscode-java-debug-0.14.0/server/com.microsoft.java.debug.plugin-0.14.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:11.112
+!MESSAGE Started reference:file:/home/steven/.vscode/extensions/vscjava.vscode-java-test-0.10.0/server/com.microsoft.java.test.plugin-0.10.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:11.149
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:11.154
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:11.731
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:12.231
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-17 22:16:38.721
+!MESSAGE Initialization failed 
+!STACK 0
+org.gradle.tooling.BuildException: Could not fetch model of type 'EclipseProject' using Gradle distribution 'https://services.gradle.org/distributions/gradle-2.10-all.zip'.
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:51)
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:29)
+	at org.gradle.tooling.internal.consumer.ResultHandlerAdapter.onFailure(ResultHandlerAdapter.java:41)
+	at org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:57)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)
+	at org.gradle.tooling.internal.consumer.DefaultModelBuilder.get(DefaultModelBuilder.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.buildship.core.workspace.internal.ConnectionAwareLauncherProxy.invokeRun(ConnectionAwareLauncherProxy.java:170)
+	at org.eclipse.buildship.core.workspace.internal.ConnectionAwareLauncherProxy.invoke(ConnectionAwareLauncherProxy.java:160)
+	at com.sun.proxy.$Proxy42.get(Unknown Source)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider$2.get(DefaultModelProvider.java:122)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider$3.call(DefaultModelProvider.java:142)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider.getFromCache(DefaultModelProvider.java:153)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider.executeOperation(DefaultModelProvider.java:138)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider.executeModelBuilder(DefaultModelProvider.java:118)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider.fetchModels(DefaultModelProvider.java:81)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider.fetchEclipseGradleProjects(DefaultModelProvider.java:99)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.startSynchronization(GradleProjectImporter.java:152)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importDir(GradleProjectImporter.java:99)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.lambda$0(GradleProjectImporter.java:91)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1080)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:91)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:134)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.access$1(ProjectsManager.java:128)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager$2.run(ProjectsManager.java:122)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5749)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5706)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:114)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:221)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.gradle.internal.exceptions.LocationAwareException: Build file '/home/steven/Downloads/ListViewWithBaseAdapter-master/app/build.gradle' line: 17
+A problem occurred evaluating project ':app'.
+	at org.gradle.initialization.DefaultExceptionAnalyser.transform(DefaultExceptionAnalyser.java:74)
+	at org.gradle.initialization.MultipleBuildFailuresExceptionAnalyser.transform(MultipleBuildFailuresExceptionAnalyser.java:47)
+	at org.gradle.initialization.StackTraceSanitizingExceptionAnalyser.transform(StackTraceSanitizingExceptionAnalyser.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:101)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.getBuildAnalysis(DefaultGradleLauncher.java:87)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.configure(InProcessBuildActionExecuter.java:102)
+	at org.gradle.tooling.internal.provider.runner.BuildModelActionRunner.run(BuildModelActionRunner.java:48)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.runner.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:58)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:52)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.health.DaemonHealthTracker.execute(DaemonHealthTracker.java:47)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:66)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.health.HintGCAfterBuild.execute(HintGCAfterBuild.java:41)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:246)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+Caused by: org.gradle.api.GradleScriptException: A problem occurred evaluating project ':app'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$1.run(DefaultScriptPluginFactory.java:144)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:72)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:149)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:90)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher$2.run(DefaultGradleLauncher.java:125)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:122)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	... 42 more
+Caused by: java.lang.RuntimeException: SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.
+	at com.android.build.gradle.internal.SdkHandler.getAndCheckSdkFolder(SdkHandler.java:140)
+	at com.android.build.gradle.BaseExtension.getDefaultProguardFile(BaseExtension.java:747)
+	at org.gradle.api.internal.BeanDynamicObject$GroovyObjectAdapter.invokeMethod(BeanDynamicObject.java:279)
+	at org.gradle.api.internal.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:130)
+	at org.gradle.api.internal.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at build_5pymwk17li5jkwskjuvi5a9uo$_run_closure1$_closure4$_closure5.doCall(/home/steven/Downloads/ListViewWithBaseAdapter-master/app/build.gradle:17)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
+	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
+	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
+	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
+	at org.gradle.api.internal.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:62)
+	at build_5pymwk17li5jkwskjuvi5a9uo$_run_closure1$_closure4.doCall(/home/steven/Downloads/ListViewWithBaseAdapter-master/app/build.gradle:15)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:68)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:24)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
+	at com.android.build.gradle.BaseExtension.buildTypes(BaseExtension.java:362)
+	at com.android.build.gradle.AppExtension_Decorated.buildTypes(Unknown Source)
+	at build_5pymwk17li5jkwskjuvi5a9uo$_run_closure1.doCall(/home/steven/Downloads/ListViewWithBaseAdapter-master/app/build.gradle:14)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.invokeMethod(DefaultConvention.java:207)
+	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
+	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
+	at build_5pymwk17li5jkwskjuvi5a9uo.run(/home/steven/Downloads/ListViewWithBaseAdapter-master/app/build.gradle:3)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
+	... 60 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:38.763
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:38.767
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:38.775
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:38.792
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=true, showQualifiedNames=false, maxStringLength=0.0, enableHotCodeReplace=true}}, test={report={position=sideView}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:38.794
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:39.013
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/steven/Downloads/ListViewWithBaseAdapter-master/app/src/main/java/com/android/sample/listviewwithbaseadapter/adapter/CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:39.479
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-17 22:16:39.658
+!MESSAGE Error occured while building workspace. Details: 
+message: The import android cannot be resolved;code: 268435846
+message: The import android cannot be resolved;code: 268435846
+message: The import android cannot be resolved;code: 268435846
+message: The import android cannot be resolved;code: 268435846
+message: The import android cannot be resolved;code: 268435846
+message: The import android cannot be resolved;code: 268435846
+message: The import com.android.sample.listviewwithbaseadapter.R cannot be resolved;code: 268435846
+message: The import com.android.sample.listviewwithbaseadapter.model cannot be resolved;code: 268435846
+message: BaseAdapter cannot be resolved to a type;code: 16777218
+message: Context cannot be resolved to a type;code: 16777218
+message: Item cannot be resolved to a type;code: 16777218
+message: Context cannot be resolved to a type;code: 16777218
+message: Item cannot be resolved to a type;code: 16777218
+message: Context cannot be resolved to a type;code: 16777218
+message: Item cannot be resolved to a type;code: 16777218
+message: The method getCount() of type CustomListAdapter must override or implement a supertype method;code: 67109498
+message: Item cannot be resolved to a type;code: 16777218
+message: The method getItem(int) of type CustomListAdapter must override or implement a supertype method;code: 67109498
+message: Item cannot be resolved to a type;code: 16777218
+message: The method getItemId(int) of type CustomListAdapter must override or implement a supertype method;code: 67109498
+message: View cannot be resolved to a type;code: 16777218
+message: View cannot be resolved to a type;code: 16777218
+message: ViewGroup cannot be resolved to a type;code: 16777218
+message: LayoutInflater cannot be resolved;code: 570425394
+message: Context cannot be resolved to a type;code: 16777218
+message: R cannot be resolved to a variable;code: 33554515
+message: Item cannot be resolved to a type;code: 16777218
+message: Item cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: View cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: R cannot be resolved to a variable;code: 33554515
+message: TextView cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: R cannot be resolved to a variable;code: 33554515
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:39.890
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:39.891
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:39.894
+!MESSAGE Reconciled 0, validated: 1. Took 239 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:40.697
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:40.729
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.all
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:40.954
+!MESSAGE >> workspace/executeCommand vscode.java.test.project.info
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:40.956
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY java-debug 1 0 2018-10-17 22:16:40.959
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:41.215
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:16:41.217
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:18:06.281
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:28:13.223
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:35:39.556
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:38:25.509
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:38:26.273
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:39:37.476
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:39:38.050
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:51:50.786
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:01.316
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:01.617
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:01.872
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:02.305
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:02.502
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:02.717
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:03.004
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:03.500
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:03.726
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:03.728
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:03.733
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:03.783
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:04.078
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:04.078
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:04.079
+!MESSAGE Reconciled 0, validated: 1. Took 114 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:04.706
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:04.989
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:05.251
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:05.253
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:05.254
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:05.313
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:05.600
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:05.600
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:05.601
+!MESSAGE Reconciled 0, validated: 1. Took 157 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:05.882
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:05.886
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.096
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.122
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.448
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.449
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.450
+!MESSAGE Reconciled 0, validated: 1. Took 116 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.502
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.504
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.505
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.506
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.645
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.693
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.709
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.958
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.958
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:06.959
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:07.028
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:07.221
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:07.221
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:07.222
+!MESSAGE Reconciled 0, validated: 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:07.480
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:09.613
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:09.619
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:09.653
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:09.666
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:09.863
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:09.864
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:09.866
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:09.867
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.148
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.150
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.153
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.213
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.397
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.434
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.434
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.436
+!MESSAGE Reconciled 0, validated: 1. Took 114 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.658
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.659
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.705
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.719
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.789
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:10.803
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.319
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.320
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.321
+!MESSAGE Reconciled 0, validated: 1. Took 78 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.405
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.407
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.408
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.409
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.419
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.427
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.605
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.649
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.674
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.700
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.926
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.927
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.929
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:11.995
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.033
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.039
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.072
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.084
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.285
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.286
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.287
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.360
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.444
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.468
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.957
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.957
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.958
+!MESSAGE Reconciled 0, validated: 1. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:12.999
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.020
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.022
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.027
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.071
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.073
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.078
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.138
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.195
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.197
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.216
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.234
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.512
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:13.778
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:14.046
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:14.047
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:14.049
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:14.105
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:14.307
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:14.308
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:14.309
+!MESSAGE Reconciled 0, validated: 1. Took 79 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:14.338
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:14.579
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:15.145
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:15.445
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:15.447
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:15.451
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:15.495
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:15.581
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:15.859
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:15.860
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:15.861
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:15.918
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.197
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.199
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.200
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.261
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.542
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.543
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.612
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.751
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.751
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.752
+!MESSAGE Reconciled 0, validated: 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:16.799
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:17.019
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.005
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.071
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.319
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.320
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.389
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.478
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.481
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.556
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.621
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.689
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.800
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:19.858
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.136
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.137
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.138
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.207
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.258
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.262
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.729
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.730
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.731
+!MESSAGE Reconciled 0, validated: 1. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.788
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.794
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.794
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.795
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.796
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.799
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.800
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.834
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.837
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:20.874
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.071
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.072
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.074
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.136
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.255
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.459
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.738
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.739
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.740
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.804
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:21.877
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.166
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.167
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.168
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.169
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.187
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.640
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.641
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.641
+!MESSAGE Reconciled 0, validated: 1. Took 69 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.704
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.709
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.711
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.770
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.771
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.783
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:22.839
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:23.223
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:23.224
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:23.225
+!MESSAGE Reconciled 0, validated: 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:23.242
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:23.314
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:24.051
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:24.314
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:24.315
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:24.316
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:24.379
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:24.563
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:24.563
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:24.564
+!MESSAGE Reconciled 0, validated: 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:26.203
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:26.473
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:26.474
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:26.475
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:26.543
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:26.712
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:26.712
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:26.713
+!MESSAGE Reconciled 0, validated: 1. Took 57 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:30.411
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:31.004
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:31.393
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:32.052
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:32.573
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:33.355
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:33.634
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:33.635
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:33.702
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:33.872
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:33.873
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:33.874
+!MESSAGE Reconciled 0, validated: 1. Took 66 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:34.512
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:34.945
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:35.738
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:36.093
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:36.587
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:36.821
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:37.040
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:37.844
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:38.281
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:38.287
+!MESSAGE >> document/rangeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:38.554
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:38.555
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:38.556
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:38.622
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:38.759
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:38.760
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:38.760
+!MESSAGE Reconciled 0, validated: 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:39.036
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:39.662
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:39.940
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:40.440
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:41.592
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:43.223
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:43.452
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:46.398
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:46.954
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:47.200
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:47.494
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:47.768
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:47.768
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:47.770
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:47.839
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:48.013
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:48.014
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:48.015
+!MESSAGE Reconciled 0, validated: 1. Took 68 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:48.282
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:48.727
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:48.924
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:49.158
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:49.389
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:49.571
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:49.772
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:50.002
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:50.210
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:50.496
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:50.499
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:50.501
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:50.557
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:50.687
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:50.687
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:50.688
+!MESSAGE Reconciled 0, validated: 1. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:50.748
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:51.000
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:51.000
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:51.001
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:51.067
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:51.207
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:51.208
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:51.209
+!MESSAGE Reconciled 0, validated: 1. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:51.260
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:51.471
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:51.732
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:52.493
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:52.832
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:53.506
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:53.791
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:54.163
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:54.411
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:54.444
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:54.698
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:54.699
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:54.761
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:54.925
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:54.926
+!MESSAGE 2 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:54.927
+!MESSAGE Reconciled 0, validated: 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:55.375
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:55.948
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:56.225
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:56.226
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:56.227
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:56.294
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:56.476
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:56.477
+!MESSAGE 3 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:56.477
+!MESSAGE Reconciled 0, validated: 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:56.740
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:57.058
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:57.339
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:57.340
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:57.341
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:57.404
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:57.604
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:57.604
+!MESSAGE 4 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:57.605
+!MESSAGE Reconciled 0, validated: 1. Took 95 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:57.652
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:57.873
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:59.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:59.988
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:59.988
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:52:59.990
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:00.051
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:00.244
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:00.244
+!MESSAGE 5 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:00.245
+!MESSAGE Reconciled 0, validated: 1. Took 88 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:00.545
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:01.362
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:05.666
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:05.865
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:06.366
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:07.170
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:07.221
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:07.455
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:09.771
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:09.973
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:10.473
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:10.695
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:11.187
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:11.929
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:12.357
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:17.083
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:17.396
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:17.799
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:18.131
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:18.394
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:19.369
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:19.995
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:20.370
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:20.572
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:21.048
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:21.337
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:22.669
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:22.931
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:22.932
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:22.933
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:22.996
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:23.205
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:23.206
+!MESSAGE 10 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:23.206
+!MESSAGE Reconciled 0, validated: 1. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:23.477
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:25.282
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:25.285
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:25.297
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:25.364
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:25.514
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:25.579
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:25.856
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:25.857
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:25.859
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:25.924
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:26.071
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:26.072
+!MESSAGE 10 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:26.073
+!MESSAGE Reconciled 0, validated: 1. Took 91 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:26.323
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:26.458
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:26.590
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:26.851
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:26.852
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:26.854
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:26.917
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.070
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.070
+!MESSAGE 13 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.071
+!MESSAGE Reconciled 0, validated: 1. Took 79 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.108
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.129
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.140
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.308
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.468
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.556
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.817
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.818
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.820
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:27.886
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:28.091
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:28.092
+!MESSAGE 12 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:28.093
+!MESSAGE Reconciled 0, validated: 1. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:28.121
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:28.366
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:29.136
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:29.371
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:29.981
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:30.517
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:32.596
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:37.535
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:37.735
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:40.310
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:40.874
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:41.065
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:41.346
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:41.347
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:41.348
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:41.385
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:41.683
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:41.938
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:41.939
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:41.941
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:41.966
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:42.244
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:42.245
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:42.246
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:42.302
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:42.568
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:42.569
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:42.570
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:42.585
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:42.899
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.143
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.398
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.399
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.401
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.469
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.653
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.653
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.654
+!MESSAGE Reconciled 0, validated: 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.786
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.827
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:43.871
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:44.146
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:44.147
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:44.148
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:44.215
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:44.369
+!MESSAGE begin problem for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:44.370
+!MESSAGE 0 problems reported for /CustomListAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:53:44.371
+!MESSAGE Reconciled 0, validated: 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 22:55:17.470
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 23:06:27.577
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 23:06:27.636
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 23:06:27.637
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY java-debug 1 0 2018-10-17 23:06:27.649
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-17 23:06:27.653
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2018-10-18 17:54:04.563 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_192
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/steven/.config/Code/User/workspaceStorage/6c526f4bb5c6feaf5081fc04db6bae2e/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:08.432
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:08.570
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:08.601
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:08.602
+!MESSAGE Initializing Java Language Server 0.26.0.201810021912
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:08.642
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:09.054
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:09.144
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:09.388
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-18 17:54:17.107
+!MESSAGE Initialization failed 
+!STACK 0
+org.gradle.tooling.BuildException: Could not fetch model of type 'EclipseProject' using Gradle distribution 'https://services.gradle.org/distributions/gradle-2.10-all.zip'.
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:51)
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:29)
+	at org.gradle.tooling.internal.consumer.ResultHandlerAdapter.onFailure(ResultHandlerAdapter.java:41)
+	at org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:57)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)
+	at org.gradle.tooling.internal.consumer.DefaultModelBuilder.get(DefaultModelBuilder.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.buildship.core.workspace.internal.ConnectionAwareLauncherProxy.invokeRun(ConnectionAwareLauncherProxy.java:170)
+	at org.eclipse.buildship.core.workspace.internal.ConnectionAwareLauncherProxy.invoke(ConnectionAwareLauncherProxy.java:160)
+	at com.sun.proxy.$Proxy41.get(Unknown Source)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider$2.get(DefaultModelProvider.java:122)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider$3.call(DefaultModelProvider.java:142)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider.getFromCache(DefaultModelProvider.java:153)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider.executeOperation(DefaultModelProvider.java:138)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider.executeModelBuilder(DefaultModelProvider.java:118)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider.fetchModels(DefaultModelProvider.java:81)
+	at org.eclipse.buildship.core.workspace.internal.DefaultModelProvider.fetchEclipseGradleProjects(DefaultModelProvider.java:99)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.startSynchronization(GradleProjectImporter.java:152)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importDir(GradleProjectImporter.java:99)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.lambda$0(GradleProjectImporter.java:91)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1080)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:91)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:134)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.access$1(ProjectsManager.java:128)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager$2.run(ProjectsManager.java:122)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5749)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5706)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:114)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:221)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.gradle.internal.exceptions.LocationAwareException: Build file '/home/steven/Downloads/ListViewWithBaseAdapter-master/app/build.gradle' line: 17
+A problem occurred evaluating project ':app'.
+	at org.gradle.initialization.DefaultExceptionAnalyser.transform(DefaultExceptionAnalyser.java:74)
+	at org.gradle.initialization.MultipleBuildFailuresExceptionAnalyser.transform(MultipleBuildFailuresExceptionAnalyser.java:47)
+	at org.gradle.initialization.StackTraceSanitizingExceptionAnalyser.transform(StackTraceSanitizingExceptionAnalyser.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:101)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.getBuildAnalysis(DefaultGradleLauncher.java:87)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.configure(InProcessBuildActionExecuter.java:102)
+	at org.gradle.tooling.internal.provider.runner.BuildModelActionRunner.run(BuildModelActionRunner.java:48)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.runner.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:58)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:52)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.health.DaemonHealthTracker.execute(DaemonHealthTracker.java:47)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:66)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.health.HintGCAfterBuild.execute(HintGCAfterBuild.java:41)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:246)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+Caused by: org.gradle.api.GradleScriptException: A problem occurred evaluating project ':app'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$1.run(DefaultScriptPluginFactory.java:144)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:72)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:149)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:90)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher$2.run(DefaultGradleLauncher.java:125)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:122)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	... 42 more
+Caused by: java.lang.RuntimeException: SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.
+	at com.android.build.gradle.internal.SdkHandler.getAndCheckSdkFolder(SdkHandler.java:140)
+	at com.android.build.gradle.BaseExtension.getDefaultProguardFile(BaseExtension.java:747)
+	at org.gradle.api.internal.BeanDynamicObject$GroovyObjectAdapter.invokeMethod(BeanDynamicObject.java:279)
+	at org.gradle.api.internal.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:130)
+	at org.gradle.api.internal.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at build_5pymwk17li5jkwskjuvi5a9uo$_run_closure1$_closure4$_closure5.doCall(/home/steven/Downloads/ListViewWithBaseAdapter-master/app/build.gradle:17)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
+	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
+	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
+	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
+	at org.gradle.api.internal.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:62)
+	at build_5pymwk17li5jkwskjuvi5a9uo$_run_closure1$_closure4.doCall(/home/steven/Downloads/ListViewWithBaseAdapter-master/app/build.gradle:15)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:68)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:24)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
+	at com.android.build.gradle.BaseExtension.buildTypes(BaseExtension.java:362)
+	at com.android.build.gradle.AppExtension_Decorated.buildTypes(Unknown Source)
+	at build_5pymwk17li5jkwskjuvi5a9uo$_run_closure1.doCall(/home/steven/Downloads/ListViewWithBaseAdapter-master/app/build.gradle:14)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.invokeMethod(DefaultConvention.java:207)
+	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
+	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
+	at build_5pymwk17li5jkwskjuvi5a9uo.run(/home/steven/Downloads/ListViewWithBaseAdapter-master/app/build.gradle:3)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
+	... 60 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:17.137
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:17.140
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:17.158
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:17.176
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=true, showQualifiedNames=false, maxStringLength=0.0, enableHotCodeReplace=true}}, test={report={position=sideView}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-18 17:54:17.492
+!MESSAGE Error occured while building workspace. Details: 
+message: The import android cannot be resolved;code: 268435846
+message: The import android cannot be resolved;code: 268435846
+message: The import android cannot be resolved;code: 268435846
+message: The import android cannot be resolved;code: 268435846
+message: The import android cannot be resolved;code: 268435846
+message: The import android cannot be resolved;code: 268435846
+message: The import com.android.sample.listviewwithbaseadapter.R cannot be resolved;code: 268435846
+message: The import com.android.sample.listviewwithbaseadapter.model cannot be resolved;code: 268435846
+message: BaseAdapter cannot be resolved to a type;code: 16777218
+message: Context cannot be resolved to a type;code: 16777218
+message: Item cannot be resolved to a type;code: 16777218
+message: Context cannot be resolved to a type;code: 16777218
+message: Item cannot be resolved to a type;code: 16777218
+message: Context cannot be resolved to a type;code: 16777218
+message: Item cannot be resolved to a type;code: 16777218
+message: The method getCount() of type CustomListAdapter must override or implement a supertype method;code: 67109498
+message: Item cannot be resolved to a type;code: 16777218
+message: The method getItem(int) of type CustomListAdapter must override or implement a supertype method;code: 67109498
+message: Item cannot be resolved to a type;code: 16777218
+message: The method getItemId(int) of type CustomListAdapter must override or implement a supertype method;code: 67109498
+message: View cannot be resolved to a type;code: 16777218
+message: View cannot be resolved to a type;code: 16777218
+message: ViewGroup cannot be resolved to a type;code: 16777218
+message: LayoutInflater cannot be resolved;code: 570425394
+message: Context cannot be resolved to a type;code: 16777218
+message: R cannot be resolved to a variable;code: 33554515
+message: Item cannot be resolved to a type;code: 16777218
+message: Item cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: View cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: R cannot be resolved to a variable;code: 33554515
+message: TextView cannot be resolved to a type;code: 16777218
+message: TextView cannot be resolved to a type;code: 16777218
+message: R cannot be resolved to a variable;code: 33554515
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:18.160
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.all
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:18.341
+!MESSAGE >> workspace/executeCommand vscode.java.test.project.info
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:49.058
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:54.457
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:54.481
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:54.481
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-18 17:54:54.495
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

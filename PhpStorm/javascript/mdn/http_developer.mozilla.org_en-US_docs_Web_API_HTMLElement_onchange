@@ -1,0 +1,1 @@
+The <code>onchange</code> property sets and returns the <a href="/docs/Web/Guide/Events/Event_handlers" title="/en-US/docs/Web/Guide/DOM/Events/Event_handlers">event handler</a> for the <code><a href="/en-US/docs/Web/Events/change" title="/en-US/docs/Web/Events/change">change</a></code> event.

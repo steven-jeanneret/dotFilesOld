@@ -2,9 +2,11 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/code/traitement_image/traitement_image_exercices" />
         <option value="$USER_HOME$/code/p3/data/projet_p3" />
+        <option value="$USER_HOME$/code/cryptographie" />
         <option value="$USER_HOME$/code/compilateur/exercice" />
+        <option value="$USER_HOME$/code/ia/ia_tp1" />
+        <option value="$USER_HOME$/code/traitement_image/traitement_image_exercices" />
         <option value="$USER_HOME$/code/p3/test_plotly" />
         <option value="$USER_HOME$/code/i3-QAW" />
         <option value="$USER_HOME$/floobits/share/solca/i3_window_quake_mode" />
@@ -22,10 +24,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/code/traitement_image/traitement_image_exercices" />
+        <option value="$USER_HOME$/code/p3/data/projet_p3" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/code/traitement_image/traitement_image_exercices" />
+    <option name="lastPath" value="$USER_HOME$/code/p3/data/projet_p3" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -68,8 +70,19 @@
               <option name="build" value="PY-182.4505.26" />
               <option name="productionCode" value="PY" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1539074769457" />
-              <option name="buildTimestamp" value="1537358514975" />
+              <option name="projectOpenTimestamp" value="1542018655305" />
+              <option name="buildTimestamp" value="1537358471597" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/cryptographie">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.4505.26" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1542053630660" />
+              <option name="buildTimestamp" value="1537358474164" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -106,14 +119,25 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/code/p3/data/projet_p3">
+        <entry key="$USER_HOME$/code/ia/ia_tp1">
           <value>
             <RecentProjectMetaInfo>
               <option name="build" value="PY-182.4505.26" />
               <option name="productionCode" value="PY" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1539075140800" />
-              <option name="buildTimestamp" value="1537358514975" />
+              <option name="projectOpenTimestamp" value="1541962526605" />
+              <option name="buildTimestamp" value="1537358478834" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/p3/data/projet_p3">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-182.5107.22" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1542750432754" />
+              <option name="buildTimestamp" value="1542098592716" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -211,8 +235,8 @@
               <option name="build" value="PY-182.4505.26" />
               <option name="productionCode" value="PY" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1539286692062" />
-              <option name="buildTimestamp" value="1537358489367" />
+              <option name="projectOpenTimestamp" value="1540297224819" />
+              <option name="buildTimestamp" value="1537358499991" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -240,6 +264,6 @@
         </entry>
       </map>
     </option>
-    <option name="lastProjectLocation" value="$USER_HOME$/code/python" />
+    <option name="lastProjectLocation" value="$USER_HOME$/code/ia" />
   </component>
 </application>

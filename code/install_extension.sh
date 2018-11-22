@@ -3,6 +3,7 @@ code --install-extension MaxfieldWalker.vscode-imgur
 code --install-extension Rubymaniac.vscode-paste-and-indent
 code --install-extension Zignd.html-css-class-completion
 code --install-extension abusaidm.html-snippets
+code --install-extension alefragnani.project-manager
 code --install-extension boyswan.glsl-literal
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
@@ -40,6 +41,8 @@ code --install-extension sashaweiss.block-travel
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension slevesque.shader
 code --install-extension stkb.rewrap
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension streetsidesoftware.code-spell-checker-french
 code --install-extension thekalinga.bootstrap4-vscode
 code --install-extension tombonnike.vscode-status-bar-format-toggle
 code --install-extension vscjava.vscode-java-debug

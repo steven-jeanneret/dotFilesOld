@@ -2,6 +2,17 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="nl.rubensten.texifyidea.bibtex.id" />
+        <option value="nl.rubensten.texifyidea.definitions" />
+        <option value="nl.rubensten.texifyidea.includes" />
+        <option value="nl.rubensten.texifyidea.commands" />
+        <option value="bash.var" />
+        <option value="bash.vardef" />
+        <option value="bash.scriptCommandReference" />
+        <option value="bash.includers" />
+        <option value="bash.included" />
+        <option value="bash.script.name" />
+        <option value="bash.function.name" />
         <option value="puppet.node" />
         <option value="puppet.function" />
         <option value="puppet.resource.by.type" />

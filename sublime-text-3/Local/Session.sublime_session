@@ -1,14 +1,15 @@
 {
 	"folder_history":
 	[
+		"/home/steven/Downloads/ListViewWithBaseAdapter-master",
 		"/home/steven/.config/autorandr"
 	],
 	"last_version": 3176,
-	"last_window_id": 12,
+	"last_window_id": 15,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 0.0,
+		"new_window_height": 1053.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -32,6 +33,22 @@
 				"selected_items":
 				[
 					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"encod",
+						"HTML: Encode Special Characters"
+					],
+					[
+						"toggle ",
+						"View: Toggle Side Bar"
+					],
+					[
+						"toggle",
+						"View: Toggle Menu"
+					],
+					[
 						"install",
 						"Package Control: Install Package"
 					],
@@ -50,10 +67,6 @@
 					[
 						"instal",
 						"Package Control: Install Package"
-					],
-					[
-						"settings",
-						"Preferences: Settings"
 					],
 					[
 						"bash",
@@ -96,10 +109,6 @@
 						"UI: Select Theme"
 					],
 					[
-						"toggle ",
-						"View: Toggle Menu"
-					],
-					[
 						"package isnta",
 						"Package Control: Install Package"
 					],
@@ -132,7 +141,51 @@
 			},
 			"file_history":
 			[
+				"/home/steven/.pandoc/templates/eisvogel.tex",
+				"/home/steven/.pandoc/templates/eisvogel.latex",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
+				"/home/steven/code/ia/ia_tp1/data/connections.txt",
+				"/home/steven/Downloads/QuestionCP.txt",
+				"/home/steven/code/jee/Wjee/Chapitre3/src/ch/hearc/jee/chapitre3/ToDoLists.java",
+				"/home/steven/code/app_web/PandaMD/config/database.php",
+				"/home/steven/code/app_web/PandaMD/database/seeds/UsersTableSeeder.php",
+				"/home/steven/Documents/3/conception_os/CP_prep.md",
+				"/home/steven/Documents/3/jee/chapitre 3/chapitre3-codes_exemples.txt",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_SAV/simplified_datas_SAV.csv",
+				"/home/steven/code/ia/ia_tp1/data/positions.txt",
+				"/home/steven/code/android/Googlifeye/.gitignore",
+				"/home/steven/code/android/MyFirstApp/app/src/main/java/com/example/steven/myfirstapp/MainActivity.kt",
+				"/home/steven/code/android/MyFirstApp/app/src/main/java/com/example/steven/myfirstapp/GarbageList.kt",
 				"/home/steven/Downloads/logs_temp.txt",
+				"/home/steven/Downloads/log.txt",
+				"/home/steven/pCloudDrive/no_sync/DLM3/3253_Developpement_Systeme/3253.2_Compilateurs/TPs/tp2/Code.txt",
+				"/home/steven/Downloads/test.svg",
+				"/home/steven/Downloads/test_sol.c",
+				"/home/steven/code/p3/data/projet_p3/.gitignore",
+				"/home/steven/code/p3/data/projet_p3/show_data.py",
+				"/home/steven/code/jee/Wjee/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/Chapitre3/org/apache/jsp/index_jsp.java",
+				"/home/steven/Documents/3/jee/chapitre 3/chapitre2-commandes.txt",
+				"/home/steven/.config/autorandr/sainti/setup",
+				"/home/steven/.config/autorandr/sainti/config",
+				"/home/steven/.config/autorandr/laptop/setup",
+				"/home/steven/.config/autorandr/laptop/config",
+				"/home/steven/.config/autorandr/hearc_306/setup",
+				"/home/steven/.config/autorandr/hearc_306/config",
+				"/home/steven/.config/autorandr/docked_home/setup",
+				"/home/steven/.config/autorandr/docked_home/config",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_1lignes.json",
+				"/home/steven/.config/polybar/config",
+				"/home/steven/Downloads/ListViewWithBaseAdapter-master/app/src/main/java/com/android/sample/listviewwithbaseadapter/adapter/CustomListAdapter.java",
+				"/home/steven/code/cryptographie/serie1/exercice1-2.py",
+				"/home/steven/Downloads/ListViewWithBaseAdapter-master/app/src/main/res/layout/layout_list_view_row_items.xml",
+				"/home/steven/Downloads/ListViewWithBaseAdapter-master/app/src/androidTest/java/com/android/sample/listviewwithbaseadapter/ApplicationTest.java",
+				"/home/steven/dotFiles/he-arc/connect.sh",
+				"/home/steven/dotFiles/he-arc/README.md",
+				"/home/steven/code/vm_share/dotnet_exercices/Serie2/Serie02_4/Serie02_4/Program.cs",
+				"/home/steven/connect-he-arc.sh",
+				"/home/steven/Documents/3/dev_mobile/ProjetGC/README.txt",
+				"/home/steven/Downloads/FolderTest.php_to_recup_for_testing_dev_web",
+				"/home/steven/Downloads/last_screen.png",
 				"/home/steven/.i3/lock",
 				"/home/steven/.WebStorm2018.2/config/idea.properties",
 				"/tmp/ark-LbhiPA/idea.log.1",
@@ -143,10 +196,7 @@
 				"/home/steven/Downloads/logs-20181002-145847/idea.log",
 				"/home/steven/Downloads/logs-20181002-145847/idea.log.1",
 				"/home/steven/code/traitement_image/traitement_image_exercices/serie2/exercices1-5.md",
-				"/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
-				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_1lignes.json",
 				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_head_2m_3lignes.csv",
-				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_SAV/simplified_datas_SAV.csv",
 				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_head_2m.csv",
 				"/home/steven/.config/i3/tempnote",
 				"/home/steven/Downloads/test.php",
@@ -179,7 +229,6 @@
 				"/tmp/ark-oYJfZF/toji-gl-matrix-6866ae9/dist/gl-matrix-min.js",
 				"/home/steven/HE-ARC/ING/010-Bachelor/030-Niveau-3/020-ProfsAEtudiants/3256_Analyse_Donnees/TPD/git/commande.txt",
 				"/home/steven/.Xressources",
-				"/home/steven/connect-he-arc.sh",
 				"/home/steven/code/python/projet_hes_ete/RSAM/RSAM/settings.py",
 				"/home/steven/dotFiles/.zshrc",
 				"/home/steven/vpnconnect-he-arc.sh",
@@ -198,7 +247,6 @@
 				"/tmp/mozilla_steven0/hearc_mount.sh",
 				"/home/steven/.script/config_keyboard.sh",
 				"/home/steven/Documents/shortcut_to_learn",
-				"/home/steven/.config/polybar/config",
 				"/etc/default/grub",
 				"/etc/systemd/system/i3lock.service",
 				"/home/steven/.script/start_app.sh",
@@ -206,7 +254,6 @@
 				"/home/steven/Documents/jrosk/backup_config_serveur/tree",
 				"/home/steven/Documents/jrosk/backup_config_serveur/gunicorn_start.sh",
 				"/home/steven/Downloads/log_success.txt.sorted",
-				"/home/steven/Downloads/log.txt",
 				"/home/steven/.script/start_polybar.sh",
 				"/home/steven/Downloads/log_success.txt",
 				"/home/steven/Downloads/log.txt.sorted",
@@ -221,23 +268,11 @@
 				"/home/steven/.config/compton.conf",
 				"/home/steven/Documents/Documentation/enable_lock.md",
 				"/home/steven/dotFiles/install_arch/.install.sh",
-				"/home/steven/dotFiles/install_arch/install.sh",
-				"/home/steven/.config/autorandr/docked_home2/config",
-				"/home/steven/.pandoc/templates/eisvogel.tex",
-				"/home/steven/code/python/tuto_rest/.gitignore",
-				"/home/steven/dotFiles/mngDotF.sh",
-				"/etc/X11/xorg.conf.d/70-synaptics.conf",
-				"/etc/systemd/logind.conf",
-				"/home/steven/.script/lock.sh",
-				"/home/steven/fonts/install_font.sh",
-				"/home/steven/installed_package._network_dont_work.txt",
-				"/home/steven/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-				"/home/steven/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
-				"/home/steven/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings"
+				"/home/steven/dotFiles/install_arch/install.sh"
 			],
 			"find":
 			{
-				"height": 30.9072781655
+				"height": 32.2966507177
 			},
 			"find_in_files":
 			{
@@ -251,75 +286,38 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"2730208",
+					"300",
+					"_a",
+					"ra",
+					"_a",
+					"2730208",
+					"2730199",
+					"day",
+					"\n    override fun getCount(): Int {",
+					"butto",
+					"lid closed",
 					"lid",
-					"cursor",
-					"mouse",
-					"cursor",
-					"discord",
-					"opacity",
-					"mat4",
-					"neofetch",
-					"start",
-					"tun",
-					"vpnc",
-					"char",
-					"3",
-					"virtual",
-					"autosu",
-					"pyth",
-					"patch",
-					"powerl",
-					"awesome",
-					"spaceship",
-					"font",
-					"MODE",
-					"modmap",
-					"feh",
-					";\"\n",
-					"10;\"",
-					";",
-					"powermenu",
-					"volume",
+					"lid closed",
+					"reboot",
+					"lid closed",
+					"lid close",
+					"lid closed",
+					"reboot",
+					"lid closed",
 					"lid",
-					"deinit",
-					"cpuCoresTemp",
-					"tempCoresRaw",
-					"tempRaw",
-					"psutil.net_io_counters()",
-					"platform",
-					"1",
-					"platform.linux_distribution()[",
-					"platform.linux_distribution()",
-					"dist",
-					"git",
-					"pyenv",
-					"export",
-					"venv",
-					"rofi",
-					"$mod+shift+d",
-					"png",
-					"lock",
-					"border",
-					"feh",
-					"python",
-					"aurman",
-					"esc",
-					"noconfirm",
-					"power",
-					"focus",
-					"chromium",
+					"reboot",
+					"dp",
 					"DP",
 					"dp",
-					"HDMI1",
-					"DP2",
-					"-",
+					"DP",
+					"eDP1",
+					"DP",
+					"reboot",
+					"nemo",
+					"DP",
 					"dp",
-					"rand",
-					"startup",
-					"lock",
-					"sound",
-					"plugin",
-					"_in_stack"
+					"DP"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -336,7 +334,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 30.9072781655
+				"height": 32.2966507177
 			},
 			"input":
 			{
@@ -350,7 +348,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 57.8265204387
+				"height": 59.8086124402
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -384,13 +382,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": false,
-			"side_bar_width": 150.0,
+			"side_bar_width": 271.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 0.0
+		"new_window_width": 1920.0
 	},
 	"windows":
 	[
@@ -408,20 +406,11 @@
 			"buffers":
 			[
 				{
-					"contents": "executable different de classe name?\ndevdocs ?",
+					"file": "/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
 					"settings":
 					{
-						"buffer_size": 46,
-						"line_ending": "Unix",
-						"name": "executable different de classe name?"
-					}
-				},
-				{
-					"file": "/home/steven/Documents/3/dev_mobile/ProjetGC/README.txt",
-					"settings":
-					{
-						"buffer_size": 2991,
-						"encoding": "Western (Windows 1252)",
+						"buffer_size": 3159,
+						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				}
@@ -437,6 +426,22 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"encod",
+						"HTML: Encode Special Characters"
+					],
+					[
+						"toggle ",
+						"View: Toggle Side Bar"
+					],
+					[
+						"toggle",
+						"View: Toggle Menu"
+					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -456,10 +461,6 @@
 					[
 						"instal",
 						"Package Control: Install Package"
-					],
-					[
-						"settings",
-						"Preferences: Settings"
 					],
 					[
 						"bash",
@@ -502,10 +503,6 @@
 						"UI: Select Theme"
 					],
 					[
-						"toggle ",
-						"View: Toggle Menu"
-					],
-					[
 						"package isnta",
 						"Package Control: Install Package"
 					],
@@ -536,10 +533,80 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/home/steven/Downloads/ListViewWithBaseAdapter-master"
+			],
 			"file_history":
 			[
-				"/home/steven/Downloads/last_screen.png",
+				"/home/steven/Downloads/test.md",
+				"/home/steven/Downloads/test.css",
+				"/home/steven/code/p3/data/projet_p3/.gitignore",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_SAV/simplified_datas_SAV.csv",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_SAV/simplified_datas_SAV.csv_backup",
+				"/etc/nginx/nginx.conf",
+				"/home/steven/Downloads/jquery-ui-themes-1.12.1/jquery-ui.theme.css",
+				"/home/steven/Downloads/jquery-ui-1.12.1/jquery-ui.css",
+				"/home/steven/HE-ARC/ING/010-Bachelor/030-Niveau-3/020-ProfsAEtudiants/3256_Analyse_Donnees/IA/TP/03_AG_Intro/Lien_AI_Junkie.txt",
+				"/home/steven/code/p3/data/crossmachinedata.wiki/journal-de-travail.md",
+				"/etc/systemd/sleep.conf",
+				"/etc/systemd/logind.conf",
+				"/home/steven/.config/i3/config",
+				"/home/steven/.zshrc",
+				"/home/steven/.config/polybar/config",
+				"/home/steven/Downloads/Definitions_C.txt",
+				"/home/steven/.config/conky/conky",
+				"/home/steven/.conky/Gotham/Gotham",
+				"/home/steven/.conky/Green Apple Desktop/Gotham",
+				"/home/steven/.conky/TeejeeTech/NVIDIA Panel",
+				"/home/steven/.conky/TeejeeTech/Process Panel",
+				"/home/steven/code/ia/ia_tp1/ia_tp1_inf3dlmb_jeanneret_steven.ipynb",
+				"/home/steven/.conkyrc",
+				"/home/steven/.config/conky-manager.json",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_1lignes.json",
+				"/home/steven/code/app_web/PandaMD/.git/MERGE_MSG",
+				"/home/steven/.pandoc/templates/eisvogel.tex",
+				"/home/steven/.pandoc/templates/test.tex",
+				"/home/steven/.pandoc/templates/eisvogel.latex",
+				"/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
+				"/home/steven/code/ia/ia_tp1/data/connections.txt",
+				"/home/steven/Downloads/QuestionCP.txt",
+				"/home/steven/code/jee/Wjee/Chapitre3/src/ch/hearc/jee/chapitre3/ToDoLists.java",
+				"/home/steven/code/app_web/PandaMD/config/database.php",
+				"/home/steven/code/app_web/PandaMD/database/seeds/UsersTableSeeder.php",
+				"/home/steven/Documents/3/conception_os/CP_prep.md",
+				"/home/steven/Documents/3/jee/chapitre 3/chapitre3-codes_exemples.txt",
+				"/home/steven/code/ia/ia_tp1/data/positions.txt",
+				"/home/steven/code/android/Googlifeye/.gitignore",
+				"/home/steven/code/android/MyFirstApp/app/src/main/java/com/example/steven/myfirstapp/MainActivity.kt",
+				"/home/steven/code/android/MyFirstApp/app/src/main/java/com/example/steven/myfirstapp/GarbageList.kt",
 				"/home/steven/Downloads/logs_temp.txt",
+				"/home/steven/Downloads/log.txt",
+				"/home/steven/pCloudDrive/no_sync/DLM3/3253_Developpement_Systeme/3253.2_Compilateurs/TPs/tp2/Code.txt",
+				"/home/steven/Downloads/test.svg",
+				"/home/steven/Downloads/test_sol.c",
+				"/home/steven/code/p3/data/projet_p3/show_data.py",
+				"/home/steven/code/jee/Wjee/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/Chapitre3/org/apache/jsp/index_jsp.java",
+				"/home/steven/Documents/3/jee/chapitre 3/chapitre2-commandes.txt",
+				"/home/steven/.config/autorandr/sainti/setup",
+				"/home/steven/.config/autorandr/sainti/config",
+				"/home/steven/.config/autorandr/laptop/setup",
+				"/home/steven/.config/autorandr/laptop/config",
+				"/home/steven/.config/autorandr/hearc_306/setup",
+				"/home/steven/.config/autorandr/hearc_306/config",
+				"/home/steven/.config/autorandr/docked_home/setup",
+				"/home/steven/.config/autorandr/docked_home/config",
+				"/home/steven/Downloads/ListViewWithBaseAdapter-master/app/src/main/java/com/android/sample/listviewwithbaseadapter/adapter/CustomListAdapter.java",
+				"/home/steven/code/cryptographie/serie1/exercice1-2.py",
+				"/home/steven/Downloads/ListViewWithBaseAdapter-master/app/src/main/res/layout/layout_list_view_row_items.xml",
+				"/home/steven/Downloads/ListViewWithBaseAdapter-master/app/src/androidTest/java/com/android/sample/listviewwithbaseadapter/ApplicationTest.java",
+				"/home/steven/dotFiles/he-arc/connect.sh",
+				"/home/steven/dotFiles/he-arc/README.md",
+				"/home/steven/code/vm_share/dotnet_exercices/Serie2/Serie02_4/Serie02_4/Program.cs",
+				"/home/steven/connect-he-arc.sh",
+				"/home/steven/Documents/3/dev_mobile/ProjetGC/README.txt",
+				"/home/steven/Downloads/FolderTest.php_to_recup_for_testing_dev_web",
+				"/home/steven/Downloads/last_screen.png",
 				"/home/steven/.i3/lock",
 				"/home/steven/.WebStorm2018.2/config/idea.properties",
 				"/tmp/ark-LbhiPA/idea.log.1",
@@ -550,10 +617,7 @@
 				"/home/steven/Downloads/logs-20181002-145847/idea.log",
 				"/home/steven/Downloads/logs-20181002-145847/idea.log.1",
 				"/home/steven/code/traitement_image/traitement_image_exercices/serie2/exercices1-5.md",
-				"/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
-				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_1lignes.json",
 				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_head_2m_3lignes.csv",
-				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_SAV/simplified_datas_SAV.csv",
 				"/home/steven/code/p3/data/COMAC_datas_forstudent/Data_machines/2730193/2730193_head_2m.csv",
 				"/home/steven/.config/i3/tempnote",
 				"/home/steven/Downloads/test.php",
@@ -564,16 +628,13 @@
 				"/home/steven/Documents/grande_canarie.txt",
 				"/home/steven/Documents/documentation_arch_i3.md",
 				"/home/steven/Documents/cmd_arch.txt",
-				"/home/steven/.config/i3/config",
 				"/home/steven/Downloads/temp_history.txt",
 				"/home/steven/code/python/projet_hes_ete/RSAM/.git/MERGE_MSG",
 				"/home/steven/Documents/3/jee/install.md",
 				"/home/steven/Documents/3/traitement_parallele/notes.md",
 				"/home/steven/.config/sublime-text-3/Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-				"/home/steven/.zshrc",
 				"/home/steven/HE-ARC/ING/010-Bachelor/030-Niveau-3/020-ProfsAEtudiants/3255_Technologies_Interaction/DevMobile/ProjetGC/.zshrc",
 				"/home/steven/code/p3/notes.md",
-				"/home/steven/code/app_web/PandaMD/.git/MERGE_MSG",
 				"/home/steven/code/python/note_sibtc.md",
 				"/home/steven/code/python/projet_hes_ete/RSAM/.git/COMMIT_EDITMSG",
 				"/home/steven/Documents/2/hes_ete/note.md",
@@ -586,7 +647,6 @@
 				"/tmp/ark-oYJfZF/toji-gl-matrix-6866ae9/dist/gl-matrix-min.js",
 				"/home/steven/HE-ARC/ING/010-Bachelor/030-Niveau-3/020-ProfsAEtudiants/3256_Analyse_Donnees/TPD/git/commande.txt",
 				"/home/steven/.Xressources",
-				"/home/steven/connect-he-arc.sh",
 				"/home/steven/code/python/projet_hes_ete/RSAM/RSAM/settings.py",
 				"/home/steven/dotFiles/.zshrc",
 				"/home/steven/vpnconnect-he-arc.sh",
@@ -605,46 +665,12 @@
 				"/tmp/mozilla_steven0/hearc_mount.sh",
 				"/home/steven/.script/config_keyboard.sh",
 				"/home/steven/Documents/shortcut_to_learn",
-				"/home/steven/.config/polybar/config",
 				"/etc/default/grub",
-				"/etc/systemd/system/i3lock.service",
-				"/home/steven/.script/start_app.sh",
-				"/home/steven/Documents/jrosk/backup_config_serveur/nginx",
-				"/home/steven/Documents/jrosk/backup_config_serveur/tree",
-				"/home/steven/Documents/jrosk/backup_config_serveur/gunicorn_start.sh",
-				"/home/steven/Downloads/log_success.txt.sorted",
-				"/home/steven/Downloads/log.txt",
-				"/home/steven/.script/start_polybar.sh",
-				"/home/steven/Downloads/log_success.txt",
-				"/home/steven/Downloads/log.txt.sorted",
-				"/home/steven/dotFiles/code/export_vscode_extension.sh",
-				"/home/steven/dotFiles/code/install_extension.sh",
-				"/home/steven/export_vscode_extension",
-				"/home/steven/.config/baloofilerc",
-				"/home/steven/Documents/2/hes_ete/cahier_charges.md",
-				"/home/steven/Documents/2/hes_ete/specification.md",
-				"/home/steven/code/python/tuto_sibtc/sibtc_project/sibtc_project/settings.py",
-				"/home/steven/Downloads/test.md",
-				"/home/steven/.config/compton.conf",
-				"/home/steven/Documents/Documentation/enable_lock.md",
-				"/home/steven/dotFiles/install_arch/.install.sh",
-				"/home/steven/dotFiles/install_arch/install.sh",
-				"/home/steven/.config/autorandr/docked_home2/config",
-				"/home/steven/.pandoc/templates/eisvogel.tex",
-				"/home/steven/code/python/tuto_rest/.gitignore",
-				"/home/steven/dotFiles/mngDotF.sh",
-				"/etc/X11/xorg.conf.d/70-synaptics.conf",
-				"/etc/systemd/logind.conf",
-				"/home/steven/.script/lock.sh",
-				"/home/steven/fonts/install_font.sh",
-				"/home/steven/installed_package._network_dont_work.txt",
-				"/home/steven/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-				"/home/steven/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
-				"/home/steven/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings"
+				"/etc/systemd/system/i3lock.service"
 			],
 			"find":
 			{
-				"height": 26.3157894737
+				"height": 65.7894736842
 			},
 			"find_in_files":
 			{
@@ -658,75 +684,45 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"color",
+					"tooltip",
+					"title",
+					"text",
+					"tool",
+					"thunder",
+					"battery",
+					"2730208",
+					"300",
+					"_a",
+					"ra",
+					"_a",
+					"2730208",
+					"2730199",
+					"day",
+					"\n    override fun getCount(): Int {",
+					"butto",
+					"lid closed",
 					"lid",
-					"cursor",
-					"mouse",
-					"cursor",
-					"discord",
-					"opacity",
-					"mat4",
-					"neofetch",
-					"start",
-					"tun",
-					"vpnc",
-					"char",
-					"3",
-					"virtual",
-					"autosu",
-					"pyth",
-					"patch",
-					"powerl",
-					"awesome",
-					"spaceship",
-					"font",
-					"MODE",
-					"modmap",
-					"feh",
-					";\"\n",
-					"10;\"",
-					";",
-					"powermenu",
-					"volume",
+					"lid closed",
+					"reboot",
+					"lid closed",
+					"lid close",
+					"lid closed",
+					"reboot",
+					"lid closed",
 					"lid",
-					"deinit",
-					"cpuCoresTemp",
-					"tempCoresRaw",
-					"tempRaw",
-					"psutil.net_io_counters()",
-					"platform",
-					"1",
-					"platform.linux_distribution()[",
-					"platform.linux_distribution()",
-					"dist",
-					"git",
-					"pyenv",
-					"export",
-					"venv",
-					"rofi",
-					"$mod+shift+d",
-					"png",
-					"lock",
-					"border",
-					"feh",
-					"python",
-					"aurman",
-					"esc",
-					"noconfirm",
-					"power",
-					"focus",
-					"chromium",
+					"reboot",
+					"dp",
 					"DP",
 					"dp",
-					"HDMI1",
-					"DP2",
-					"-",
+					"DP",
+					"eDP1",
+					"DP",
+					"reboot",
+					"nemo",
+					"DP",
 					"dp",
-					"rand",
-					"startup",
-					"lock",
-					"sound",
-					"plugin",
-					"_in_stack"
+					"DP"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -741,55 +737,33 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/home/steven/Downloads/ListViewWithBaseAdapter-master"
+				}
+			],
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
+							"file": "/home/steven/code/p3/data/COMAC_datas_forstudent/README.txt",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 46,
+								"buffer_size": 3159,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										46,
-										46
-									]
-								],
-								"settings":
-								{
-									"auto_name": "executable different de classe name?",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/steven/Documents/3/dev_mobile/ProjetGC/README.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2991,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1391,
-										1391
+										1281,
+										1281
 									]
 								],
 								"settings":
@@ -797,7 +771,7 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 209.330143541,
+								"translation.y": 419.85645933,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -808,7 +782,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 26.3157894737
+				"height": 32.2966507177
 			},
 			"input":
 			{
@@ -842,11 +816,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,641,2,1277,1049,1920,1080",
+			"position": "0,0,0,0,0,961,2,1916,348,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 47.8468899522
+				"height": 59.8086124402
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -884,12 +858,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": false,
-			"side_bar_width": 150.0,
+			"side_bar_width": 271.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 8,
+			"window_id": 13,
 			"workspace_name": ""
 		}
 	],

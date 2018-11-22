@@ -1,0 +1,1 @@
+The <code><strong>Element.clientHeight</strong></code> read-only property is zero for elements with no CSS or inline layout boxes, otherwise it's the inner height of an element in pixels, including padding but not the horizontal scrollbar height, border, or margin.

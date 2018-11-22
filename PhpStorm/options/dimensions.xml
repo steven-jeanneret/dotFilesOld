@@ -4,7 +4,7 @@
     <location key="WELCOME_SCREEN.0.0.1920.1080" x="957" y="382" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="618" y="343" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="698" y="388" />
-    <location key="SettingsEditor.0.0.1920.1080" x="441" y="141" />
+    <location key="SettingsEditor.0.0.1920.1080" x="441" y="144" />
     <location key="#Browse_Repositories.0.0.1920.1080" x="544" y="175" />
     <location key="#Plugins.0.0.1920.1080" x="556" y="178" />
     <location key="FileChooserDialogImpl.0.0.2560.1440" x="1066" y="315" />
@@ -34,6 +34,7 @@
     <location key="WELCOME_SCREEN.1920.0.2560.1440" x="3196" y="550" />
     <location key="#Browse_Repositories.1920.0.2560.1440" x="2593" y="57" />
     <location key="bookmarks.0.0.1920.1080" x="73" y="331" />
+    <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.1920.0.2560.1440" x="2881" y="431" />
     <size key="FileChooserDialogImpl.0.0.2560.1440" width="432" height="498" />
     <size key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.2560.1440" width="648" height="1073" />
     <size key="SettingsEditor.0.0.1920.1080" width="1033" height="719" />
@@ -50,16 +51,19 @@
     <size key="NewPhpFileDialog.1920.0.2560.1440" width="321" height="144" />
     <size key="#CLI_Interpreters.1920.0.2560.1440" width="828" height="673" />
     <size key="#Web_Browsers.1920.0.2560.1440" width="399" height="339" />
-    <size key="javadoc.popup.new.1920.0.2560.1440" width="300" height="177" />
+    <size key="javadoc.popup.new.1920.0.2560.1440" width="300" height="77" />
     <size key="GridCell.Tab.0.left.1920.0.2560.1440" width="2518" height="402" />
     <size key="GridCell.Tab.0.center.1920.0.2560.1440" width="2518" height="402" />
     <size key="GridCell.Tab.0.right.1920.0.2560.1440" width="2518" height="402" />
     <size key="GridCell.Tab.0.bottom.1920.0.2560.1440" width="2518" height="402" />
     <size key="FileChooserDialogImpl.0.0.1920.1080" width="428" height="473" />
     <size key="NewPhpFileDialog.0.0.1920.1080" width="321" height="145" />
-    <size key="javadoc.popup.new.0.0.1920.1080" width="435" height="182" />
+    <size key="javadoc.popup.new.0.0.1920.1080" width="435" height="158" />
     <size key="javadoc.popup.new.0.360.1920.1080" width="435" height="189" />
     <size key="#Browse_Repositories.1920.0.2560.1440" width="828" height="674" />
     <size key="bookmarks.0.0.1920.1080" width="864" height="361" />
+    <size key="javadoc.popup.new.0.0.6400.1440" width="271" height="122" />
+    <size key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.1920.0.2560.1440" width="628" height="491" />
+    <size key="javadoc.popup.new.0.0.2560.1440" width="306" height="144" />
   </component>
 </application>
