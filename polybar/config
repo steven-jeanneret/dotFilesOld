@@ -8,8 +8,9 @@
 ;======================================================
 
 [colors]
-background = #222
-background-alt = #444
+background = #CC222222
+;background = #aa000000
+background-alt = #444444
 foreground = #dfdfdf
 foreground-alt = #55
 primary = #ff7d03
@@ -23,11 +24,10 @@ margin-bottom = 5
 [bar/default]
 monitor = ${env:MONITOR:eDP1}
 width = 100%
-height = 25
+height = 30
 offset-x = 0
 offset-y = 0
 bottom = true
-
 
 ;background = ${xrdb:color9}
 background = ${colors.background}
@@ -38,7 +38,7 @@ overline-color = #f00
 underline-size = 2
 underline-color = #00f
 
-border-bottom-size = 02
+border-bottom-size = 0
 border-bottom-color = #333
 
 padding-left = 0
@@ -46,12 +46,12 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = fixed:pixelsize=10;2
-font-1 = siji:pixelsize=10
-font-2 = "Font Awesome 5 Brands:pixelsize=10;2"
-font-3 = "Font Awesome 5 Pro Solid:pixelsize=10;2"
-font-4 = "Font Awesome 5 Pro Regular:pixelsize=10;2"
-font-5 = "Font Awesome 5 Pro Light:pixelsize=10;2"
+font-0 = fixed:pixelsize=11;2
+font-1 = siji:pixelsize=11
+font-2 = "Font Awesome 5 Brands:weight=regular:pixelsize=12;2"
+font-3 = "Font Awesome 5 Pro Solid:weight=regular:pixelsize=12;2"
+font-4 = "Font Awesome 5 Pro Regular:weight=regular:pixelsize=12;2"
+font-5 = "Font Awesome 5 Pro Light:weight=regular:pixelsize=12;2"
 
 modules-left = i3
 modules-center = xwindow
@@ -59,9 +59,9 @@ modules-right = backlight volume battery date
 
 tray-position = right
 tray-padding = 02
-
-;tray-transparent = true
-;tray-background = #0063ff
+tray-detached = false
+tray-transparent = false
+tray-background = ${colors.background}
 
 ;wm-restack = bspwm
 ;wm-restack = i3
@@ -157,49 +157,12 @@ ws-icon-4=7;
 ws-icon-5=8;
 ws-icon-6=9;
 ws-icon-7=10; 
-[module/mpd]
-type = internal/mpd
-
-format-online = <label-song>  <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>
-
-label-song-maxlen = 25
-label-song-ellipsis = true
-
-icon-prev = 
-icon-seekb = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
-icon-seekf = 
-
-icon-random = 
-icon-repeat = 
-
-toggle-on-foreground = ${colors.primary}
-toggle-off-foreground = #66
 
 [module/backlight]
 type = internal/backlight
 format-backlight = <label>
 card = intel_backlight
 label =  %percentage%%
-
-
-[module/cpu]
-type = internal/cpu
-interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-label =  %percentage%%
-
-[module/memory]
-type = internal/memory
-interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-label = " %percentage_used%%"
-
 
 [module/date]
 type = internal/date
@@ -210,7 +173,6 @@ date-alt = " %d-%m-%Y"
 
 time = %H:%M
 time-alt = %H:%M:%S
-
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
@@ -268,7 +230,6 @@ label-discharging = %percentage%%
 
 label-full = %percentage%%
 
-
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
@@ -276,31 +237,3 @@ ramp-capacity-3 = 
 ramp-capacity-4 = 
 
 bar-capacity-width = 10
-
-[module/temperature]
-type = internal/temperature
-thermal-zone = 0
-warn-temperature = 60
-
-format = <label>
-
-label =  %temperature%
-
-[module/powermenu]
-type = custom/menu
-format-spacing = 1
-
-label-open = 
-label-close =  cancel
-label-close-foreground = ${colors.secondary}
-label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
-
-menu-0-0 = reboot
-menu-0-0-exec = reboot
-menu-0-1 = power off
-menu-0-1-exec = poweroff
-menu-0-2 = log out
-menu-0-2-exec = i3-msg exit
-
-; vim:ft=dosini

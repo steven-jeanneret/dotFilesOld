@@ -670,7 +670,7 @@
 			],
 			"find":
 			{
-				"height": 65.7894736842
+				"height": 32.3741007194
 			},
 			"find_in_files":
 			{
@@ -771,7 +771,7 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 419.85645933,
+								"translation.y": 419.664268585,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -782,7 +782,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 32.2966507177
+				"height": 32.3741007194
 			},
 			"input":
 			{
@@ -816,11 +816,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,961,2,1916,348,1920,1080",
+			"position": "0,0,0,0,0,3201,2,4476,1409,6400,1440",
 			"project": "",
 			"replace":
 			{
-				"height": 59.8086124402
+				"height": 59.9520383693
 			},
 			"save_all_on_build": true,
 			"select_file":

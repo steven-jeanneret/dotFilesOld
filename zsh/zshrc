@@ -154,3 +154,4 @@ cpr() {
 #fpath=($fpath "$HOME/.zfunctions")
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/steven/.config/composer/vendor/bin:/home/steven/.scc/scc.py"
 alias scc='/home/steven/.scc/scc.py'
+fpath=(~/Documents/cheatsheets/ $fpath)

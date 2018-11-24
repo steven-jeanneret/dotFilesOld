@@ -132,6 +132,7 @@ for_window [class="Peek"] floating enable
 for_window [class="albert"] floating enable
 for_window [class="Xfce4-appfinder"] floating enable
 for_window [class="Toggl Desktop"] floating enable
+for_window [class="Gnome-calculator"] floating enable
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
@@ -237,7 +238,6 @@ exec --no-startup-id nm-applet #Shortuct wifi in tray
 exec --no-startup-id "sh -c 'sleep 5; exec pcloud'" # Delay, else it "crash"
 exec --no-startup-id "sh -c 'sleep 5; xrandr --dpi 80'" # Delay, else it "crash"
 exec --no-startup-id pasystray
-exec --no-startup-id xfce4-power-manager
 exec --no-startup-id lxqt-policykit-agent # Ask password if required to mount some drive
 exec --no-startup-id "/usr/lib/xfce4/notifyd/xfce4-notifyd"
 exec --no-startup-id "sh -c 'sleep 5; toggldesktop'"
